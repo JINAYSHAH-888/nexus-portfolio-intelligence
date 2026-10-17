@@ -1,0 +1,10 @@
+-r requirements.txt
+
+pytest>=8.3
+pytest-asyncio>=0.24
+pytest-cov>=5.0
+aiosqlite>=0.20                   # in-memory SQLite for the test suite
+ruff>=0.7
+mypy>=1.13
+grpcio-tools>=1.60                # regenerates nippon_market_data_feed_v3_pb2.py
+                                  # if the .proto ever changes (compile-time only)

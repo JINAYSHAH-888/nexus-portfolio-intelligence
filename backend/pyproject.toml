@@ -1,0 +1,30 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+# engines/, analytics/ and data_loaders/ are pre-existing, verified numerics with
+# their own conventions. We lint the layer we wrote and leave 5,000 lines of
+# working maths alone rather than churn it for style.
+force-exclude = true
+extend-exclude = [
+    "backend/engines",
+    "backend/analytics",
+    "backend/data_loaders",
+    "alembic/versions",
+    # protoc output, regenerated from the .proto beside it. The previous
+    # generated module had been hand-tidied to satisfy UP009/I001, which is a
+    # trap: the file says DO NOT EDIT, so the next regeneration silently
+    # reintroduces both failures. Exclude the directory instead.
+    "backend/integrations/upstox/proto",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "C4"]
+ignore = ["E501", "B008"]  # B008: Depends() in a default is the FastAPI idiom
+
+[tool.ruff.lint.per-file-ignores]
+# Pre-existing schema code: `class X(str, Enum)` predates StrEnum and is load-
+# bearing (FilterEngine compares against the .value strings). Not restyling it.
+"backend/schemas/*.py" = ["UP042"]
+# PEP 695 type params would be nicer, but the file is the compatibility seam the
+# pre-existing engines import from; keeping it plainly typed.
+"backend/core/async_utils.py" = ["UP047"]

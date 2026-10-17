@@ -1,0 +1,71 @@
+{
+  "trained_at": "2026-10-23T16:28:37+00:00",
+  "data_manifest_sha256": {
+    "amfi_codes.json": "e6fdb3eb528945f25ab9c122a2a6d2059fce00683a79300187484454b04a7acf",
+    "nav_daily.csv.gz": "3f339818f08a3c3198f548d5160d1aa112e9559eb0330643b9d445a5c786b37a",
+    "index_daily.csv.gz": "2242ae3e334a47de24556a26152be79ffaa7ad8bedbba8f6277fcf8fc9847b0b",
+    "index_monthly.csv": "02a864bf606066c502164137a76d1517ea38bdd36d9622ecb88c7fe165ae246a",
+    "factors_daily.csv.gz": "86d9a52c518e804ddccae95948743d7c95c51616e3a107a79d95a6b01ba73125",
+    "stocks_daily.csv.gz": "c315089650a2193381451cf092183829134e3801430a22999e0607ca3582a1ef",
+    "nifty_ohlc.csv.gz": "6227aa4683c863e357ed639e6a2da935e374e34d6d812445d452bd8731a8d2df",
+    "nifty_valuation_monthly.csv": "ecb712c21f0086447304f685cf4b5f85d12a80a259bda6afe1796327adc033b1"
+  },
+  "valuation": {
+    "model": {
+      "intercept": -0.03335275108957754,
+      "slope_per_pct_dy": 0.12430114429606265,
+      "hist_mean": 0.14140377009921526,
+      "n_months": 274,
+      "independent_windows": 4.6
+    },
+    "oos": {
+      "3y": {
+        "n": 226,
+        "oos_r2": 0.4586,
+        "optimal_weight": 0.748,
+        "independent_windows": 6.3
+      },
+      "5y": {
+        "n": 179,
+        "oos_r2": 0.4545,
+        "optimal_weight": 1.0,
+        "independent_windows": 3.0
+      }
+    },
+    "current_dividend_yield": 1.303,
+    "forecast_5y": 0.1287,
+    "evidence_weight": 0.315,
+    "note": "Earnings yield was rejected: OOS R^2 -0.52 at 3y (COVID EPS collapse; NSE moved to consolidated EPS in Apr 2021). Dividend yield is unaffected by either."
+  },
+  "long_run_equity_vol": 0.2198,
+  "calibration": {
+    "method": "390 three-year return forecasts: every Indian equity fund, quarterly origins 2016-2023, scored on the realised outcome (CRPS; share of outcomes inside the forecast's 80% and 50% ranges). Overlapping, one market: ~2-3 independent periods.",
+    "before": {
+      "label": "v4: AR(1) phi=-0.15, trailing 3y volatility",
+      "n": 390,
+      "crps": 0.1896,
+      "coverage_80": 0.674,
+      "coverage_50": 0.374,
+      "mean_pit": 0.639,
+      "ks": 0.258
+    },
+    "after": {
+      "label": "v5: phi=0, volatility blended 50/50 with long-run",
+      "n": 390,
+      "crps": 0.1878,
+      "coverage_80": 0.818,
+      "coverage_50": 0.474,
+      "mean_pit": 0.623,
+      "ks": 0.236
+    },
+    "after_with_valuation": {
+      "label": "v5 + dividend-yield prior",
+      "n": 390,
+      "crps": 0.1883,
+      "coverage_80": 0.828,
+      "coverage_50": 0.472,
+      "mean_pit": 0.632,
+      "ks": 0.25
+    }
+  }
+}

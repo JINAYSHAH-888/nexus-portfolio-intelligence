@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-10-23T16:22:16+00:00",
+  "sources": {
+    "nav": "AMFI NAV history via https://api.mfapi.in (Direct Plan - Growth)",
+    "index_daily": "Yahoo Finance ^NSEI, ^NSEMDCP50 (price index, no dividends)",
+    "index_monthly": "Yahoo Finance ^BSESN monthly (price index, no dividends)",
+    "factors_daily": "Yahoo Finance: Nifty sector indices, India VIX, S&P 500, USD/INR, crude, gold",
+    "stocks_daily": "Yahoo Finance .NS adjusted close for every mapped factsheet holding",
+    "nifty_ohlc": "Yahoo Finance ^NSEI daily open/high/low/close",
+    "nifty_valuation_monthly": "NSE Indices (niftyindices.com) official NIFTY 50 P/E, P/B, dividend yield; last trading day of each month, 1999-01 to 2026-10. Note: from April 2021 NSE computes P/E on consolidated earnings (standalone before)."
+  },
+  "stocks_failed": [
+    "EIHLTD.NS",
+    "GSK.NS",
+    "JBCHEPHARM.NS",
+    "LTIM.NS",
+    "MCDOWELL-N.NS",
+    "SANOFICONSH.NS",
+    "SIEMENSENGY.NS",
+    "TATAMOTORS.NS"
+  ],
+  "stats": {
+    "schemes": 34,
+    "nav_rows": 4318,
+    "index_rows": 4689,
+    "months": 353,
+    "factor_series": 15,
+    "stocks": 188,
+    "valuation_months": 334
+  },
+  "sha256": {
+    "amfi_codes.json": "e6fdb3eb528945f25ab9c122a2a6d2059fce00683a79300187484454b04a7acf",
+    "nav_daily.csv.gz": "3f339818f08a3c3198f548d5160d1aa112e9559eb0330643b9d445a5c786b37a",
+    "index_daily.csv.gz": "2242ae3e334a47de24556a26152be79ffaa7ad8bedbba8f6277fcf8fc9847b0b",
+    "index_monthly.csv": "02a864bf606066c502164137a76d1517ea38bdd36d9622ecb88c7fe165ae246a",
+    "factors_daily.csv.gz": "86d9a52c518e804ddccae95948743d7c95c51616e3a107a79d95a6b01ba73125",
+    "stocks_daily.csv.gz": "c315089650a2193381451cf092183829134e3801430a22999e0607ca3582a1ef",
+    "nifty_ohlc.csv.gz": "6227aa4683c863e357ed639e6a2da935e374e34d6d812445d452bd8731a8d2df",
+    "nifty_valuation_monthly.csv": "ecb712c21f0086447304f685cf4b5f85d12a80a259bda6afe1796327adc033b1"
+  }
+}

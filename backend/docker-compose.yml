@@ -1,0 +1,95 @@
+name: nippon
+
+services:
+  db:
+    # TimescaleDB, not plain Postgres: analytics/duckdb_client.py queries
+    # tsdb.stock_prices / tsdb.fund_nav_history as hypertables. Plain Postgres
+    # still works (infrastructure/timescale.py degrades to normal tables), you
+    # just lose time-partitioning.
+    image: timescale/timescaledb:latest-pg16
+    environment:
+      POSTGRES_USER: nippon
+      POSTGRES_PASSWORD: nippon
+      POSTGRES_DB: nippon
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nippon -d nippon"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes
+    ports: ["6379:6379"]
+    volumes: [redisdata:/data]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: .
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://nippon:nippon@db:5432/nippon
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+    ports: ["8000:8000"]
+    volumes: [reports:/app/var/reports]
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+
+  worker:
+    build: .
+    command: celery -A backend.tasks.celery_app:celery_app worker --loglevel=info --concurrency=2
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://nippon:nippon@db:5432/nippon
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+    volumes: [reports:/app/var/reports]
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+
+  beat:
+    build: .
+    command: celery -A backend.tasks.celery_app:celery_app beat --loglevel=info
+    env_file: .env
+    environment:
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+    depends_on:
+      redis: {condition: service_healthy}
+
+  feed-worker:
+    # The standalone Upstox market-data connection (see
+    # backend/integrations/upstox/feed_worker.py's module docstring for why
+    # this cannot live inside the async `api` service). Requires the
+    # dedicated service-account Upstox token to already be stored -- run
+    # GET /api/v1/auth/upstox/login once under UPSTOX_SERVICE_ACCOUNT_USER_ID
+    # before starting this. Restarts on crash; the API and every browser
+    # client keep working (with stale prices) if this is briefly down, since
+    # it only ever writes to Redis, never serves requests directly.
+    build: .
+    command: python -m backend.integrations.upstox.feed_worker
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://nippon:nippon@db:5432/nippon
+      REDIS_URL: redis://redis:6379/0
+    restart: unless-stopped
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+      api: {condition: service_started}
+
+volumes:
+  pgdata:
+  redisdata:
+  reports:

@@ -1,0 +1,86 @@
+{
+  "trained_at": "2026-10-23T15:47:07+00:00",
+  "data_manifest_sha256": {
+    "amfi_codes.json": "e6fdb3eb528945f25ab9c122a2a6d2059fce00683a79300187484454b04a7acf",
+    "nav_daily.csv.gz": "3f339818f08a3c3198f548d5160d1aa112e9559eb0330643b9d445a5c786b37a",
+    "index_daily.csv.gz": "2242ae3e334a47de24556a26152be79ffaa7ad8bedbba8f6277fcf8fc9847b0b",
+    "index_monthly.csv": "02a864bf606066c502164137a76d1517ea38bdd36d9622ecb88c7fe165ae246a"
+  },
+  "model": "2-state hidden Markov model, Student-t returns within each state, monthly Sensex 1997-",
+  "use": "stress scenario only: shapes ANNUAL shocks (crash years cluster); the return level still comes from the shrunk portfolio statistics",
+  "params": {
+    "pi": [
+      3.751138264368454e-16,
+      0.9999999999999997
+    ],
+    "A": [
+      [
+        0.9922498933649274,
+        0.007750106635072538
+      ],
+      [
+        0.01172056850736337,
+        0.9882794314926366
+      ]
+    ],
+    "mu": [
+      0.008199641568698138,
+      0.010585692607715462
+    ],
+    "scale": [
+      0.03755789496793838,
+      0.07131733308277591
+    ],
+    "nu": [
+      64.87694133879424,
+      11.010583488357671
+    ]
+  },
+  "annual_mean": 0.109904,
+  "annual_sd": 0.200411,
+  "regimes": [
+    {
+      "name": "calm",
+      "annual_vol": 0.1322,
+      "expected_months": 129.0
+    },
+    {
+      "name": "turbulent",
+      "annual_vol": 0.2731,
+      "expected_months": 85.3
+    }
+  ],
+  "shape_check": {
+    "real_annual_skew": -0.6126,
+    "model_annual_skew": 0.0959,
+    "real_annual_excess_kurtosis": 1.2693,
+    "model_annual_excess_kurtosis": 1.4562
+  },
+  "validation": {
+    "method": "rolling one-year-ahead predictive log-likelihood, 21 origins from 2005",
+    "results": {
+      "student_t_iid": 359.16,
+      "gaussian_hmm_1": 348.46,
+      "gaussian_hmm_2": 345.68,
+      "t_hmm_2": 351.68
+    },
+    "verdict": "Regime models do NOT beat the iid Student-t at forecasting next year's monthly returns, so the main projection keeps the Student-t process. The regime model is used only as a labelled stress scenario for multi-year crash clustering."
+  },
+  "shrinkage_backtest": {
+    "method": "forecast each equity fund's next-3-year CAGR from its trailing CAGR, shrunk toward 11% with weight n/(n+tau); 6-monthly origins 2016-2023",
+    "n_forecasts": 182,
+    "funds": 17,
+    "rmse_by_tau": {
+      "0": 0.1338,
+      "2": 0.1277,
+      "5": 0.1252,
+      "10": 0.1248,
+      "20": 0.1258,
+      "50": 0.1277,
+      "prior_only": 0.1301
+    },
+    "best_tau": 10.0,
+    "corr_trailing_vs_forward": -0.287,
+    "verdict": "tau=10 minimises out-of-sample error; the engine uses tau=10."
+  }
+}

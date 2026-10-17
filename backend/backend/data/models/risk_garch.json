@@ -1,0 +1,72 @@
+{
+  "trained_at": "2026-10-23T15:46:22+00:00",
+  "data_manifest_sha256": {
+    "amfi_codes.json": "e6fdb3eb528945f25ab9c122a2a6d2059fce00683a79300187484454b04a7acf",
+    "nav_daily.csv.gz": "3f339818f08a3c3198f548d5160d1aa112e9559eb0330643b9d445a5c786b37a",
+    "index_daily.csv.gz": "2242ae3e334a47de24556a26152be79ffaa7ad8bedbba8f6277fcf8fc9847b0b",
+    "index_monthly.csv": "02a864bf606066c502164137a76d1517ea38bdd36d9622ecb88c7fe165ae246a"
+  },
+  "model": "GARCH(1,1), Student-t likelihood; VaR/ES by filtered historical simulation",
+  "nifty50_fit": {
+    "mu": 0.000648412248464705,
+    "omega": 1.5902013299966983e-06,
+    "alpha": 0.08051446031285568,
+    "beta": 0.9081722503873302,
+    "nu": 7.159340515956919,
+    "persistence": 0.9887
+  },
+  "validation": {
+    "method": "rolling one-day-ahead VaR on Nifty 50 since 2010, 750-day window, refit yearly; Kupiec POF (right number of breaches) + Christoffersen (breaches not clustered)",
+    "results": {
+      "0.95": {
+        "garch_t": {
+          "days": 3932,
+          "breaches": 241,
+          "breach_rate": 0.0613,
+          "kupiec_p": 0.0017,
+          "independence_p": 0.1666
+        },
+        "garch_fhs": {
+          "days": 3932,
+          "breaches": 196,
+          "breach_rate": 0.0498,
+          "kupiec_p": 0.965,
+          "independence_p": 0.7923
+        },
+        "historical": {
+          "days": 3932,
+          "breaches": 168,
+          "breach_rate": 0.0427,
+          "kupiec_p": 0.032,
+          "independence_p": 0.0071
+        },
+        "expected_rate": 0.05
+      },
+      "0.99": {
+        "garch_t": {
+          "days": 3932,
+          "breaches": 51,
+          "breach_rate": 0.013,
+          "kupiec_p": 0.0734,
+          "independence_p": 0.6948
+        },
+        "garch_fhs": {
+          "days": 3932,
+          "breaches": 46,
+          "breach_rate": 0.0117,
+          "kupiec_p": 0.2971,
+          "independence_p": 0.5688
+        },
+        "historical": {
+          "days": 3932,
+          "breaches": 43,
+          "breach_rate": 0.0109,
+          "kupiec_p": 0.5612,
+          "independence_p": 0.0001
+        },
+        "expected_rate": 0.01
+      }
+    },
+    "verdict": "Historical VaR breaches cluster (fails independence); GARCH-FHS passes both tests at 95% and 99%, so the risk engine reports it as the conditional VaR."
+  }
+}

@@ -1,0 +1,1529 @@
+{
+  "3M India Limited": {
+    "instrument_key": "NSE_EQ|INE470A01017",
+    "match_method": "trading_symbol",
+    "isin": "INE470A01017",
+    "trading_symbol": "3MINDIA",
+    "lot_size": 1
+  },
+  "ABB India Limited": {
+    "instrument_key": "NSE_EQ|INE117A01022",
+    "match_method": "trading_symbol",
+    "isin": "INE117A01022",
+    "trading_symbol": "ABB",
+    "lot_size": 1
+  },
+  "APL Apollo Tubes Limited": {
+    "instrument_key": "NSE_EQ|INE702C01027",
+    "match_method": "trading_symbol",
+    "isin": "INE702C01027",
+    "trading_symbol": "APLAPOLLO",
+    "lot_size": 1
+  },
+  "AU Small Finance Bank Limited": {
+    "instrument_key": "NSE_EQ|INE949L01017",
+    "match_method": "trading_symbol",
+    "isin": "INE949L01017",
+    "trading_symbol": "AUBANK",
+    "lot_size": 1
+  },
+  "AWL Agri Business Limited": {
+    "instrument_key": "NSE_EQ|INE699H01024",
+    "match_method": "trading_symbol",
+    "isin": "INE699H01024",
+    "trading_symbol": "AWL",
+    "lot_size": 1
+  },
+  "Abbott India Limited": {
+    "instrument_key": "NSE_EQ|INE358A01014",
+    "match_method": "trading_symbol",
+    "isin": "INE358A01014",
+    "trading_symbol": "ABBOTINDIA",
+    "lot_size": 1
+  },
+  "Acme Solar Holdings Ltd": {
+    "instrument_key": "NSE_EQ|INE622W01025",
+    "match_method": "trading_symbol",
+    "isin": "INE622W01025",
+    "trading_symbol": "ACMESOLAR",
+    "lot_size": 1
+  },
+  "Adani Ports and Special Economic Zone Limited": {
+    "instrument_key": "NSE_EQ|INE742F01042",
+    "match_method": "trading_symbol",
+    "isin": "INE742F01042",
+    "trading_symbol": "ADANIPORTS",
+    "lot_size": 1
+  },
+  "Aditya Birla Sun Life AMC Limited": {
+    "instrument_key": "NSE_EQ|INE404A01024",
+    "match_method": "trading_symbol",
+    "isin": "INE404A01024",
+    "trading_symbol": "ABSLAMC",
+    "lot_size": 1
+  },
+  "Ajanta Pharma Limited": {
+    "instrument_key": "NSE_EQ|INE031B01049",
+    "match_method": "trading_symbol",
+    "isin": "INE031B01049",
+    "trading_symbol": "AJANTPHARM",
+    "lot_size": 1
+  },
+  "Alkem Laboratories Limited": {
+    "instrument_key": "NSE_EQ|INE540L01014",
+    "match_method": "trading_symbol",
+    "isin": "INE540L01014",
+    "trading_symbol": "ALKEM",
+    "lot_size": 1
+  },
+  "Allied Blenders And Distillers Limited": {
+    "instrument_key": "NSE_EQ|INE552Z01027",
+    "match_method": "trading_symbol",
+    "isin": "INE552Z01027",
+    "trading_symbol": "ABDL",
+    "lot_size": 1
+  },
+  "Amber Enterprises India Limited": {
+    "instrument_key": "NSE_EQ|INE371P01015",
+    "match_method": "trading_symbol",
+    "isin": "INE371P01015",
+    "trading_symbol": "AMBER",
+    "lot_size": 1
+  },
+  "Ambuja Cements Limited": {
+    "instrument_key": "NSE_EQ|INE079A01024",
+    "match_method": "trading_symbol",
+    "isin": "INE079A01024",
+    "trading_symbol": "AMBUJACEM",
+    "lot_size": 1
+  },
+  "Angel One Limited": {
+    "instrument_key": "NSE_EQ|INE732I01021",
+    "match_method": "trading_symbol",
+    "isin": "INE732I01021",
+    "trading_symbol": "ANGELONE",
+    "lot_size": 1
+  },
+  "Apar Industries Limited": {
+    "instrument_key": "NSE_EQ|INE372A01015",
+    "match_method": "trading_symbol",
+    "isin": "INE372A01015",
+    "trading_symbol": "APARINDS",
+    "lot_size": 1
+  },
+  "Apollo Hospitals Enterprise Limited": {
+    "instrument_key": "NSE_EQ|INE437A01024",
+    "match_method": "trading_symbol",
+    "isin": "INE437A01024",
+    "trading_symbol": "APOLLOHOSP",
+    "lot_size": 1
+  },
+  "Aptus Value Housing Finance India Limited": {
+    "instrument_key": "NSE_EQ|INE852O01025",
+    "match_method": "trading_symbol",
+    "isin": "INE852O01025",
+    "trading_symbol": "APTUS",
+    "lot_size": 1
+  },
+  "Ashok Leyland Limited": {
+    "instrument_key": "NSE_EQ|INE208A01029",
+    "match_method": "trading_symbol",
+    "isin": "INE208A01029",
+    "trading_symbol": "ASHOKLEY",
+    "lot_size": 1
+  },
+  "Asian Paints Limited": {
+    "instrument_key": "NSE_EQ|INE021A01026",
+    "match_method": "trading_symbol",
+    "isin": "INE021A01026",
+    "trading_symbol": "ASIANPAINT",
+    "lot_size": 1
+  },
+  "AsianPaintsLimited": {
+    "instrument_key": "NSE_EQ|INE021A01026",
+    "match_method": "trading_symbol",
+    "isin": "INE021A01026",
+    "trading_symbol": "ASIANPAINT",
+    "lot_size": 1
+  },
+  "Astral Limited": {
+    "instrument_key": "NSE_EQ|INE006I01046",
+    "match_method": "trading_symbol",
+    "isin": "INE006I01046",
+    "trading_symbol": "ASTRAL",
+    "lot_size": 1
+  },
+  "Aurobindo Pharma Limited": {
+    "instrument_key": "NSE_EQ|INE406A01037",
+    "match_method": "trading_symbol",
+    "isin": "INE406A01037",
+    "trading_symbol": "AUROPHARMA",
+    "lot_size": 1
+  },
+  "Avenue Supermarts Limited": {
+    "instrument_key": "NSE_EQ|INE192R01011",
+    "match_method": "trading_symbol",
+    "isin": "INE192R01011",
+    "trading_symbol": "DMART",
+    "lot_size": 1
+  },
+  "Axis Bank Limited": {
+    "instrument_key": "NSE_EQ|INE238A01034",
+    "match_method": "trading_symbol",
+    "isin": "INE238A01034",
+    "trading_symbol": "AXISBANK",
+    "lot_size": 1
+  },
+  "BSE Limited": {
+    "instrument_key": "NSE_EQ|INE118H01025",
+    "match_method": "trading_symbol",
+    "isin": "INE118H01025",
+    "trading_symbol": "BSE",
+    "lot_size": 1
+  },
+  "Ba jaj FinanceLimited": {
+    "instrument_key": "NSE_EQ|INE296A01032",
+    "match_method": "trading_symbol",
+    "isin": "INE296A01032",
+    "trading_symbol": "BAJFINANCE",
+    "lot_size": 1
+  },
+  "Bajaj Auto Limited": {
+    "instrument_key": "NSE_EQ|INE917I01010",
+    "match_method": "trading_symbol",
+    "isin": "INE917I01010",
+    "trading_symbol": "BAJAJ-AUTO",
+    "lot_size": 1
+  },
+  "Bajaj Finance Limited": {
+    "instrument_key": "NSE_EQ|INE296A01032",
+    "match_method": "trading_symbol",
+    "isin": "INE296A01032",
+    "trading_symbol": "BAJFINANCE",
+    "lot_size": 1
+  },
+  "Bajaj Finserv Limited": {
+    "instrument_key": "NSE_EQ|INE918I01026",
+    "match_method": "trading_symbol",
+    "isin": "INE918I01026",
+    "trading_symbol": "BAJAJFINSV",
+    "lot_size": 1
+  },
+  "BajajFinance Lim ited": {
+    "instrument_key": "NSE_EQ|INE296A01032",
+    "match_method": "trading_symbol",
+    "isin": "INE296A01032",
+    "trading_symbol": "BAJFINANCE",
+    "lot_size": 1
+  },
+  "Berger Paints (I) Limited": {
+    "instrument_key": "NSE_EQ|INE463A01038",
+    "match_method": "trading_symbol",
+    "isin": "INE463A01038",
+    "trading_symbol": "BERGEPAINT",
+    "lot_size": 1
+  },
+  "Bharat Electronics Limited": {
+    "instrument_key": "NSE_EQ|INE263A01024",
+    "match_method": "trading_symbol",
+    "isin": "INE263A01024",
+    "trading_symbol": "BEL",
+    "lot_size": 1
+  },
+  "Bharat Forge Limited": {
+    "instrument_key": "NSE_EQ|INE465A01025",
+    "match_method": "trading_symbol",
+    "isin": "INE465A01025",
+    "trading_symbol": "BHARATFORG",
+    "lot_size": 1
+  },
+  "Bharat Heavy Electricals Limited": {
+    "instrument_key": "NSE_EQ|INE257A01026",
+    "match_method": "trading_symbol",
+    "isin": "INE257A01026",
+    "trading_symbol": "BHEL",
+    "lot_size": 1
+  },
+  "BharatHeavyElectricalsLim ited": {
+    "instrument_key": "NSE_EQ|INE257A01026",
+    "match_method": "trading_symbol",
+    "isin": "INE257A01026",
+    "trading_symbol": "BHEL",
+    "lot_size": 1
+  },
+  "Bharti Airtel Limited": {
+    "instrument_key": "NSE_EQ|INE397D01024",
+    "match_method": "trading_symbol",
+    "isin": "INE397D01024",
+    "trading_symbol": "BHARTIARTL",
+    "lot_size": 1
+  },
+  "Bharti Hexacom Limited": {
+    "instrument_key": "NSE_EQ|INE343G01021",
+    "match_method": "trading_symbol",
+    "isin": "INE343G01021",
+    "trading_symbol": "BHARTIHEXA",
+    "lot_size": 1
+  },
+  "Biocon Limited": {
+    "instrument_key": "NSE_EQ|INE376G01013",
+    "match_method": "trading_symbol",
+    "isin": "INE376G01013",
+    "trading_symbol": "BIOCON",
+    "lot_size": 1
+  },
+  "Blue Star Limited": {
+    "instrument_key": "NSE_EQ|INE472A01039",
+    "match_method": "trading_symbol",
+    "isin": "INE472A01039",
+    "trading_symbol": "BLUESTARCO",
+    "lot_size": 1
+  },
+  "Britannia Industries Limited": {
+    "instrument_key": "NSE_EQ|INE216A01030",
+    "match_method": "trading_symbol",
+    "isin": "INE216A01030",
+    "trading_symbol": "BRITANNIA",
+    "lot_size": 1
+  },
+  "CESC Limited": {
+    "instrument_key": "NSE_EQ|INE486A01021",
+    "match_method": "trading_symbol",
+    "isin": "INE486A01021",
+    "trading_symbol": "CESC",
+    "lot_size": 1
+  },
+  "CG Power and Industrial Solutions Limited": {
+    "instrument_key": "NSE_EQ|INE067A01029",
+    "match_method": "trading_symbol",
+    "isin": "INE067A01029",
+    "trading_symbol": "CGPOWER",
+    "lot_size": 1
+  },
+  "Carborundum Universal Limited": {
+    "instrument_key": "NSE_EQ|INE120A01034",
+    "match_method": "trading_symbol",
+    "isin": "INE120A01034",
+    "trading_symbol": "CARBORUNIV",
+    "lot_size": 1
+  },
+  "Chalet Hotels Limited": {
+    "instrument_key": "NSE_EQ|INE427F01016",
+    "match_method": "trading_symbol",
+    "isin": "INE427F01016",
+    "trading_symbol": "CHALET",
+    "lot_size": 1
+  },
+  "Cholamandalam Financial Holdings Limited": {
+    "instrument_key": "NSE_EQ|INE149A01033",
+    "match_method": "trading_symbol",
+    "isin": "INE149A01033",
+    "trading_symbol": "CHOLAHLDNG",
+    "lot_size": 1
+  },
+  "Cipla Limited": {
+    "instrument_key": "NSE_EQ|INE059A01026",
+    "match_method": "trading_symbol",
+    "isin": "INE059A01026",
+    "trading_symbol": "CIPLA",
+    "lot_size": 1
+  },
+  "Coal India Limited": {
+    "instrument_key": "NSE_EQ|INE522F01014",
+    "match_method": "trading_symbol",
+    "isin": "INE522F01014",
+    "trading_symbol": "COALINDIA",
+    "lot_size": 1
+  },
+  "Coforge Limited": {
+    "instrument_key": "NSE_EQ|INE591G01025",
+    "match_method": "trading_symbol",
+    "isin": "INE591G01025",
+    "trading_symbol": "COFORGE",
+    "lot_size": 1
+  },
+  "Colgate Palmolive (India) Limited": {
+    "instrument_key": "NSE_EQ|INE259A01022",
+    "match_method": "trading_symbol",
+    "isin": "INE259A01022",
+    "trading_symbol": "COLPAL",
+    "lot_size": 1
+  },
+  "Craftsman Automation Limited": {
+    "instrument_key": "NSE_EQ|INE00LO01017",
+    "match_method": "trading_symbol",
+    "isin": "INE00LO01017",
+    "trading_symbol": "CRAFTSMAN",
+    "lot_size": 1
+  },
+  "Crompton Greaves Consumer Electricals Limited": {
+    "instrument_key": "NSE_EQ|INE299U01018",
+    "match_method": "trading_symbol",
+    "isin": "INE299U01018",
+    "trading_symbol": "CROMPTON",
+    "lot_size": 1
+  },
+  "Cummins India Limited": {
+    "instrument_key": "NSE_EQ|INE298A01020",
+    "match_method": "trading_symbol",
+    "isin": "INE298A01020",
+    "trading_symbol": "CUMMINSIND",
+    "lot_size": 1
+  },
+  "D ixo nTechnologies ( In dia) Limited": {
+    "instrument_key": "NSE_EQ|INE935N01020",
+    "match_method": "trading_symbol",
+    "isin": "INE935N01020",
+    "trading_symbol": "DIXON",
+    "lot_size": 1
+  },
+  "Delhivery Limited": {
+    "instrument_key": "NSE_EQ|INE148O01028",
+    "match_method": "trading_symbol",
+    "isin": "INE148O01028",
+    "trading_symbol": "DELHIVERY",
+    "lot_size": 1
+  },
+  "Divi's Laboratories Limited": {
+    "instrument_key": "NSE_EQ|INE361B01024",
+    "match_method": "trading_symbol",
+    "isin": "INE361B01024",
+    "trading_symbol": "DIVISLAB",
+    "lot_size": 1
+  },
+  "Dixon Technologies (India) Limited": {
+    "instrument_key": "NSE_EQ|INE935N01020",
+    "match_method": "trading_symbol",
+    "isin": "INE935N01020",
+    "trading_symbol": "DIXON",
+    "lot_size": 1
+  },
+  "DixonTechnologies (India) Limited": {
+    "instrument_key": "NSE_EQ|INE935N01020",
+    "match_method": "trading_symbol",
+    "isin": "INE935N01020",
+    "trading_symbol": "DIXON",
+    "lot_size": 1
+  },
+  "Dr. Lal Path Labs Limited": {
+    "instrument_key": "NSE_EQ|INE600L01024",
+    "match_method": "trading_symbol",
+    "isin": "INE600L01024",
+    "trading_symbol": "LALPATHLAB",
+    "lot_size": 1
+  },
+  "Dr. Reddy's Laboratories Limited": {
+    "instrument_key": "NSE_EQ|INE089A01031",
+    "match_method": "trading_symbol",
+    "isin": "INE089A01031",
+    "trading_symbol": "DRREDDY",
+    "lot_size": 1
+  },
+  "EIH Limited": {
+    "instrument_key": null,
+    "match_method": "UNRESOLVED",
+    "note": "No NSE_EQ instrument with trading_symbol='EIHLTD'. Likely a stale/renamed ticker in stocks_ticker_map.json, not an Upstox gap."
+  },
+  "Eicher Motors Limited": {
+    "instrument_key": "NSE_EQ|INE066A01021",
+    "match_method": "trading_symbol",
+    "isin": "INE066A01021",
+    "trading_symbol": "EICHERMOT",
+    "lot_size": 1
+  },
+  "Electronics Mart India Limited": {
+    "instrument_key": "NSE_EQ|INE02YR01019",
+    "match_method": "trading_symbol",
+    "isin": "INE02YR01019",
+    "trading_symbol": "EMIL",
+    "lot_size": 1
+  },
+  "Emcure Pharmaceuticals Limited": {
+    "instrument_key": "NSE_EQ|INE168P01015",
+    "match_method": "trading_symbol",
+    "isin": "INE168P01015",
+    "trading_symbol": "EMCURE",
+    "lot_size": 1
+  },
+  "Equitas Small Finance Bank Limited": {
+    "instrument_key": "NSE_EQ|INE063P01018",
+    "match_method": "trading_symbol",
+    "isin": "INE063P01018",
+    "trading_symbol": "EQUITASBNK",
+    "lot_size": 1
+  },
+  "Escorts Kubota Limited": {
+    "instrument_key": "NSE_EQ|INE042A01014",
+    "match_method": "trading_symbol",
+    "isin": "INE042A01014",
+    "trading_symbol": "ESCORTS",
+    "lot_size": 1
+  },
+  "Eternal Limited": {
+    "instrument_key": "NSE_EQ|INE758T01015",
+    "match_method": "trading_symbol",
+    "isin": "INE758T01015",
+    "trading_symbol": "ETERNAL",
+    "lot_size": 1
+  },
+  "Fortis Healthcare Limited": {
+    "instrument_key": "NSE_EQ|INE061F01013",
+    "match_method": "trading_symbol",
+    "isin": "INE061F01013",
+    "trading_symbol": "FORTIS",
+    "lot_size": 1
+  },
+  "GE Vernova T&D India Limited": {
+    "instrument_key": "NSE_EQ|INE200A01026",
+    "match_method": "trading_symbol",
+    "isin": "INE200A01026",
+    "trading_symbol": "GVT&D",
+    "lot_size": 1
+  },
+  "Gland Pharma Limited": {
+    "instrument_key": "NSE_EQ|INE068V01023",
+    "match_method": "trading_symbol",
+    "isin": "INE068V01023",
+    "trading_symbol": "GLAND",
+    "lot_size": 1
+  },
+  "GlaxoSmithKline Pharmaceuticals Limited": {
+    "instrument_key": null,
+    "match_method": "UNRESOLVED",
+    "note": "No NSE_EQ instrument with trading_symbol='GSK'. Likely a stale/renamed ticker in stocks_ticker_map.json, not an Upstox gap."
+  },
+  "Godrej Consumer Products Limited": {
+    "instrument_key": "NSE_EQ|INE102D01028",
+    "match_method": "trading_symbol",
+    "isin": "INE102D01028",
+    "trading_symbol": "GODREJCP",
+    "lot_size": 1
+  },
+  "Gujarat Fluorochemicals Limited": {
+    "instrument_key": "NSE_EQ|INE09N301011",
+    "match_method": "trading_symbol",
+    "isin": "INE09N301011",
+    "trading_symbol": "FLUOROCHEM",
+    "lot_size": 1
+  },
+  "HDFC Asset Management Company Limited": {
+    "instrument_key": "NSE_EQ|INE127D01025",
+    "match_method": "trading_symbol",
+    "isin": "INE127D01025",
+    "trading_symbol": "HDFCAMC",
+    "lot_size": 1
+  },
+  "HDFC Bank Limited": {
+    "instrument_key": "NSE_EQ|INE040A01034",
+    "match_method": "trading_symbol",
+    "isin": "INE040A01034",
+    "trading_symbol": "HDFCBANK",
+    "lot_size": 1
+  },
+  "HDFC Life Insurance Company Limited": {
+    "instrument_key": "NSE_EQ|INE795G01014",
+    "match_method": "trading_symbol",
+    "isin": "INE795G01014",
+    "trading_symbol": "HDFCLIFE",
+    "lot_size": 1
+  },
+  "HDFCBankLimited": {
+    "instrument_key": "NSE_EQ|INE040A01034",
+    "match_method": "trading_symbol",
+    "isin": "INE040A01034",
+    "trading_symbol": "HDFCBANK",
+    "lot_size": 1
+  },
+  "Healthcare Global Enterprises Limited": {
+    "instrument_key": "NSE_EQ|INE075I01017",
+    "match_method": "trading_symbol",
+    "isin": "INE075I01017",
+    "trading_symbol": "HCG",
+    "lot_size": 1
+  },
+  "Hindustan Aeronautics Limited": {
+    "instrument_key": "NSE_EQ|INE066F01020",
+    "match_method": "trading_symbol",
+    "isin": "INE066F01020",
+    "trading_symbol": "HAL",
+    "lot_size": 1
+  },
+  "Hindustan Petroleum Corporation Limited": {
+    "instrument_key": "NSE_EQ|INE094A01015",
+    "match_method": "trading_symbol",
+    "isin": "INE094A01015",
+    "trading_symbol": "HINDPETRO",
+    "lot_size": 1
+  },
+  "Hindustan Unilever Limited": {
+    "instrument_key": "NSE_EQ|INE030A01027",
+    "match_method": "trading_symbol",
+    "isin": "INE030A01027",
+    "trading_symbol": "HINDUNILVR",
+    "lot_size": 1
+  },
+  "Hitachi Energy India Limited": {
+    "instrument_key": "NSE_EQ|INE07Y701011",
+    "match_method": "trading_symbol",
+    "isin": "INE07Y701011",
+    "trading_symbol": "POWERINDIA",
+    "lot_size": 1
+  },
+  "Honasa Consumer Limited": {
+    "instrument_key": "NSE_EQ|INE0J5401028",
+    "match_method": "trading_symbol",
+    "isin": "INE0J5401028",
+    "trading_symbol": "HONASA",
+    "lot_size": 1
+  },
+  "Hyundai Motor India Ltd": {
+    "instrument_key": "NSE_EQ|INE0V6F01027",
+    "match_method": "trading_symbol",
+    "isin": "INE0V6F01027",
+    "trading_symbol": "HYUNDAI",
+    "lot_size": 1
+  },
+  "ICICI Bank Limited": {
+    "instrument_key": "NSE_EQ|INE090A01021",
+    "match_method": "trading_symbol",
+    "isin": "INE090A01021",
+    "trading_symbol": "ICICIBANK",
+    "lot_size": 1
+  },
+  "ICICI Lombard General Insurance Company Limited": {
+    "instrument_key": "NSE_EQ|INE765G01017",
+    "match_method": "trading_symbol",
+    "isin": "INE765G01017",
+    "trading_symbol": "ICICIGI",
+    "lot_size": 1
+  },
+  "ICICIBankLim ite d": {
+    "instrument_key": "NSE_EQ|INE090A01021",
+    "match_method": "trading_symbol",
+    "isin": "INE090A01021",
+    "trading_symbol": "ICICIBANK",
+    "lot_size": 1
+  },
+  "IPCA Laboratories Limited": {
+    "instrument_key": "NSE_EQ|INE571A01038",
+    "match_method": "trading_symbol",
+    "isin": "INE571A01038",
+    "trading_symbol": "IPCALAB",
+    "lot_size": 1
+  },
+  "ITC Limited": {
+    "instrument_key": "NSE_EQ|INE154A01025",
+    "match_method": "trading_symbol",
+    "isin": "INE154A01025",
+    "trading_symbol": "ITC",
+    "lot_size": 1
+  },
+  "Indian Bank": {
+    "instrument_key": "NSE_EQ|INE562A01011",
+    "match_method": "trading_symbol",
+    "isin": "INE562A01011",
+    "trading_symbol": "INDIANB",
+    "lot_size": 1
+  },
+  "Indus Towers Limited": {
+    "instrument_key": "NSE_EQ|INE121J01017",
+    "match_method": "trading_symbol",
+    "isin": "INE121J01017",
+    "trading_symbol": "INDUSTOWER",
+    "lot_size": 1
+  },
+  "IndusInd Bank Limited": {
+    "instrument_key": "NSE_EQ|INE095A01012",
+    "match_method": "trading_symbol",
+    "isin": "INE095A01012",
+    "trading_symbol": "INDUSINDBK",
+    "lot_size": 1
+  },
+  "Info Edge (India) Limited": {
+    "instrument_key": "NSE_EQ|INE663F01032",
+    "match_method": "trading_symbol",
+    "isin": "INE663F01032",
+    "trading_symbol": "NAUKRI",
+    "lot_size": 1
+  },
+  "Infosys Limited": {
+    "instrument_key": "NSE_EQ|INE009A01021",
+    "match_method": "trading_symbol",
+    "isin": "INE009A01021",
+    "trading_symbol": "INFY",
+    "lot_size": 1
+  },
+  "InterGlobe Aviation Limited": {
+    "instrument_key": "NSE_EQ|INE646L01027",
+    "match_method": "trading_symbol",
+    "isin": "INE646L01027",
+    "trading_symbol": "INDIGO",
+    "lot_size": 1
+  },
+  "JB Chemicals & Pharmaceuticals Limited": {
+    "instrument_key": "NSE_EQ|INE572A01036",
+    "match_method": "trading_symbol",
+    "isin": "INE572A01036",
+    "trading_symbol": "JBCHEPHARM",
+    "lot_size": 1
+  },
+  "JK Cement Limited": {
+    "instrument_key": "NSE_EQ|INE823G01014",
+    "match_method": "trading_symbol",
+    "isin": "INE823G01014",
+    "trading_symbol": "JKCEMENT",
+    "lot_size": 1
+  },
+  "JSW Energy Limited": {
+    "instrument_key": "NSE_EQ|INE121E01018",
+    "match_method": "trading_symbol",
+    "isin": "INE121E01018",
+    "trading_symbol": "JSWENERGY",
+    "lot_size": 1
+  },
+  "Jindal Steel Limited": {
+    "instrument_key": "NSE_EQ|INE220G01021",
+    "match_method": "trading_symbol",
+    "isin": "INE220G01021",
+    "trading_symbol": "JSL",
+    "lot_size": 1
+  },
+  "JindalSteelLim ite d": {
+    "instrument_key": "NSE_EQ|INE220G01021",
+    "match_method": "trading_symbol",
+    "isin": "INE220G01021",
+    "trading_symbol": "JSL",
+    "lot_size": 1
+  },
+  "Jubilant Foodworks Limited": {
+    "instrument_key": "NSE_EQ|INE797F01020",
+    "match_method": "trading_symbol",
+    "isin": "INE797F01020",
+    "trading_symbol": "JUBLFOOD",
+    "lot_size": 1
+  },
+  "KEI Industries Limited": {
+    "instrument_key": "NSE_EQ|INE878B01027",
+    "match_method": "trading_symbol",
+    "isin": "INE878B01027",
+    "trading_symbol": "KEI",
+    "lot_size": 1
+  },
+  "KFin Technologies Limited": {
+    "instrument_key": "NSE_EQ|INE138Y01010",
+    "match_method": "trading_symbol",
+    "isin": "INE138Y01010",
+    "trading_symbol": "KFINTECH",
+    "lot_size": 1
+  },
+  "KSB Limited": {
+    "instrument_key": "NSE_EQ|INE999A01023",
+    "match_method": "trading_symbol",
+    "isin": "INE999A01023",
+    "trading_symbol": "KSB",
+    "lot_size": 1
+  },
+  "Kansai Nerolac Paints Limited": {
+    "instrument_key": "NSE_EQ|INE531A01024",
+    "match_method": "trading_symbol",
+    "isin": "INE531A01024",
+    "trading_symbol": "KANSAINER",
+    "lot_size": 1
+  },
+  "Karur Vysya Bank Limited": {
+    "instrument_key": "NSE_EQ|INE036D01028",
+    "match_method": "trading_symbol",
+    "isin": "INE036D01028",
+    "trading_symbol": "KARURVYSYA",
+    "lot_size": 1
+  },
+  "Kaynes Technology India Limited": {
+    "instrument_key": "NSE_EQ|INE918Z01012",
+    "match_method": "trading_symbol",
+    "isin": "INE918Z01012",
+    "trading_symbol": "KAYNES",
+    "lot_size": 1
+  },
+  "Kennametal India Limited": {
+    "instrument_key": "NSE_EQ|INE717A01029",
+    "match_method": "trading_symbol",
+    "isin": "INE717A01029",
+    "trading_symbol": "KENNAMET",
+    "lot_size": 1
+  },
+  "Kirloskar Oil Engines Limited": {
+    "instrument_key": "NSE_EQ|INE146L01010",
+    "match_method": "trading_symbol",
+    "isin": "INE146L01010",
+    "trading_symbol": "KIRLOSENG",
+    "lot_size": 1
+  },
+  "Kotak Mahindra Bank Limited": {
+    "instrument_key": "NSE_EQ|INE237A01036",
+    "match_method": "trading_symbol",
+    "isin": "INE237A01036",
+    "trading_symbol": "KOTAKBANK",
+    "lot_size": 1
+  },
+  "Krishna Institute Of Medical Sciences Limited": {
+    "instrument_key": "NSE_EQ|INE967H01025",
+    "match_method": "trading_symbol",
+    "isin": "INE967H01025",
+    "trading_symbol": "KIMS",
+    "lot_size": 1
+  },
+  "LTM Limited": {
+    "instrument_key": null,
+    "match_method": "UNRESOLVED",
+    "note": "No NSE_EQ instrument with trading_symbol='LTIM'. Likely a stale/renamed ticker in stocks_ticker_map.json, not an Upstox gap."
+  },
+  "Larsen & Toubro Limited": {
+    "instrument_key": "NSE_EQ|INE018A01030",
+    "match_method": "trading_symbol",
+    "isin": "INE018A01030",
+    "trading_symbol": "LT",
+    "lot_size": 1
+  },
+  "Linde India Limited": {
+    "instrument_key": "NSE_EQ|INE473A01011",
+    "match_method": "trading_symbol",
+    "isin": "INE473A01011",
+    "trading_symbol": "LINDEINDIA",
+    "lot_size": 1
+  },
+  "LindeIndiaLimited": {
+    "instrument_key": "NSE_EQ|INE473A01011",
+    "match_method": "trading_symbol",
+    "isin": "INE473A01011",
+    "trading_symbol": "LINDEINDIA",
+    "lot_size": 1
+  },
+  "Lupin Limited": {
+    "instrument_key": "NSE_EQ|INE326A01037",
+    "match_method": "trading_symbol",
+    "isin": "INE326A01037",
+    "trading_symbol": "LUPIN",
+    "lot_size": 1
+  },
+  "Mahindra & Mahindra Limited": {
+    "instrument_key": "NSE_EQ|INE101A01026",
+    "match_method": "trading_symbol",
+    "isin": "INE101A01026",
+    "trading_symbol": "M&M",
+    "lot_size": 1
+  },
+  "Mank ind Pharma Limited": {
+    "instrument_key": "NSE_EQ|INE634S01028",
+    "match_method": "trading_symbol",
+    "isin": "INE634S01028",
+    "trading_symbol": "MANKIND",
+    "lot_size": 1
+  },
+  "Mankind Pharma Limited": {
+    "instrument_key": "NSE_EQ|INE634S01028",
+    "match_method": "trading_symbol",
+    "isin": "INE634S01028",
+    "trading_symbol": "MANKIND",
+    "lot_size": 1
+  },
+  "Maruti Suzuki India Limited": {
+    "instrument_key": "NSE_EQ|INE585B01010",
+    "match_method": "trading_symbol",
+    "isin": "INE585B01010",
+    "trading_symbol": "MARUTI",
+    "lot_size": 1
+  },
+  "Max Financial Services Limited": {
+    "instrument_key": "NSE_EQ|INE180A01020",
+    "match_method": "trading_symbol",
+    "isin": "INE180A01020",
+    "trading_symbol": "MFSL",
+    "lot_size": 1
+  },
+  "Max Healthcare Institute Limited": {
+    "instrument_key": "NSE_EQ|INE027H01010",
+    "match_method": "trading_symbol",
+    "isin": "INE027H01010",
+    "trading_symbol": "MAXHEALTH",
+    "lot_size": 1
+  },
+  "MedPlus Health Services Limited": {
+    "instrument_key": "NSE_EQ|INE804L01022",
+    "match_method": "trading_symbol",
+    "isin": "INE804L01022",
+    "trading_symbol": "MEDPLUS",
+    "lot_size": 1
+  },
+  "Motherson Sumi Wiring India Limited": {
+    "instrument_key": "NSE_EQ|INE0FS801015",
+    "match_method": "trading_symbol",
+    "isin": "INE0FS801015",
+    "trading_symbol": "MSUMI",
+    "lot_size": 1
+  },
+  "Mphasis Limited": {
+    "instrument_key": "NSE_EQ|INE356A01018",
+    "match_method": "trading_symbol",
+    "isin": "INE356A01018",
+    "trading_symbol": "MPHASIS",
+    "lot_size": 1
+  },
+  "Multi Commodity Exchange of India Limited": {
+    "instrument_key": "NSE_EQ|INE745G01043",
+    "match_method": "trading_symbol",
+    "isin": "INE745G01043",
+    "trading_symbol": "MCX",
+    "lot_size": 1
+  },
+  "Muthoot Finance Limited": {
+    "instrument_key": "NSE_EQ|INE414G01012",
+    "match_method": "trading_symbol",
+    "isin": "INE414G01012",
+    "trading_symbol": "MUTHOOTFIN",
+    "lot_size": 1
+  },
+  "NLC India Limited": {
+    "instrument_key": "NSE_EQ|INE589A01014",
+    "match_method": "trading_symbol",
+    "isin": "INE589A01014",
+    "trading_symbol": "NLCINDIA",
+    "lot_size": 1
+  },
+  "NTPC Green Energy Limited": {
+    "instrument_key": "NSE_EQ|INE0ONG01011",
+    "match_method": "trading_symbol",
+    "isin": "INE0ONG01011",
+    "trading_symbol": "NTPCGREEN",
+    "lot_size": 1
+  },
+  "NTPC Limited": {
+    "instrument_key": "NSE_EQ|INE733E01010",
+    "match_method": "trading_symbol",
+    "isin": "INE733E01010",
+    "trading_symbol": "NTPC",
+    "lot_size": 1
+  },
+  "NTPCG reen Energy Limited": {
+    "instrument_key": "NSE_EQ|INE0ONG01011",
+    "match_method": "trading_symbol",
+    "isin": "INE0ONG01011",
+    "trading_symbol": "NTPCGREEN",
+    "lot_size": 1
+  },
+  "Narayana Hrudayalaya Limited": {
+    "instrument_key": "NSE_EQ|INE410P01011",
+    "match_method": "trading_symbol",
+    "isin": "INE410P01011",
+    "trading_symbol": "NH",
+    "lot_size": 1
+  },
+  "National Aluminium Company Limited": {
+    "instrument_key": "NSE_EQ|INE139A01034",
+    "match_method": "trading_symbol",
+    "isin": "INE139A01034",
+    "trading_symbol": "NATIONALUM",
+    "lot_size": 1
+  },
+  "Navin Fluorine International Limited": {
+    "instrument_key": "NSE_EQ|INE048G01026",
+    "match_method": "trading_symbol",
+    "isin": "INE048G01026",
+    "trading_symbol": "NAVINFLUOR",
+    "lot_size": 1
+  },
+  "Nestle India Limited": {
+    "instrument_key": "NSE_EQ|INE239A01024",
+    "match_method": "trading_symbol",
+    "isin": "INE239A01024",
+    "trading_symbol": "NESTLEIND",
+    "lot_size": 1
+  },
+  "Oil & Natural Gas Corporation Limited": {
+    "instrument_key": "NSE_EQ|INE213A01029",
+    "match_method": "trading_symbol",
+    "isin": "INE213A01029",
+    "trading_symbol": "ONGC",
+    "lot_size": 1
+  },
+  "One 97 Communications Limited": {
+    "instrument_key": "NSE_EQ|INE982J01020",
+    "match_method": "trading_symbol",
+    "isin": "INE982J01020",
+    "trading_symbol": "PAYTM",
+    "lot_size": 1
+  },
+  "Orkla India Limited": {
+    "instrument_key": "NSE_EQ|INE16NZ01023",
+    "match_method": "trading_symbol",
+    "isin": "INE16NZ01023",
+    "trading_symbol": "ORKLAINDIA",
+    "lot_size": 1
+  },
+  "PB Fintech Limited": {
+    "instrument_key": "NSE_EQ|INE417T01026",
+    "match_method": "trading_symbol",
+    "isin": "INE417T01026",
+    "trading_symbol": "POLICYBZR",
+    "lot_size": 1
+  },
+  "PG Electroplast Limited": {
+    "instrument_key": "NSE_EQ|INE457L01029",
+    "match_method": "trading_symbol",
+    "isin": "INE457L01029",
+    "trading_symbol": "PGEL",
+    "lot_size": 1
+  },
+  "PGElectroplastLimited": {
+    "instrument_key": "NSE_EQ|INE457L01029",
+    "match_method": "trading_symbol",
+    "isin": "INE457L01029",
+    "trading_symbol": "PGEL",
+    "lot_size": 1
+  },
+  "PNB Housing Finance Limited": {
+    "instrument_key": "NSE_EQ|INE572E01012",
+    "match_method": "trading_symbol",
+    "isin": "INE572E01012",
+    "trading_symbol": "PNBHOUSING",
+    "lot_size": 1
+  },
+  "PVR INOX Limited": {
+    "instrument_key": "NSE_EQ|INE191H01014",
+    "match_method": "trading_symbol",
+    "isin": "INE191H01014",
+    "trading_symbol": "PVRINOX",
+    "lot_size": 1
+  },
+  "PageIndustriesL imited": {
+    "instrument_key": "NSE_EQ|INE761H01022",
+    "match_method": "trading_symbol",
+    "isin": "INE761H01022",
+    "trading_symbol": "PAGEIND",
+    "lot_size": 1
+  },
+  "Persistent Systems Limited": {
+    "instrument_key": "NSE_EQ|INE262H01021",
+    "match_method": "trading_symbol",
+    "isin": "INE262H01021",
+    "trading_symbol": "PERSISTENT",
+    "lot_size": 1
+  },
+  "Petronet LNG Limited": {
+    "instrument_key": "NSE_EQ|INE347G01014",
+    "match_method": "trading_symbol",
+    "isin": "INE347G01014",
+    "trading_symbol": "PETRONET",
+    "lot_size": 1
+  },
+  "Pfizer Limited": {
+    "instrument_key": "NSE_EQ|INE182A01018",
+    "match_method": "trading_symbol",
+    "isin": "INE182A01018",
+    "trading_symbol": "PFIZER",
+    "lot_size": 1
+  },
+  "Pine Labs Limited": {
+    "instrument_key": "NSE_EQ|INE15B701018",
+    "match_method": "trading_symbol",
+    "isin": "INE15B701018",
+    "trading_symbol": "PINELABS",
+    "lot_size": 1
+  },
+  "Polycab India Limited": {
+    "instrument_key": "NSE_EQ|INE455K01017",
+    "match_method": "trading_symbol",
+    "isin": "INE455K01017",
+    "trading_symbol": "POLYCAB",
+    "lot_size": 1
+  },
+  "Power Finance Corporation Limited": {
+    "instrument_key": "NSE_EQ|INE134E01011",
+    "match_method": "trading_symbol",
+    "isin": "INE134E01011",
+    "trading_symbol": "PFC",
+    "lot_size": 1
+  },
+  "Power Grid Corporation of India Limited": {
+    "instrument_key": "NSE_EQ|INE752E01010",
+    "match_method": "trading_symbol",
+    "isin": "INE752E01010",
+    "trading_symbol": "POWERGRID",
+    "lot_size": 1
+  },
+  "PowerFinanceCorp oration Limited": {
+    "instrument_key": "NSE_EQ|INE134E01011",
+    "match_method": "trading_symbol",
+    "isin": "INE134E01011",
+    "trading_symbol": "PFC",
+    "lot_size": 1
+  },
+  "Prestige Estates Projects Limited": {
+    "instrument_key": "NSE_EQ|INE811K01011",
+    "match_method": "trading_symbol",
+    "isin": "INE811K01011",
+    "trading_symbol": "PRESTIGE",
+    "lot_size": 1
+  },
+  "RBL Bank Limited": {
+    "instrument_key": "NSE_EQ|INE976G01028",
+    "match_method": "trading_symbol",
+    "isin": "INE976G01028",
+    "trading_symbol": "RBLBANK",
+    "lot_size": 1
+  },
+  "Radico Khaitan Limited": {
+    "instrument_key": "NSE_EQ|INE944F01028",
+    "match_method": "trading_symbol",
+    "isin": "INE944F01028",
+    "trading_symbol": "RADICO",
+    "lot_size": 1
+  },
+  "Reliance Industries Limited": {
+    "instrument_key": "NSE_EQ|INE002A01018",
+    "match_method": "trading_symbol",
+    "isin": "INE002A01018",
+    "trading_symbol": "RELIANCE",
+    "lot_size": 1
+  },
+  "RelianceIndustriesLimited": {
+    "instrument_key": "NSE_EQ|INE002A01018",
+    "match_method": "trading_symbol",
+    "isin": "INE002A01018",
+    "trading_symbol": "RELIANCE",
+    "lot_size": 1
+  },
+  "Restaurant Brands Asia Limited": {
+    "instrument_key": "NSE_EQ|INE07T201019",
+    "match_method": "trading_symbol",
+    "isin": "INE07T201019",
+    "trading_symbol": "RBA",
+    "lot_size": 1
+  },
+  "SBI Cards and Payment Services Limited": {
+    "instrument_key": "NSE_EQ|INE018E01016",
+    "match_method": "trading_symbol",
+    "isin": "INE018E01016",
+    "trading_symbol": "SBICARD",
+    "lot_size": 1
+  },
+  "SBI Life Insurance Company Limited": {
+    "instrument_key": "NSE_EQ|INE123W01016",
+    "match_method": "trading_symbol",
+    "isin": "INE123W01016",
+    "trading_symbol": "SBILIFE",
+    "lot_size": 1
+  },
+  "SBILifeInsurance Company Limited": {
+    "instrument_key": "NSE_EQ|INE123W01016",
+    "match_method": "trading_symbol",
+    "isin": "INE123W01016",
+    "trading_symbol": "SBILIFE",
+    "lot_size": 1
+  },
+  "Sai Life Sciences Limited": {
+    "instrument_key": "NSE_EQ|INE570L01029",
+    "match_method": "trading_symbol",
+    "isin": "INE570L01029",
+    "trading_symbol": "SAILIFE",
+    "lot_size": 1
+  },
+  "Samvardhana Motherson International Limited": {
+    "instrument_key": "NSE_EQ|INE775A01035",
+    "match_method": "trading_symbol",
+    "isin": "INE775A01035",
+    "trading_symbol": "MOTHERSON",
+    "lot_size": 1
+  },
+  "Sapphire Foods India Limited": {
+    "instrument_key": "NSE_EQ|INE806T01020",
+    "match_method": "trading_symbol",
+    "isin": "INE806T01020",
+    "trading_symbol": "SAPPHIRE",
+    "lot_size": 1
+  },
+  "Schaeffler India Limited": {
+    "instrument_key": "NSE_EQ|INE513A01022",
+    "match_method": "trading_symbol",
+    "isin": "INE513A01022",
+    "trading_symbol": "SCHAEFFLER",
+    "lot_size": 1
+  },
+  "Sh rir amFinanceLim ited": {
+    "instrument_key": "NSE_EQ|INE721A01047",
+    "match_method": "trading_symbol",
+    "isin": "INE721A01047",
+    "trading_symbol": "SHRIRAMFIN",
+    "lot_size": 1
+  },
+  "Shriram Finance Limited": {
+    "instrument_key": "NSE_EQ|INE721A01047",
+    "match_method": "trading_symbol",
+    "isin": "INE721A01047",
+    "trading_symbol": "SHRIRAMFIN",
+    "lot_size": 1
+  },
+  "Siemens Energy India Limited": {
+    "instrument_key": null,
+    "match_method": "UNRESOLVED",
+    "note": "No NSE_EQ instrument with trading_symbol='SIEMENSENGY'. Likely a stale/renamed ticker in stocks_ticker_map.json, not an Upstox gap."
+  },
+  "Siemens Limited": {
+    "instrument_key": "NSE_EQ|INE003A01024",
+    "match_method": "trading_symbol",
+    "isin": "INE003A01024",
+    "trading_symbol": "SIEMENS",
+    "lot_size": 1
+  },
+  "State Bank of India": {
+    "instrument_key": "NSE_EQ|INE062A01020",
+    "match_method": "trading_symbol",
+    "isin": "INE062A01020",
+    "trading_symbol": "SBIN",
+    "lot_size": 1
+  },
+  "Sun Pharmaceutical Industries Limited": {
+    "instrument_key": "NSE_EQ|INE044A01036",
+    "match_method": "trading_symbol",
+    "isin": "INE044A01036",
+    "trading_symbol": "SUNPHARMA",
+    "lot_size": 1
+  },
+  "Suraksha Diagnostic Limited": {
+    "instrument_key": "NSE_EQ|INE877V01027",
+    "match_method": "trading_symbol",
+    "isin": "INE877V01027",
+    "trading_symbol": "SURAKSHA",
+    "lot_size": 1
+  },
+  "Swiggy Limited": {
+    "instrument_key": "NSE_EQ|INE00H001014",
+    "match_method": "trading_symbol",
+    "isin": "INE00H001014",
+    "trading_symbol": "SWIGGY",
+    "lot_size": 1
+  },
+  "SwiggyLimited": {
+    "instrument_key": "NSE_EQ|INE00H001014",
+    "match_method": "trading_symbol",
+    "isin": "INE00H001014",
+    "trading_symbol": "SWIGGY",
+    "lot_size": 1
+  },
+  "Syngene International Limited": {
+    "instrument_key": "NSE_EQ|INE398R01022",
+    "match_method": "trading_symbol",
+    "isin": "INE398R01022",
+    "trading_symbol": "SYNGENE",
+    "lot_size": 1
+  },
+  "TD Power Systems Limited": {
+    "instrument_key": "NSE_EQ|INE419M01027",
+    "match_method": "trading_symbol",
+    "isin": "INE419M01027",
+    "trading_symbol": "TDPOWERSYS",
+    "lot_size": 1
+  },
+  "TVS Holdings Limited": {
+    "instrument_key": "NSE_EQ|INE105A01035",
+    "match_method": "trading_symbol",
+    "isin": "INE105A01035",
+    "trading_symbol": "TVSHLTD",
+    "lot_size": 1
+  },
+  "TVS Motor Company Limited": {
+    "instrument_key": "NSE_EQ|INE494B01023",
+    "match_method": "trading_symbol",
+    "isin": "INE494B01023",
+    "trading_symbol": "TVSMOTOR",
+    "lot_size": 1
+  },
+  "Tata Consultancy Services Limited": {
+    "instrument_key": "NSE_EQ|INE467B01029",
+    "match_method": "trading_symbol",
+    "isin": "INE467B01029",
+    "trading_symbol": "TCS",
+    "lot_size": 1
+  },
+  "Tata Consumer Products Limited": {
+    "instrument_key": "NSE_EQ|INE192A01025",
+    "match_method": "trading_symbol",
+    "isin": "INE192A01025",
+    "trading_symbol": "TATACONSUM",
+    "lot_size": 1
+  },
+  "Tata Motors Ltd": {
+    "instrument_key": null,
+    "match_method": "UNRESOLVED",
+    "note": "No NSE_EQ instrument with trading_symbol='TATAMOTORS'. Likely a stale/renamed ticker in stocks_ticker_map.json, not an Upstox gap."
+  },
+  "Tata Motors Passenger Vehicles Limited": {
+    "instrument_key": "NSE_EQ|INE155A01022",
+    "match_method": "trading_symbol",
+    "isin": "INE155A01022",
+    "trading_symbol": "TMPV",
+    "lot_size": 1
+  },
+  "Tata Power Company Limited": {
+    "instrument_key": "NSE_EQ|INE245A01021",
+    "match_method": "trading_symbol",
+    "isin": "INE245A01021",
+    "trading_symbol": "TATAPOWER",
+    "lot_size": 1
+  },
+  "Tata Steel Limited": {
+    "instrument_key": "NSE_EQ|INE081A01020",
+    "match_method": "trading_symbol",
+    "isin": "INE081A01020",
+    "trading_symbol": "TATASTEEL",
+    "lot_size": 1
+  },
+  "Tech Mahindra Limited": {
+    "instrument_key": "NSE_EQ|INE669C01036",
+    "match_method": "trading_symbol",
+    "isin": "INE669C01036",
+    "trading_symbol": "TECHM",
+    "lot_size": 1
+  },
+  "The Federal Bank Limited": {
+    "instrument_key": "NSE_EQ|INE171A01029",
+    "match_method": "trading_symbol",
+    "isin": "INE171A01029",
+    "trading_symbol": "FEDERALBNK",
+    "lot_size": 1
+  },
+  "The Indian Hotels Company Limited": {
+    "instrument_key": "NSE_EQ|INE053A01029",
+    "match_method": "trading_symbol",
+    "isin": "INE053A01029",
+    "trading_symbol": "INDHOTEL",
+    "lot_size": 1
+  },
+  "Thomas Cook (India) Limited": {
+    "instrument_key": "NSE_EQ|INE332A01027",
+    "match_method": "trading_symbol",
+    "isin": "INE332A01027",
+    "trading_symbol": "THOMASCOOK",
+    "lot_size": 1
+  },
+  "Thyrocare Technologies Limited": {
+    "instrument_key": "NSE_EQ|INE594H01019",
+    "match_method": "trading_symbol",
+    "isin": "INE594H01019",
+    "trading_symbol": "THYROCARE",
+    "lot_size": 1
+  },
+  "Timken India Limited": {
+    "instrument_key": "NSE_EQ|INE325A01013",
+    "match_method": "trading_symbol",
+    "isin": "INE325A01013",
+    "trading_symbol": "TIMKEN",
+    "lot_size": 1
+  },
+  "Titan Company Limited": {
+    "instrument_key": "NSE_EQ|INE280A01028",
+    "match_method": "trading_symbol",
+    "isin": "INE280A01028",
+    "trading_symbol": "TITAN",
+    "lot_size": 1
+  },
+  "Torrent Pharmaceuticals Limited": {
+    "instrument_key": "NSE_EQ|INE685A01028",
+    "match_method": "trading_symbol",
+    "isin": "INE685A01028",
+    "trading_symbol": "TORNTPHARM",
+    "lot_size": 1
+  },
+  "Torrent Power Limited (Torrent group)": {
+    "instrument_key": "NSE_EQ|INE813H01021",
+    "match_method": "trading_symbol",
+    "isin": "INE813H01021",
+    "trading_symbol": "TORNTPOWER",
+    "lot_size": 1
+  },
+  "Trent Limited": {
+    "instrument_key": "NSE_EQ|INE849A01020",
+    "match_method": "trading_symbol",
+    "isin": "INE849A01020",
+    "trading_symbol": "TRENT",
+    "lot_size": 1
+  },
+  "Triveni Turbine Limited": {
+    "instrument_key": "NSE_EQ|INE152M01016",
+    "match_method": "trading_symbol",
+    "isin": "INE152M01016",
+    "trading_symbol": "TRITURBINE",
+    "lot_size": 1
+  },
+  "Tube Investments of India Limited": {
+    "instrument_key": "NSE_EQ|INE974X01010",
+    "match_method": "trading_symbol",
+    "isin": "INE974X01010",
+    "trading_symbol": "TIINDIA",
+    "lot_size": 1
+  },
+  "UTI Asset Management Company Limited": {
+    "instrument_key": "NSE_EQ|INE094J01016",
+    "match_method": "trading_symbol",
+    "isin": "INE094J01016",
+    "trading_symbol": "UTIAMC",
+    "lot_size": 1
+  },
+  "UltraTech Cement Limited": {
+    "instrument_key": "NSE_EQ|INE481G01011",
+    "match_method": "trading_symbol",
+    "isin": "INE481G01011",
+    "trading_symbol": "ULTRACEMCO",
+    "lot_size": 1
+  },
+  "United Spirits Limited": {
+    "instrument_key": null,
+    "match_method": "UNRESOLVED",
+    "note": "No NSE_EQ instrument with trading_symbol='MCDOWELL-N'. Likely a stale/renamed ticker in stocks_ticker_map.json, not an Upstox gap."
+  },
+  "UnitedSpirits Limited": {
+    "instrument_key": null,
+    "match_method": "UNRESOLVED",
+    "note": "No NSE_EQ instrument with trading_symbol='MCDOWELL-N'. Likely a stale/renamed ticker in stocks_ticker_map.json, not an Upstox gap."
+  },
+  "Varun Beverages Limited": {
+    "instrument_key": "NSE_EQ|INE200M01039",
+    "match_method": "trading_symbol",
+    "isin": "INE200M01039",
+    "trading_symbol": "VBL",
+    "lot_size": 1
+  },
+  "Vedanta Aluminium Metal Limited": {
+    "instrument_key": "NSE_EQ|INE205A01025",
+    "match_method": "trading_symbol",
+    "isin": "INE205A01025",
+    "trading_symbol": "VEDL",
+    "lot_size": 1
+  },
+  "Vedanta Limited": {
+    "instrument_key": "NSE_EQ|INE205A01025",
+    "match_method": "trading_symbol",
+    "isin": "INE205A01025",
+    "trading_symbol": "VEDL",
+    "lot_size": 1
+  },
+  "Vesuvius India Limited": {
+    "instrument_key": "NSE_EQ|INE386A01023",
+    "match_method": "trading_symbol",
+    "isin": "INE386A01023",
+    "trading_symbol": "VESUVIUS",
+    "lot_size": 1
+  },
+  "Vijaya Diagnostic Centre Limited": {
+    "instrument_key": "NSE_EQ|INE043W01024",
+    "match_method": "trading_symbol",
+    "isin": "INE043W01024",
+    "trading_symbol": "VIJAYA",
+    "lot_size": 1
+  },
+  "Voltas Limited": {
+    "instrument_key": "NSE_EQ|INE226A01021",
+    "match_method": "trading_symbol",
+    "isin": "INE226A01021",
+    "trading_symbol": "VOLTAS",
+    "lot_size": 1
+  },
+  "VoltasLimited": {
+    "instrument_key": "NSE_EQ|INE226A01021",
+    "match_method": "trading_symbol",
+    "isin": "INE226A01021",
+    "trading_symbol": "VOLTAS",
+    "lot_size": 1
+  },
+  "ZF Commercial Vehicle Control Systems India Limited": {
+    "instrument_key": "NSE_EQ|INE342J01019",
+    "match_method": "trading_symbol",
+    "isin": "INE342J01019",
+    "trading_symbol": "ZFCVINDIA",
+    "lot_size": 1
+  },
+  "Zydus Wellness Limited": {
+    "instrument_key": "NSE_EQ|INE768C01028",
+    "match_method": "trading_symbol",
+    "isin": "INE768C01028",
+    "trading_symbol": "ZYDUSWELL",
+    "lot_size": 1
+  },
+  "eClerx Services Limited": {
+    "instrument_key": "NSE_EQ|INE738I01010",
+    "match_method": "trading_symbol",
+    "isin": "INE738I01010",
+    "trading_symbol": "ECLERX",
+    "lot_size": 1
+  },
+  "L&T Finance Limited": {
+    "instrument_key": "NSE_EQ|INE498L01015",
+    "match_method": "trading_symbol",
+    "isin": "INE498L01015",
+    "trading_symbol": "LTF",
+    "lot_size": 1
+  },
+  "L & TF ina nceLimited": {
+    "instrument_key": "NSE_EQ|INE498L01015",
+    "match_method": "trading_symbol",
+    "isin": "INE498L01015",
+    "trading_symbol": "LTF",
+    "lot_size": 1
+  },
+  "ICICI Prudential Life Insurance Company Limited": {
+    "instrument_key": "NSE_EQ|INE726G01019",
+    "match_method": "trading_symbol",
+    "isin": "INE726G01019",
+    "trading_symbol": "ICICIPRULI",
+    "lot_size": 1
+  },
+  "Piramal Finance Limited": {
+    "instrument_key": "NSE_EQ|INE202B01038",
+    "match_method": "trading_symbol",
+    "isin": "INE202B01038",
+    "trading_symbol": "PIRAMALFIN",
+    "lot_size": 1
+  },
+  "United Breweries Limited": {
+    "instrument_key": "NSE_EQ|INE686F01025",
+    "match_method": "trading_symbol",
+    "isin": "INE686F01025",
+    "trading_symbol": "UBL",
+    "lot_size": 1
+  },
+  "TBO Tek Limited": {
+    "instrument_key": "NSE_EQ|INE673O01025",
+    "match_method": "trading_symbol",
+    "isin": "INE673O01025",
+    "trading_symbol": "TBOTEK",
+    "lot_size": 1
+  },
+  "LG Electronics India Ltd": {
+    "instrument_key": null,
+    "match_method": "SKIPPED",
+    "note": "'NOT_LISTED_YET' is a known placeholder in stocks_ticker_map.json."
+  },
+  "LGElectronicsIndiaLtd": {
+    "instrument_key": null,
+    "match_method": "SKIPPED",
+    "note": "'NOT_LISTED_YET' is a known placeholder in stocks_ticker_map.json."
+  },
+  "FSN E-Commerce Ventures Limited": {
+    "instrument_key": "NSE_EQ|INE388Y01029",
+    "match_method": "trading_symbol",
+    "isin": "INE388Y01029",
+    "trading_symbol": "NYKAA",
+    "lot_size": 1
+  },
+  "FSNE - Commerce Ventures Limited": {
+    "instrument_key": "NSE_EQ|INE388Y01029",
+    "match_method": "trading_symbol",
+    "isin": "INE388Y01029",
+    "trading_symbol": "NYKAA",
+    "lot_size": 1
+  },
+  "Sanofi Consumer Healthcare India Limited": {
+    "instrument_key": null,
+    "match_method": "UNRESOLVED",
+    "note": "No NSE_EQ instrument with trading_symbol='SANOFICONSH'. Likely a stale/renamed ticker in stocks_ticker_map.json, not an Upstox gap."
+  }
+}

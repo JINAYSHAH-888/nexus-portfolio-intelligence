@@ -1,0 +1,39 @@
+# ── Secrets: never commit ─────────────────────────────────────────────────────
+# backend/.env holds REAL API keys (Upstox, Alpha Vantage). Only the
+# placeholder template, .env.example, is committed.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ── Python ────────────────────────────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ── Backend runtime data (regenerated, not source) ────────────────────────────
+backend/backend/data/price_cache/
+backend/var/
+
+# ── Node / Next.js ────────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# ── Generated QA output (scripts in frontend/.forge are kept) ─────────────────
+frontend/.forge/shots/
+
+# ── OS / editors / logs ───────────────────────────────────────────────────────
+.DS_Store
+.idea/
+*.log

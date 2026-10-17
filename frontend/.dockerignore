@@ -1,0 +1,7 @@
+node_modules
+.next
+.env*
+!.env.example
+.forge/shots
+*.tsbuildinfo
+npm-debug.log*

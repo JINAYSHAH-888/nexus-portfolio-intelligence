@@ -1,0 +1,63 @@
+/* brand -- built by scripts/build-tokens.mjs from the owner's reference palette.
+ * Do not hand-edit: change the ramp in the script and re-run it (it gates on WCAG AA). */
+:root {
+  --brand-1: oklch(97.4% 0.0120 25);
+  --brand-2: oklch(95.4% 0.0228 25);
+  --brand-3: oklch(92.4% 0.0386 25);
+  --brand-4: oklch(88.8% 0.0588 25);
+  --brand-5: oklch(84.8% 0.0829 25);
+  --brand-6: oklch(79.8% 0.1157 25);
+  --brand-7: oklch(73.2% 0.1520 25);
+  --brand-8: oklch(66.0% 0.1860 25);
+  --brand-9: oklch(55.5% 0.2150 25);
+  --brand-10: oklch(50.5% 0.2049 25);
+  --brand-11: oklch(40.7% 0.1560 25);
+  --brand-12: oklch(28.5% 0.1050 25);
+}
+
+:root[data-theme="dark"] {
+  --brand-1: oklch(17.2% 0.0320 25);
+  --brand-2: oklch(19.8% 0.0460 25);
+  --brand-3: oklch(24.2% 0.0760 25);
+  --brand-4: oklch(27.6% 0.0960 25);
+  --brand-5: oklch(31.0% 0.1120 25);
+  --brand-6: oklch(35.4% 0.1280 25);
+  --brand-7: oklch(41.0% 0.1520 25);
+  --brand-8: oklch(48.5% 0.1800 25);
+  --brand-9: oklch(55.5% 0.2150 25);
+  --brand-10: oklch(61.5% 0.2150 25);
+  --brand-11: oklch(72.0% 0.1742 25);
+  --brand-12: oklch(92.0% 0.0408 25);
+}
+
+/* sRGB fallback for engines without oklch() */
+@supports not (color: oklch(0% 0 0)) {
+  :root {
+  --brand-1: #fff4f2;
+  --brand-2: #ffeae8;
+  --brand-3: #ffddd9;
+  --brand-4: #ffccc7;
+  --brand-5: #ffb9b2;
+  --brand-6: #ff9f97;
+  --brand-7: #f97e77;
+  --brand-8: #ee5855;
+  --brand-9: #d41828;
+  --brand-10: #be001d;
+  --brand-11: #8b0e18;
+  --brand-12: #52080c;
+}
+  :root[data-theme="dark"] {
+  --brand-1: #1c0a09;
+  --brand-2: #270c0b;
+  --brand-3: #3d0c0c;
+  --brand-4: #4d0b0d;
+  --brand-5: #5c0c10;
+  --brand-6: #701115;
+  --brand-7: #8a141a;
+  --brand-8: #ae1b24;
+  --brand-9: #d41828;
+  --brand-10: #ea363b;
+  --brand-11: #ff716b;
+  --brand-12: #ffdbd7;
+}
+}

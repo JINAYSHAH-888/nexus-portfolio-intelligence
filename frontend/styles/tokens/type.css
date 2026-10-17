@@ -1,0 +1,53 @@
+/* type scale — ratio 1.2 (desktop) / 1.125 (mobile), base 17px */
+/* viewport range 320px .. 1440px */
+:root {
+  --step--2: clamp(0.738rem, 0.738rem + 0vw, 0.738rem);
+  --step--1: clamp(0.885rem, 0.885rem + 0vw, 0.885rem);
+  --step-0: clamp(1rem, 0.982rem + 0.089vw, 1.063rem);
+  --step-1: clamp(1.125rem, 1.082rem + 0.214vw, 1.275rem);
+  --step-2: clamp(1.266rem, 1.19rem + 0.378vw, 1.53rem);
+  --step-3: clamp(1.424rem, 1.306rem + 0.589vw, 1.836rem);
+  --step-4: clamp(1.602rem, 1.43rem + 0.859vw, 2.203rem);
+  --step-5: clamp(1.802rem, 1.562rem + 1.203vw, 2.644rem);
+  --step-6: clamp(2.027rem, 1.7rem + 1.636vw, 3.173rem);
+
+  --lh--2: 1.55;
+  --lh--1: 1.55;
+  --lh-0: 1.55;
+  --lh-1: 1.465;
+  --lh-2: 1.38;
+  --lh-3: 1.295;
+  --lh-4: 1.21;
+  --lh-5: 1.125;
+  --lh-6: 1.04;
+
+  --ls-2: -0.006em;
+  --ls-3: -0.012em;
+  --ls-4: -0.018em;
+  --ls-5: -0.024em;
+  --ls-6: -0.03em;
+}
+
+/* Tailwind v4 */
+@theme {
+  --text-step--2: clamp(0.738rem, 0.738rem + 0vw, 0.738rem);
+  --text-step--1: clamp(0.885rem, 0.885rem + 0vw, 0.885rem);
+  --text-step-0: clamp(1rem, 0.982rem + 0.089vw, 1.063rem);
+  --text-step-1: clamp(1.125rem, 1.082rem + 0.214vw, 1.275rem);
+  --text-step-2: clamp(1.266rem, 1.19rem + 0.378vw, 1.53rem);
+  --text-step-3: clamp(1.424rem, 1.306rem + 0.589vw, 1.836rem);
+  --text-step-4: clamp(1.602rem, 1.43rem + 0.859vw, 2.203rem);
+  --text-step-5: clamp(1.802rem, 1.562rem + 1.203vw, 2.644rem);
+  --text-step-6: clamp(2.027rem, 1.7rem + 1.636vw, 3.173rem);
+
+  /* Display sizes for the landing page only. The 1.2 scale above is tuned for
+   * dense app screens and tops out at 51px, which reads as a heading, not a
+   * statement. These are tokens rather than ad-hoc sizes so they stay on the
+   * same fluid 320->1440 contract as the rest of the scale. */
+  --text-display: clamp(2.75rem, 1.55rem + 4.7vw, 6.25rem);
+  --text-display--line-height: 0.95;
+  --text-display--letter-spacing: -0.04em;
+  --text-display-2: clamp(2.05rem, 1.3rem + 3vw, 4.25rem);
+  --text-display-2--line-height: 1;
+  --text-display-2--letter-spacing: -0.035em;
+}

@@ -1,0 +1,48 @@
+# ── Web ───────────────────────────────────────────────────────────────────────
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.32
+python-multipart>=0.0.12          # OAuth2PasswordRequestForm (/auth/login)
+
+# ── Validation / settings ─────────────────────────────────────────────────────
+pydantic>=2.9,<3.0
+pydantic-settings>=2.6
+email-validator>=2.2              # EmailStr
+
+# ── Database ──────────────────────────────────────────────────────────────────
+SQLAlchemy[asyncio]>=2.0.36,<3.0
+alembic>=1.14
+asyncpg>=0.30                     # async Postgres driver (app)
+psycopg2-binary>=2.9              # sync driver (Alembic, Timescale writers)
+greenlet>=3.0                     # required by SQLAlchemy's async bridge
+
+# ── Auth ──────────────────────────────────────────────────────────────────────
+python-jose[cryptography]>=3.3
+bcrypt>=4.2,<5.0                  # used directly; passlib's bcrypt backend is
+                                  # broken against bcrypt>=4.1 (see core/security.py)
+
+# ── Cache / queue ─────────────────────────────────────────────────────────────
+redis>=5.2
+celery[redis]>=5.4
+
+# ── Numerics / analytics ──────────────────────────────────────────────────────
+numpy>=1.26
+pandas>=2.2
+scipy>=1.14
+scikit-learn>=1.5                 # Ledoit-Wolf shrinkage (risk engine)
+duckdb>=1.1                       # analytics scans over Postgres/Timescale
+pyarrow>=17.0                     # parquet price cache
+
+# ── Market data ───────────────────────────────────────────────────────────────
+yfinance>=0.2.40
+httpx>=0.27
+requests>=2.32
+
+# ── Reports ───────────────────────────────────────────────────────────────────
+reportlab>=4.2
+pdfplumber>=0.11                  # factsheet PDF parsing (amc_pdf_pipeline)
+
+# ── Upstox integration ────────────────────────────────────────────────────────
+upstox-python-sdk>=2.19          # OAuth handled by our own auth.py; SDK used
+                                  # for the market-data/portfolio websocket feeds.
+                                  # Pulls in `protobuf` transitively, which is
+                                  # what the generated _pb2 module needs at runtime.

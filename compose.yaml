@@ -1,0 +1,18 @@
+# Whole stack in one command:  docker compose up -d --build
+# Backend services are defined once in backend/docker-compose.yml and
+# included here; this file only adds the frontend.
+include:
+  - backend/docker-compose.yml
+
+services:
+  web:
+    build:
+      context: frontend
+      args:
+        # Baked in at build time (NEXT_PUBLIC_*). The browser calls the API
+        # directly, so this is the address as seen from the HOST, not the
+        # container network.
+        NEXT_PUBLIC_API_BASE_URL: http://localhost:8000/api/v1
+    ports: ["3400:3000"]
+    depends_on: [api]
+    restart: unless-stopped

@@ -1,0 +1,274 @@
+{
+  "nippon-active-momentum-fund": {
+    "amfi_code": 153274,
+    "amfi_name": "Nippon India Active Momentum Fund - Direct Plan - Growth Option",
+    "isin": "INF204KC1EK5",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-banking-and-psu-fund": {
+    "amfi_code": 134547,
+    "amfi_name": "Nippon India Banking and PSU Debt Fund - Direct Plan - Growth Option",
+    "isin": "INF204KA1U53",
+    "match_score": 0.93,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-banking-financial-services-fund": {
+    "amfi_code": 118589,
+    "amfi_name": "Nippon India Banking & Financial Services Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01XO1",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-consumption-fund": {
+    "amfi_code": 118724,
+    "amfi_name": "Nippon India Consumption Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01G52",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-corporate-bond-fund": {
+    "amfi_code": 118814,
+    "amfi_name": "Nippon India Corporate Bond Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01C15",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-credit-risk-fund-existing-number-of-segregated-portfolios-1": {
+    "amfi_code": 118780,
+    "amfi_name": "Nippon India Credit Risk Fund (Existing Number of Segregated Portfolios - 1) - Direct Plan - Growth Option",
+    "isin": "INF204K01A74",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-dynamic-bond-fund": {
+    "amfi_code": 118747,
+    "amfi_name": "Nippon India Dynamic Term Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01A25",
+    "match_score": 0.867,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-elss-tax-saver-fund": {
+    "amfi_code": 118803,
+    "amfi_name": "Nippon India ELSS Tax Saver Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01L55",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-flexi-cap-fund": {
+    "amfi_code": 149094,
+    "amfi_name": "Nippon India Flexi Cap Fund - Direct Plan - Growth Option",
+    "isin": "INF204KC1121",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-floater-fund": {
+    "amfi_code": 118656,
+    "amfi_name": "Nippon India Floating Interest Rates Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01E05",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-focused-fund": {
+    "amfi_code": 118692,
+    "amfi_name": "Nippon India Focused Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01F95",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-gilt-fund": {
+    "amfi_code": 118672,
+    "amfi_name": "Nippon India Gilt Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01XP8",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-06-02",
+    "nav_verified": true
+  },
+  "nippon-growth-mid-cap-fund": {
+    "amfi_code": 118668,
+    "amfi_name": "Nippon India Growth Mid Cap Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01E54",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-innovation-fund": {
+    "amfi_code": 152033,
+    "amfi_name": "Nippon India Innovation Fund - Direct Plan - Growth Option",
+    "isin": "INF204KC1BO3",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-japan-equity-fund": {
+    "amfi_code": 130860,
+    "amfi_name": "Nippon India Japan Equity Fund - Direct Plan - Growth Option",
+    "isin": "INF204KA1SI1",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-07-27",
+    "nav_verified": true
+  },
+  "nippon-large-cap-fund": {
+    "amfi_code": 118632,
+    "amfi_name": "Nippon India Large Cap Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01XI3",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-09-18",
+    "nav_verified": true
+  },
+  "nippon-liquid-fund": {
+    "amfi_code": 118701,
+    "amfi_name": "Nippon India Liquid Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01ZH0",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-31",
+    "nav_verified": true
+  },
+  "nippon-medium-duration-fund-existing-number-of-segregated-portfolios-1": {
+    "amfi_code": 130050,
+    "amfi_name": "Nippon India Medium Term Fund (Existing Number of Segregated Portfolios - 1) - Direct Plan - Growth Option",
+    "isin": "INF204KA1QF1",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-medium-to-long-duration-fund": {
+    "amfi_code": 118687,
+    "amfi_name": "Nippon India Medium to Long Term Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01XS2",
+    "match_score": 0.872,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-mnc-fund": {
+    "amfi_code": 153693,
+    "amfi_name": "Nippon India MNC Fund - Direct Plan - Growth Option",
+    "isin": "INF204KC1FR7",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-money-market-fund": {
+    "amfi_code": 118719,
+    "amfi_name": "Nippon India Money Market Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01ZP3",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-multi-cap-fund": {
+    "amfi_code": 118650,
+    "amfi_name": "Nippon India Multi Cap Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01XF9",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-nivesh-lakshya-long-duration-fund": {
+    "amfi_code": 143704,
+    "amfi_name": "Nippon India Nivesh Lakshya Long Term Fund - Direct Plan - Growth Option",
+    "isin": "INF204KB1YQ1",
+    "match_score": 0.886,
+    "nav_matched_on": "2026-06-02",
+    "nav_verified": true
+  },
+  "nippon-overnight-fund": {
+    "amfi_code": 145810,
+    "amfi_name": "Nippon India Overnight Fund - Direct Plan - Growth Option",
+    "isin": "INF204KB1R31",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-31",
+    "nav_verified": true
+  },
+  "nippon-pharma-fund": {
+    "amfi_code": 118759,
+    "amfi_name": "Nippon India Pharma Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01I50",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-power-infra-fund": {
+    "amfi_code": 118763,
+    "amfi_name": "Nippon India Power & Infra Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01I92",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-quant-fund": {
+    "amfi_code": 118769,
+    "amfi_name": "Nippon India Quant Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01J34",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-short-duration-fund": {
+    "amfi_code": 118796,
+    "amfi_name": "Nippon India Short Term Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01B32",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-small-cap-fund": {
+    "amfi_code": 118778,
+    "amfi_name": "Nippon India Small Cap Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01K15",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-taiwan-equity-fund": {
+    "amfi_code": 149329,
+    "amfi_name": "Nippon India Taiwan Equity Fund - Direct Plan - Growth Option",
+    "isin": "INF204KC1303",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-06-02",
+    "nav_verified": true
+  },
+  "nippon-ultra-short-duration-fund": {
+    "amfi_code": 143494,
+    "amfi_name": "Nippon India Ultra Short Term Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01YH3",
+    "match_score": 0.861,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-us-equity-opportunities-fund": {
+    "amfi_code": 134923,
+    "amfi_name": "Nippon India US Equity Opportunities Fund - Direct Plan - Growth Option",
+    "isin": "INF204KA15G5",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-07-27",
+    "nav_verified": true
+  },
+  "nippon-value-fund": {
+    "amfi_code": 118784,
+    "amfi_name": "Nippon India Value Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01K49",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  },
+  "nippon-vision-large-mid-cap-fund": {
+    "amfi_code": 118678,
+    "amfi_name": "Nippon India Vision Large & Mid Cap Fund - Direct Plan - Growth Option",
+    "isin": "INF204K01F20",
+    "match_score": 1.0,
+    "nav_matched_on": "2026-05-29",
+    "nav_verified": true
+  }
+}
