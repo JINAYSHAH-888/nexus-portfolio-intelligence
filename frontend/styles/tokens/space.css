@@ -1,0 +1,20 @@
+/* Space & shape — engineered-precision.
+ * 4px base. Density is a feature, not a compromise.
+ * Borders define every surface; shadows are forbidden. */
+:root {
+  --sp-1: 4px;   --sp-2: 8px;   --sp-3: 12px;  --sp-4: 16px;
+  --sp-5: 20px;  --sp-6: 24px;  --sp-7: 32px;  --sp-8: 40px;
+  --sp-9: 56px;  --sp-10: 72px; --sp-11: 104px; --sp-12: 144px;
+
+  --radius: 2px;        /* nothing above 4px anywhere, including images */
+  --radius-lg: 4px;
+  --border: 1px;
+
+  --grid-max: 1400px;
+  --grid-gutter: 24px;
+  --grid-gutter-sm: 16px;
+
+  --z-base: 0; --z-raised: 10; --z-sticky: 20;
+  --z-overlay: 40; --z-modal: 100; --z-toast: 1000;
+}
+@media (max-width: 767px) { :root { --grid-gutter: var(--grid-gutter-sm); } }

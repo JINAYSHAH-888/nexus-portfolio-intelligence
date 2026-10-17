@@ -1,0 +1,3411 @@
+[
+  {
+    "id": "nippon-large-cap-fund",
+    "name": "Nippon India Large Cap Fund",
+    "category": "Large Cap Fund",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme predominantly investing in large cap stocks.",
+    "investment_philosophy": "This is a large-cap fund, predominantly investing in stocks of the top 100 companies by full market capitalization. Large-cap stocks endeavour to provide stability and liquidity to the portfolio. It endeavours to generate alpha while owning the best of the leaders. The fund invests in leaders or potential leaders with established business models and sustainable free cash flows. It endeavours to invest in growth companies at reasonable valuation and with a high return on equity. It invests in emerging large-cap companies that have an established business model, a proven management track record, and the potential to generate high cash flows.",
+    "inception_date": "August 08, 2007",
+    "fund_manager": "Sailesh Raj Bhan (Managing Since Aug 2007), Total Experience more than 30 years; Bhavik Dave (Assistant Fund Manager) (Managing Since Aug 2024), Total Experience more than 14 years",
+    "benchmark": "BSE 100 TRI",
+    "aum_cr": 51660.3,
+    "aum_monthly_avg_cr": 51824.58,
+    "nav_regular_growth": 87.6519,
+    "nav_direct_growth": 98.4656,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.23,
+    "expense_ratio_direct": 0.58,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment predominantly into equity and equity related instruments of large cap companies",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 7 days from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": "1% if redeemed/switched out <= 7 days. Nil thereafter.",
+    "std_deviation": 14.15,
+    "beta": 0.93,
+    "sharpe_ratio": 0.62,
+    "portfolio_turnover": 0.33,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 2260000.0,
+        "market_value": 9784518.0,
+        "scheme_return_pct": 13.89,
+        "benchmark_return_pct": 12.34,
+        "add_benchmark_return_pct": 11.45
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 5837470.0,
+        "scheme_return_pct": 14.42,
+        "benchmark_return_pct": 12.74,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2502533.0,
+        "scheme_return_pct": 14.15,
+        "benchmark_return_pct": 12.39,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 801830.0,
+        "scheme_return_pct": 11.69,
+        "benchmark_return_pct": 8.49,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 389961.0,
+        "scheme_return_pct": 5.37,
+        "benchmark_return_pct": 3.95,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 115520.0,
+        "scheme_return_pct": -7.27,
+        "benchmark_return_pct": -8.2,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 32,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 25.4
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 8.21
+      },
+      {
+        "sector": "Retailing",
+        "weight": 6.8
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 6.45
+      },
+      {
+        "sector": "Electrical Equipment",
+        "weight": 5.63
+      },
+      {
+        "sector": "Automobiles",
+        "weight": 5.48
+      },
+      {
+        "sector": "Diversified FMCG",
+        "weight": 5.21
+      },
+      {
+        "sector": "Finance",
+        "weight": 5.0
+      },
+      {
+        "sector": "Power",
+        "weight": 4.73
+      },
+      {
+        "sector": "Petroleum Products",
+        "weight": 4.2
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth",
+      "income"
+    ]
+  },
+  {
+    "id": "nippon-vision-large-mid-cap-fund",
+    "name": "Nippon India Vision Large & Mid Cap Fund",
+    "category": "Large & Mid Cap Fund",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme investing in both large cap and mid cap stock.",
+    "investment_philosophy": "The fund is an open-ended equity scheme investing in both large-cap and mid-cap stocks. The fund attempts to invest in high-quality businesses that are market leaders in their respective sectors and have a proven track record across market conditions. Large-cap stocks endeavour to provide stability and liquidity to the portfolio, and mid-cap allocations can potentially generate relatively better returns. Backed by fund management expertise and a growth-oriented strategy, the fund endeavours to generate relatively better risk-adjusted returns over the long term.",
+    "inception_date": "October 08, 1995",
+    "fund_manager": "Aishwarya Deepak Agarwal (Managing Since Jun 2021), Total Experience more than 25 years",
+    "benchmark": "Nifty LargeMidcap 250 TRI",
+    "aum_cr": 7232.87,
+    "aum_monthly_avg_cr": 7197.0,
+    "nav_regular_growth": 1456.7656,
+    "nav_direct_growth": 1575.3192,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.54,
+    "expense_ratio_direct": 0.97,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; investment in equity and equity related instruments of large cap & mid cap companies through a research based approach",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 10% of the units allotted shall be redeemed without any exit load, on or before completion of 12 months from the date of allotment of units. Any redemption in excess of such limit in the first 12 months from the date of allotment shall be subject to the following exit load: 1% if redeemed or switched out on or before completion of 12 months from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": "10% of units free <= 12 months. >10% triggers 1% exit load. Nil thereafter.",
+    "std_deviation": 15.6,
+    "beta": 0.93,
+    "sharpe_ratio": 0.79,
+    "portfolio_turnover": 0.85,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 3670000.0,
+        "market_value": 110440116.0,
+        "scheme_return_pct": 17.84,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": null
+      },
+      "30yr": {
+        "amount_invested": 3600000.0,
+        "market_value": 100929653.0,
+        "scheme_return_pct": 17.87,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": null
+      },
+      "25yr": {
+        "amount_invested": 3000000.0,
+        "market_value": 35076654.0,
+        "scheme_return_pct": 16.5,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": null
+      },
+      "20yr": {
+        "amount_invested": 2400000.0,
+        "market_value": 9870607.0,
+        "scheme_return_pct": 12.61,
+        "benchmark_return_pct": 14.79,
+        "add_benchmark_return_pct": 13.7
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 5464867.0,
+        "scheme_return_pct": 13.6,
+        "benchmark_return_pct": 15.83,
+        "add_benchmark_return_pct": 11.37
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2536957.0,
+        "scheme_return_pct": 13.65,
+        "benchmark_return_pct": 15.66,
+        "add_benchmark_return_pct": 11.61
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 840233.0,
+        "scheme_return_pct": 14.41,
+        "benchmark_return_pct": 13.6,
+        "add_benchmark_return_pct": 10.8
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 410264.0,
+        "scheme_return_pct": 13.6,
+        "benchmark_return_pct": 8.37,
+        "add_benchmark_return_pct": 5.33
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 119204.0,
+        "scheme_return_pct": 8.86,
+        "benchmark_return_pct": 0.25,
+        "add_benchmark_return_pct": 0.14
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 36,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 15.77
+      },
+      {
+        "sector": "Automobiles",
+        "weight": 6.28
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 6.04
+      },
+      {
+        "sector": "Industrial Products",
+        "weight": 6.03
+      },
+      {
+        "sector": "Retailing",
+        "weight": 5.94
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology / Electrical Equipment",
+        "weight": null
+      },
+      {
+        "sector": "Capital Markets",
+        "weight": 4.32
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 3.82
+      },
+      {
+        "sector": "Healthcare Services",
+        "weight": 3.51
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth",
+      "income"
+    ]
+  },
+  {
+    "id": "nippon-quant-fund",
+    "name": "Nippon India Quant Fund",
+    "category": "Thematic (following a factor based model)",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme investing in quant model theme.",
+    "investment_philosophy": "The fund is an actively managed investment fund that approaches stock selection process based on a proprietary system-based model. The model would shortlist 30-35 BSE 200 stocks through a screening mechanism at pre-determined intervals, i.e. on quarterly basis. Stocks are selected on basis of parameters like valuation, earnings, price, momentum & quality. Actively managed fund + Scientific approach + Expertise + Back test = Nippon India Quant Fund",
+    "inception_date": "April 18, 2008",
+    "fund_manager": "Shirish Guthe (Managing Since Feb 2026), Total Experience more than 13 years",
+    "benchmark": "BSE 200 TRI",
+    "aum_cr": 111.04,
+    "aum_monthly_avg_cr": 112.0,
+    "nav_regular_growth": 70.6073,
+    "nav_direct_growth": 76.7946,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 0.82,
+    "expense_ratio_direct": 0.45,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in active portfolio of stocks selected on the basis of a mathematical model.",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 0.25% if redeemed or switched out on or before completion of 1 month from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": "0.25% if redeemed/switched out <= 1 month. Nil thereafter.",
+    "std_deviation": 15.17,
+    "beta": 0.96,
+    "sharpe_ratio": 0.72,
+    "portfolio_turnover": 0.69,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 2180000.0,
+        "market_value": 8019576.0,
+        "scheme_return_pct": 12.94,
+        "benchmark_return_pct": 13.22,
+        "add_benchmark_return_pct": 11.65
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 5343782.0,
+        "scheme_return_pct": 13.39,
+        "benchmark_return_pct": 13.46,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2564030.0,
+        "scheme_return_pct": 14.6,
+        "benchmark_return_pct": 13.16,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 822926.0,
+        "scheme_return_pct": 12.75,
+        "benchmark_return_pct": 9.51,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 400676.0,
+        "scheme_return_pct": 7.23,
+        "benchmark_return_pct": 5.16,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 117541.0,
+        "scheme_return_pct": -4.01,
+        "benchmark_return_pct": -5.33,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 36,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 16.77
+      },
+      {
+        "sector": "Automobiles",
+        "weight": 11.04
+      },
+      {
+        "sector": "Finance",
+        "weight": 9.58
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 5.76
+      },
+      {
+        "sector": "Petroleum Products",
+        "weight": 5.71
+      },
+      {
+        "sector": "Construction",
+        "weight": 5.32
+      },
+      {
+        "sector": "Aerospace & Defense",
+        "weight": 5.26
+      },
+      {
+        "sector": "Power",
+        "weight": 5.14
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 4.77
+      },
+      {
+        "sector": "Retailing",
+        "weight": 3.65
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-growth-mid-cap-fund",
+    "name": "Nippon India Growth Mid Cap Fund",
+    "category": "Mid Cap Fund",
+    "instrument_type": "equity",
+    "type_description": "Mid Cap Fund - An open ended equity scheme predominantly investing in mid cap stocks.",
+    "investment_philosophy": "The fund endeavors to invest in mid cap companies that have the potential to substantially increase their profitability and have consistent track record. The fund focuses on identifying potential market leaders at an early stage with a view to create long term alpha. The fund endeavors to invest in stocks that are available at reasonable valuation, thus adopting a GARP (Growth at Reasonable Price) style for investing.",
+    "inception_date": "October 08, 1995",
+    "fund_manager": "Rupesh Patel (Managing Since Jan 2023), Total Experience more than 26 years",
+    "benchmark": "NIFTY Midcap 150 TRI",
+    "aum_cr": 47415.41,
+    "aum_monthly_avg_cr": 46994.08,
+    "nav_regular_growth": 4384.4173,
+    "nav_direct_growth": 4835.9261,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.25,
+    "expense_ratio_direct": 0.62,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related instruments through a research based approach",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 month from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": "1% if redeemed/switched out <= 1 month. Nil thereafter.",
+    "std_deviation": 18.1,
+    "beta": 0.94,
+    "sharpe_ratio": 0.97,
+    "portfolio_turnover": 0.07,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 3670000.0,
+        "market_value": 277189886.0,
+        "scheme_return_pct": 22.22,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": null
+      },
+      "30yr": {
+        "amount_invested": 3600000.0,
+        "market_value": 248167091.0,
+        "scheme_return_pct": 22.25,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": null
+      },
+      "25yr": {
+        "amount_invested": 3000000.0,
+        "market_value": 77633098.0,
+        "scheme_return_pct": 21.33,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": 13.7
+      },
+      "20yr": {
+        "amount_invested": 2400000.0,
+        "market_value": 16709099.0,
+        "scheme_return_pct": 16.89,
+        "benchmark_return_pct": 17.32,
+        "add_benchmark_return_pct": 11.37
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 8374696.0,
+        "scheme_return_pct": 18.56,
+        "benchmark_return_pct": 18.92,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 3418960.0,
+        "scheme_return_pct": 19.97,
+        "benchmark_return_pct": 19.14,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 954059.0,
+        "scheme_return_pct": 18.84,
+        "benchmark_return_pct": 17.45,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 440934.0,
+        "scheme_return_pct": 13.92,
+        "benchmark_return_pct": 12.53,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 125272.0,
+        "scheme_return_pct": 8.79,
+        "benchmark_return_pct": 8.15,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 37,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 9.25
+      },
+      {
+        "sector": "Auto Components",
+        "weight": 9.14
+      },
+      {
+        "sector": "Retailing",
+        "weight": 7.71
+      },
+      {
+        "sector": "Capital Markets",
+        "weight": 7.39
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 7.21
+      },
+      {
+        "sector": "Finance",
+        "weight": 7.03
+      },
+      {
+        "sector": "Electrical Equipment",
+        "weight": 5.63
+      },
+      {
+        "sector": "Industrial Products",
+        "weight": 5.31
+      },
+      {
+        "sector": "Power",
+        "weight": 5.06
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 4.7
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-focused-fund",
+    "name": "Nippon India Focused Fund",
+    "category": "Focused Fund",
+    "instrument_type": "equity",
+    "type_description": "An open ended Multi Cap Equity Scheme investing in maximum 30 stocks.",
+    "investment_philosophy": "This is a multi-cap fund which endeavours to invest in an active and concentrated portfolio of upto 30 stocks across market capitalisation. The fund adopts a combination of top-down and bottom-up investment approach to identify sector and stock weightage in the portfolio. The portfolio is well diversified across stocks and themes. The fund's strategy revolves around - niche ideas, focus on companies with favorable risk reward potential, and an optimal mix of growth & value plays.",
+    "inception_date": "April 28, 2018 (Date of Recategorisation)",
+    "fund_manager": "Vinay Sharma (Managing Since May 2018), Total Experience more than 22 years; Rishit Parikh (Assistant Fund Manager) (Managing Since Aug 2024), Total Experience more than 17 years",
+    "benchmark": "BSE 500 TRI",
+    "aum_cr": 8372.09,
+    "aum_monthly_avg_cr": 8359.6,
+    "nav_regular_growth": 119.5463,
+    "nav_direct_growth": 132.3171,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.52,
+    "expense_ratio_direct": 0.96,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities including derivatives",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 10% of the units allotted shall be redeemed without any exit load, on or before completion of 12 months from allotment. Any redemption in excess of such limit in the first 12 months from the date of allotment shall be subject to the following exit load: 1% if redeemed or switched out on or before completion of 12 months from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": "10% of units free <= 12 months. >10% triggers 1% exit load. Nil thereafter.",
+    "std_deviation": 15.04,
+    "beta": 0.91,
+    "sharpe_ratio": 0.51,
+    "portfolio_turnover": 0.54,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 980000.0,
+        "market_value": 1746684.0,
+        "scheme_return_pct": 13.87,
+        "benchmark_return_pct": 13.7,
+        "add_benchmark_return_pct": 9.97
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 762863.0,
+        "scheme_return_pct": 9.66,
+        "benchmark_return_pct": 10.03,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 392505.0,
+        "scheme_return_pct": 5.82,
+        "benchmark_return_pct": 5.62,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 118671.0,
+        "scheme_return_pct": -2.18,
+        "benchmark_return_pct": -3.87,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 29,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 27.82
+      },
+      {
+        "sector": "Retailing",
+        "weight": 15.08
+      },
+      {
+        "sector": "Finance",
+        "weight": 6.96
+      },
+      {
+        "sector": "Electrical Equipment",
+        "weight": 6.04
+      },
+      {
+        "sector": "Auto Components",
+        "weight": 5.77
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 4.75
+      },
+      {
+        "sector": "Beverages",
+        "weight": 4.11
+      },
+      {
+        "sector": "Leisure Services",
+        "weight": 4.04
+      },
+      {
+        "sector": "Aerospace & Defense",
+        "weight": 3.53
+      },
+      {
+        "sector": "Petroleum Products",
+        "weight": 3.08
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-small-cap-fund",
+    "name": "Nippon India Small Cap Fund",
+    "category": "Small cap Fund",
+    "instrument_type": "equity",
+    "type_description": "An open-ended equity scheme predominantly investing in small cap stocks.",
+    "investment_philosophy": "The fund attempts to generate relatively better risk adjusted returns by focusing on the smaller capitalization companies. Small cap stocks, for the purpose of the fund are defined as stocks whose market capitalization is below top 250 companies in terms of full market capitalization. Small cap companies are potential mid caps of tomorrow and offer twin advantage of high growth prospects & relatively lower valuation. The fund focuses on identifying good growth businesses with reasonable size, quality management and rational valuation. The investment approach adopts prudent risk management measures like margin of safety and diversification across sectors & stocks with a view to generate relatively better risk adjusted performance over a period of time.",
+    "inception_date": "September 16, 2010",
+    "fund_manager": "Samir Rachh (Managing Since Jan 2017), Total Experience more than 34 years",
+    "benchmark": "Nifty Smallcap 250 TRI",
+    "aum_cr": 74604.07,
+    "aum_monthly_avg_cr": 74161.53,
+    "nav_regular_growth": 173.3141,
+    "nav_direct_growth": 195.4582,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.14,
+    "expense_ratio_direct": 0.54,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities of small cap companies",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 year from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": "1% if redeemed/switched out <= 1 year. Nil thereafter.",
+    "std_deviation": 19.55,
+    "beta": 0.84,
+    "sharpe_ratio": 0.72,
+    "portfolio_turnover": 0.19,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 1890000.0,
+        "market_value": 13319108.0,
+        "scheme_return_pct": 22.04,
+        "benchmark_return_pct": 15.97,
+        "add_benchmark_return_pct": 11.48
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 11725116.0,
+        "scheme_return_pct": 22.38,
+        "benchmark_return_pct": 16.39,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 3615070.0,
+        "scheme_return_pct": 21.01,
+        "benchmark_return_pct": 16.96,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 898034.0,
+        "scheme_return_pct": 16.34,
+        "benchmark_return_pct": 14.56,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 412440.0,
+        "scheme_return_pct": 9.23,
+        "benchmark_return_pct": 8.29,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 124919.0,
+        "scheme_return_pct": 8.19,
+        "benchmark_return_pct": 4.52,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 11,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Electrical Equipment",
+        "weight": 9.6
+      },
+      {
+        "sector": "Auto Components",
+        "weight": 7.73
+      },
+      {
+        "sector": "Industrial Products",
+        "weight": 6.74
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 6.39
+      },
+      {
+        "sector": "Banks",
+        "weight": 6.22
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 5.63
+      },
+      {
+        "sector": "Capital Markets",
+        "weight": 4.61
+      },
+      {
+        "sector": "Chemicals & Petrochemicals",
+        "weight": 4.51
+      },
+      {
+        "sector": "Finance",
+        "weight": 4.06
+      },
+      {
+        "sector": "Healthcare Services",
+        "weight": 3.86
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-value-fund",
+    "name": "Nippon India Value Fund",
+    "category": "Value Fund",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme following a value investment strategy.",
+    "investment_philosophy": "The fund follows a value investment strategy with an aim to participate in investment opportunities across all sectors and market capitalization. The fund endeavors to invest in long term relatively better risk-adjusted returns having the potential to deliver long term relatively better risk-adjusted returns. Undervalued stocks will be identified based on the evaluation of various factors but not limited to stock valuation, financial strength, cash flows, company's competitive advantage, business prospects, and earnings potential.",
+    "inception_date": "June 08, 2005",
+    "fund_manager": "Dhrumil Shah (Managing Since Jan 2023), Total Experience more than 19 years; Meenakshi Dawar (Managing Since May 2018), Total Experience more than 17 years",
+    "benchmark": "Nifty 500 TRI",
+    "aum_cr": 8821.21,
+    "aum_monthly_avg_cr": 8904.55,
+    "nav_regular_growth": 220.1922,
+    "nav_direct_growth": 242.6032,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.51,
+    "expense_ratio_direct": 0.91,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 10% of the units allotted shall be redeemed without any exit load, on or before completion of 12 months from the date of allotment. Any redemption in excess of such limit in the first 12 months from the date of allotment shall be subject to the following exit load: 1% if redeemed or switched out on or before completion of 12 months from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": "10% of units free <= 12 months. >10% triggers 1% exit load. Nil thereafter.",
+    "std_deviation": 16.2,
+    "beta": 0.99,
+    "sharpe_ratio": 0.79,
+    "portfolio_turnover": 0.5,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 2520000.0,
+        "market_value": 15804402.0,
+        "scheme_return_pct": 15.23,
+        "benchmark_return_pct": 12.9,
+        "add_benchmark_return_pct": 11.56
+      },
+      "20yr": {
+        "amount_invested": 2400000.0,
+        "market_value": 13291405.0,
+        "scheme_return_pct": 15.04,
+        "benchmark_return_pct": 12.89,
+        "add_benchmark_return_pct": 11.37
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 6497496.0,
+        "scheme_return_pct": 15.65,
+        "benchmark_return_pct": 13.71,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2754426.0,
+        "scheme_return_pct": 15.95,
+        "benchmark_return_pct": 13.57,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 833898.0,
+        "scheme_return_pct": 13.29,
+        "benchmark_return_pct": 10.36,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 398842.0,
+        "scheme_return_pct": 6.91,
+        "benchmark_return_pct": 6.06,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 117011.0,
+        "scheme_return_pct": -4.87,
+        "benchmark_return_pct": -3.28,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 32,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 26.04
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 9.21
+      },
+      {
+        "sector": "Finance",
+        "weight": 7.17
+      },
+      {
+        "sector": "Power",
+        "weight": 6.93
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 6.36
+      },
+      {
+        "sector": "Electrical Equipment",
+        "weight": 4.45
+      },
+      {
+        "sector": "Petroleum Products",
+        "weight": 3.77
+      },
+      {
+        "sector": "Automobiles",
+        "weight": 3.58
+      },
+      {
+        "sector": "Telecom - Services",
+        "weight": 3.48
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 2.68
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-multi-cap-fund",
+    "name": "Nippon India Multi Cap Fund",
+    "category": "Multi Cap Fund",
+    "instrument_type": "equity",
+    "type_description": "Multi Cap Fund - An open ended equity scheme investing across large cap, mid cap, small cap stocks.",
+    "investment_philosophy": "The fund seeks to invest minimum 25% investment each in large, mid and small cap companies. Investment in large caps may help to capture market movements & aims to ensure liquidity in volatile times while exposure to niche themes (primarily mid/small cap companies) having scalable business models aims to offer alpha. The fund endeavours to identify opportunities ahead of the market. High conviction investment strategy with a focus on 'growth at reasonable valuations'. The fund follows a combination of top down and bottom up approaches and aims to take active sector calls.",
+    "inception_date": "March 28, 2005",
+    "fund_manager": "Sailesh Raj Bhan (Managing Since Mar 2005), Total Experience more than 30 years",
+    "benchmark": "NIFTY 500 Multicap 50:25:25 TRI",
+    "aum_cr": 53410.99,
+    "aum_monthly_avg_cr": 53225.36,
+    "nav_regular_growth": 296.5834,
+    "nav_direct_growth": 327.5908,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.22,
+    "expense_ratio_direct": 0.61,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 10% of the units allotted shall be redeemed without any exit load, on or before completion of 12 months from the date of allotment. Any redemption in excess of such limit in the first 12 months from the date of allotment shall be subject to the following exit load: 1% if redeemed or switched out on or before completion of 12 months from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": "10% of units free <= 12 months. >10% triggers 1% exit load. Nil thereafter.",
+    "std_deviation": 15.82,
+    "beta": 0.89,
+    "sharpe_ratio": 0.79,
+    "portfolio_turnover": 0.29,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 2540000.0,
+        "market_value": 17861763.0,
+        "scheme_return_pct": 15.96,
+        "benchmark_return_pct": 14.4,
+        "add_benchmark_return_pct": 11.64
+      },
+      "20yr": {
+        "amount_invested": 2400000.0,
+        "market_value": 14686175.0,
+        "scheme_return_pct": 15.85,
+        "benchmark_return_pct": 14.39,
+        "add_benchmark_return_pct": 11.37
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 6682993.0,
+        "scheme_return_pct": 15.98,
+        "benchmark_return_pct": 15.24,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2931862.0,
+        "scheme_return_pct": 17.11,
+        "benchmark_return_pct": 12.25,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 879329.0,
+        "scheme_return_pct": 15.47,
+        "benchmark_return_pct": 7.42,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 407920.0,
+        "scheme_return_pct": 8.47,
+        "benchmark_return_pct": -0.52,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 119667.0,
+        "scheme_return_pct": -0.55,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 29,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 14.83
+      },
+      {
+        "sector": "Retailing",
+        "weight": 8.73
+      },
+      {
+        "sector": "Electrical Equipment",
+        "weight": 8.5
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 7.94
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 6.42
+      },
+      {
+        "sector": "Leisure Services",
+        "weight": 5.79
+      },
+      {
+        "sector": "Power",
+        "weight": 5.48
+      },
+      {
+        "sector": "Auto Components",
+        "weight": 4.79
+      },
+      {
+        "sector": "Insurance",
+        "weight": 3.72
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 3.22
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-flexi-cap-fund",
+    "name": "Nippon India Flexi Cap Fund",
+    "category": "Flexi Cap Fund",
+    "instrument_type": "equity",
+    "type_description": "An open ended dynamic equity scheme investing across large cap, mid cap, small cap stocks.",
+    "investment_philosophy": "The fund seeks to provide long term wealth creation by dynamically managing the investments across large, mid and small cap stocks based on market view and relative attractiveness.",
+    "inception_date": "August 13, 2021",
+    "fund_manager": "Meenakshi Dawar (Managing Since Jan 2023), Total Experience more than 17 years; Dhrumil Shah (Managing Since Aug 2021), Total Experience more than 19 years",
+    "benchmark": "Nifty 500 TRI",
+    "aum_cr": 9325.03,
+    "aum_monthly_avg_cr": 9333.35,
+    "nav_regular_growth": 16.1284,
+    "nav_direct_growth": 17.2426,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.51,
+    "expense_ratio_direct": 0.45,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 10% of the units allotted shall be redeemed without any exit load, on or before completion of 12 months from the date of allotment. Any redemption in excess of such limit in the first 12 months from the date of allotment shall be subject to the following exit load: 1% if redeemed or switched out on or before completion of 12 months from the date of allotment of units. Nil, thereafter. Redemption of units would be done on First in First out Basis (FIFO).",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": 15.75,
+    "beta": 0.97,
+    "sharpe_ratio": 0.51,
+    "portfolio_turnover": 0.33,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 580000.0,
+        "market_value": 717965.0,
+        "scheme_return_pct": 8.88,
+        "benchmark_return_pct": 10.2,
+        "add_benchmark_return_pct": 5.03
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 383199.0,
+        "scheme_return_pct": 4.16,
+        "benchmark_return_pct": 6.06,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 117561.0,
+        "scheme_return_pct": -3.98,
+        "benchmark_return_pct": -3.28,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 35,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 20.93
+      },
+      {
+        "sector": "Retailing",
+        "weight": 7.44
+      },
+      {
+        "sector": "Petroleum Products",
+        "weight": 4.81
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 4.81
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 4.78
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 3.96
+      },
+      {
+        "sector": "Electrical Equipment",
+        "weight": 3.87
+      },
+      {
+        "sector": "Automobiles",
+        "weight": 3.87
+      },
+      {
+        "sector": "Finance",
+        "weight": 3.75
+      },
+      {
+        "sector": "Telecom - Services",
+        "weight": 3.63
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-elss-tax-saver-fund",
+    "name": "Nippon India ELSS Tax Saver Fund",
+    "category": "ELSS",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity linked saving scheme with a statutory lock in of 3 years and tax benefit.",
+    "investment_philosophy": "The fund seeks to maintain balance between large cap and mid cap companies. It endeavors to invest in potential leaders. It invests in companies with potential of high growth prospects for medium term (2-3 years). Generally, the fund has two or three sector calls at a time. They are mostly in-line with emerging market trends. A significant percent of outstanding equity of the scheme is invested in high conviction mid-cap companies. A significant allocation/exposure is taken in Multinational Companies (MNC's). It attempts to have a balanced portfolio on a macro basis, allocating to themes like Domestic, Consumption & Defensive.",
+    "inception_date": "September 21, 2005",
+    "fund_manager": "Rupesh Patel (Managing Since Jul 2021), Total Experience more than 26 years; Ritesh Rathod (Co-Fund Manager) (Managing Since Aug 2024), Total Experience more than 19 years",
+    "benchmark": "Nifty 500 TRI",
+    "aum_cr": 14700.06,
+    "aum_monthly_avg_cr": 14748.22,
+    "nav_regular_growth": 128.7359,
+    "nav_direct_growth": 142.1293,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.45,
+    "expense_ratio_direct": 0.87,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: Nil.",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": 15.28,
+    "beta": 0.95,
+    "sharpe_ratio": 0.7,
+    "portfolio_turnover": 0.19,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 2490000.0,
+        "market_value": 11350584.0,
+        "scheme_return_pct": 12.94,
+        "benchmark_return_pct": 12.86,
+        "add_benchmark_return_pct": 11.46
+      },
+      "20yr": {
+        "amount_invested": 2400000.0,
+        "market_value": 10340958.0,
+        "scheme_return_pct": 12.99,
+        "benchmark_return_pct": 12.89,
+        "add_benchmark_return_pct": 11.37
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 5090139.0,
+        "scheme_return_pct": 12.82,
+        "benchmark_return_pct": 13.71,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2265208.0,
+        "scheme_return_pct": 12.28,
+        "benchmark_return_pct": 13.57,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 806707.0,
+        "scheme_return_pct": 11.94,
+        "benchmark_return_pct": 10.36,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 403152.0,
+        "scheme_return_pct": 7.65,
+        "benchmark_return_pct": 6.06,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 119994.0,
+        "scheme_return_pct": -3.28,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 31,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 20.92
+      },
+      {
+        "sector": "Finance",
+        "weight": 8.91
+      },
+      {
+        "sector": "Power",
+        "weight": 7.29
+      },
+      {
+        "sector": "Beverages",
+        "weight": 6.11
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 6.08
+      },
+      {
+        "sector": "Auto Components",
+        "weight": 4.72
+      },
+      {
+        "sector": "Retailing",
+        "weight": 4.34
+      },
+      {
+        "sector": "Insurance",
+        "weight": 3.95
+      },
+      {
+        "sector": "Telecom - Services",
+        "weight": 3.7
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 3.62
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "tax_saving",
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-banking-financial-services-fund",
+    "name": "Nippon India Banking & Financial Services Fund",
+    "category": "Sector Fund",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme investing in Banking & Financial Services Sector.",
+    "investment_philosophy": "The fund is a focused banking and financial services sector oriented fund investing across market caps within the sector. The fund is well diversified across sub segments like Private & Public Banks, NBFCs, Housing Fin Co's, Broking houses, Wealth Management, Rating Agencies, Asset Management Companies, Insurance Companies, Stock/ Commodities Exchange, etc. The fund endeavors to generate superior alpha through active fund management. The alpha generation is attempted through tactical allocation across various sub segments and differentiated investment ideas. The fund thus attempts to lower risk through diversification while retaining the alpha creation potential.",
+    "inception_date": "May 26, 2003",
+    "fund_manager": "Vinay Sharma (Managing Since Apr 2018), Total Experience more than 22 years; Bhavik Dave (Co-Fund Manager) (Managing Since Jun 2021), Total Experience more than 14 years",
+    "benchmark": "Nifty Financial Services TRI",
+    "aum_cr": 7441.66,
+    "aum_monthly_avg_cr": 7504.25,
+    "nav_regular_growth": 619.0768,
+    "nav_direct_growth": 681.5028,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.54,
+    "expense_ratio_direct": 0.84,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities of companies in banking and financial services sector",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 month from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": 15.3,
+    "beta": 0.92,
+    "sharpe_ratio": 0.53,
+    "portfolio_turnover": 0.26,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 2770000.0,
+        "market_value": 24728622.0,
+        "scheme_return_pct": 16.17,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": 12.65
+      },
+      "20yr": {
+        "amount_invested": 2400000.0,
+        "market_value": 12664038.0,
+        "scheme_return_pct": 14.65,
+        "benchmark_return_pct": 14.28,
+        "add_benchmark_return_pct": 11.37
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 5491661.0,
+        "scheme_return_pct": 13.71,
+        "benchmark_return_pct": 13.8,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2359600.0,
+        "scheme_return_pct": 13.04,
+        "benchmark_return_pct": 12.21,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 805984.0,
+        "scheme_return_pct": 11.9,
+        "benchmark_return_pct": 9.09,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 401305.0,
+        "scheme_return_pct": 7.34,
+        "benchmark_return_pct": 6.48,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 116290.0,
+        "scheme_return_pct": -6.03,
+        "benchmark_return_pct": -9.96,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 32,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-power-infra-fund",
+    "name": "Nippon India Power & Infra Fund",
+    "category": "Sector Fund",
+    "instrument_type": "equity",
+    "type_description": "An Open Ended Equity Scheme investing in power & infrastructure sectors.",
+    "investment_philosophy": "The fund provides an investment opportunity to participate in India's capex growth by investing in securities of companies in power and infra sectors. The portfolio has an adequate diversification within the power and infra sectors by spreading investment across a large range of companies. The fund provides opportunity within these sectors, with focused approach and flexibility to invest in Transportation, Energy, Resources, Communication and other power and infrastructure allied companies. The portfolio is focused on creating long term risk adjusted returns.",
+    "inception_date": "May 08, 2004",
+    "fund_manager": "Rahul Modi (Managing Since Aug 2024), Total Experience more than 20 years",
+    "benchmark": "Nifty Infrastructure TRI",
+    "aum_cr": 7898.0,
+    "aum_monthly_avg_cr": 7810.96,
+    "nav_regular_growth": 383.4403,
+    "nav_direct_growth": 418.223,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.53,
+    "expense_ratio_direct": 0.82,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment predominantly in equity and equity related securities of companies engaged in power and infrastructure space.",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 month from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": 20.89,
+    "beta": 1.05,
+    "sharpe_ratio": 0.95,
+    "portfolio_turnover": 0.4,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 2650000.0,
+        "market_value": 18252960.0,
+        "scheme_return_pct": 20.2,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": 12.1
+      },
+      "20yr": {
+        "amount_invested": 2400000.0,
+        "market_value": 11870868.0,
+        "scheme_return_pct": 22.06,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": 11.37
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 7362378.0,
+        "scheme_return_pct": 15.28,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 3461220.0,
+        "scheme_return_pct": 20.28,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 1030638.0,
+        "scheme_return_pct": 10.39,
+        "benchmark_return_pct": 16.44,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 449477.0,
+        "scheme_return_pct": 10.32,
+        "benchmark_return_pct": 15.78,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 131966.0,
+        "scheme_return_pct": 13.4,
+        "benchmark_return_pct": 10.52,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 25,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-pharma-fund",
+    "name": "Nippon India Pharma Fund",
+    "category": "Sector Fund",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme investing in pharma sector.",
+    "investment_philosophy": "The fund seeks to invest in pharma sector with focus on important segments of the sector viz Domestic Business, International & CRAMS and include deep value as well as high growth pharma businesses. The fund invests across market capitalization within the sector. It may suit investors with an investment horizon of around 2-3 years.",
+    "inception_date": "June 05, 2004",
+    "fund_manager": "Sailesh Raj Bhan (Managing Since Jun 2004), Total Experience more than 30 years",
+    "benchmark": "BSE Healthcare TRI",
+    "aum_cr": 8635.75,
+    "aum_monthly_avg_cr": 8684.18,
+    "nav_regular_growth": 533.2115,
+    "nav_direct_growth": 598.5008,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.52,
+    "expense_ratio_direct": 0.79,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; investment predominantly in equity and equity related Securities of pharma & other associated companies.",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 month from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": 15.78,
+    "beta": 0.88,
+    "sharpe_ratio": 1.03,
+    "portfolio_turnover": 0.16,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 2640000.0,
+        "market_value": 28408834.0,
+        "scheme_return_pct": 18.36,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": 12.06
+      },
+      "20yr": {
+        "amount_invested": 2400000.0,
+        "market_value": 19033381.0,
+        "scheme_return_pct": 17.94,
+        "benchmark_return_pct": 15.46,
+        "add_benchmark_return_pct": 11.37
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 6901180.0,
+        "scheme_return_pct": 16.35,
+        "benchmark_return_pct": 14.9,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2942274.0,
+        "scheme_return_pct": 17.18,
+        "benchmark_return_pct": 16.82,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 872555.0,
+        "scheme_return_pct": 15.15,
+        "benchmark_return_pct": 17.97,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 427814.0,
+        "scheme_return_pct": 11.78,
+        "benchmark_return_pct": 15.91,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 124982.0,
+        "scheme_return_pct": 8.3,
+        "benchmark_return_pct": 13.21,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 23,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-consumption-fund",
+    "name": "Nippon India Consumption Fund",
+    "category": "Thematic Fund",
+    "instrument_type": "equity",
+    "type_description": "An Open Ended Equity Scheme following consumption theme.",
+    "investment_philosophy": "The fund has a focussed approach to invest in leaders or potential leaders that are likely to benefit directly or indirectly from domestic consumption led demand. It is well diversified across key segments like Consumer Non-Durables, Media & Entertainment, Automobile, Healthcare Services, Pharmaceuticals, etc., driven by relative attractiveness of opportunities and valuations. The fund has a flexi cap structure, allowing it to participate across market caps. Strong business model with focus on sustainable profitable growth will be the core components of the investment universe.",
+    "inception_date": "September 30, 2004",
+    "fund_manager": "Kinjal Desai (Managing Since Aug 2025), Total Experience more than 13 years",
+    "benchmark": "Nifty India Consumption TRI",
+    "aum_cr": 2367.6,
+    "aum_monthly_avg_cr": 2417.28,
+    "nav_regular_growth": 180.5942,
+    "nav_direct_growth": 205.2667,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.72,
+    "expense_ratio_direct": 0.6,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment predominantly in equity and equity related Securities of companies that are likely to benefit directly or indirectly from domestic consumption led demand.",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 month from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": 16.32,
+    "beta": 0.93,
+    "sharpe_ratio": 0.35,
+    "portfolio_turnover": 0.51,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 2610000.0,
+        "market_value": 12925903.0,
+        "scheme_return_pct": 12.93,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": 11.9
+      },
+      "20yr": {
+        "amount_invested": 2400000.0,
+        "market_value": 10007877.0,
+        "scheme_return_pct": 12.72,
+        "benchmark_return_pct": 13.8,
+        "add_benchmark_return_pct": 11.37
+      },
+      "15yr": {
+        "amount_invested": 1800000.0,
+        "market_value": 5278385.0,
+        "scheme_return_pct": 13.25,
+        "benchmark_return_pct": 13.69,
+        "add_benchmark_return_pct": 11.61
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2391210.0,
+        "scheme_return_pct": 13.29,
+        "benchmark_return_pct": 13.0,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 733592.0,
+        "scheme_return_pct": 8.07,
+        "benchmark_return_pct": 10.54,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 362105.0,
+        "scheme_return_pct": 0.39,
+        "benchmark_return_pct": 4.98,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 111886.0,
+        "scheme_return_pct": -8.64,
+        "benchmark_return_pct": null,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 29,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Automobiles",
+        "weight": 20.2
+      },
+      {
+        "sector": "Retailing",
+        "weight": 16.8
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 13.81
+      },
+      {
+        "sector": "Beverages",
+        "weight": 9.21
+      },
+      {
+        "sector": "Food Products",
+        "weight": 8.73
+      },
+      {
+        "sector": "Diversified FMCG",
+        "weight": 8.57
+      },
+      {
+        "sector": "Personal Products",
+        "weight": 5.37
+      },
+      {
+        "sector": "Leisure Services",
+        "weight": 3.6
+      },
+      {
+        "sector": "Transport Services",
+        "weight": 2.73
+      },
+      {
+        "sector": "Agricultural Food & other Products",
+        "weight": 2.09
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-japan-equity-fund",
+    "name": "Nippon India Japan Equity Fund",
+    "category": "Thematic (International)",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme following Japan focused theme.",
+    "investment_philosophy": "The fund endeavors to create a portfolio of companies which are leaders or potential leaders in the growth oriented sectors of Japan and are listed on recognized stock exchanges of Japan, using a blend of top down and bottom up approach without any extreme sector bias.",
+    "inception_date": "August 26, 2014",
+    "fund_manager": "Kinjal Desai (Managing Since May 2018), Total Experience more than 13 years",
+    "benchmark": "S&P Japan 500 TRI",
+    "aum_cr": 347.52,
+    "aum_monthly_avg_cr": 338.03,
+    "nav_regular_growth": 27.4549,
+    "nav_direct_growth": 30.964,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 2.08,
+    "expense_ratio_direct": 1.1,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities of companies listed on recognized stock exchange of Japan",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 year from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": 13.62,
+    "beta": 0.96,
+    "sharpe_ratio": 1.05,
+    "portfolio_turnover": 0.35,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 1420000.0,
+        "market_value": 2852115.0,
+        "scheme_return_pct": 11.25,
+        "benchmark_return_pct": 15.11,
+        "add_benchmark_return_pct": 10.97
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2262543.0,
+        "scheme_return_pct": 12.25,
+        "benchmark_return_pct": 16.2,
+        "add_benchmark_return_pct": 10.81
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 944403.0,
+        "scheme_return_pct": 18.42,
+        "benchmark_return_pct": 24.19,
+        "add_benchmark_return_pct": 5.35
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 517199.0,
+        "scheme_return_pct": 31.79,
+        "benchmark_return_pct": 31.79,
+        "add_benchmark_return_pct": 0.15
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 144869.0,
+        "scheme_return_pct": 43.49,
+        "benchmark_return_pct": 50.03,
+        "add_benchmark_return_pct": -14.88
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 30,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Electronic Components",
+        "weight": 5.21
+      },
+      {
+        "sector": "Diversified Financial Services",
+        "weight": 4.94
+      },
+      {
+        "sector": "Diversified Real Estate Activities",
+        "weight": 4.38
+      },
+      {
+        "sector": "Human Resource & Employment Services",
+        "weight": 4.3
+      },
+      {
+        "sector": "Semiconductor Materials & Equipment",
+        "weight": 3.61
+      },
+      {
+        "sector": "Electronic Equipment & Instruments",
+        "weight": 3.59
+      },
+      {
+        "sector": "Automotive Parts & Equipment",
+        "weight": 3.54
+      },
+      {
+        "sector": "Diversified Financial Services (other)",
+        "weight": 3.46
+      },
+      {
+        "sector": "Apparel Retail",
+        "weight": 3.41
+      },
+      {
+        "sector": "Research & Consulting Services",
+        "weight": 3.37
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-us-equity-opportunities-fund",
+    "name": "Nippon India US Equity Opportunities Fund",
+    "category": "Thematic (International)",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme following US focused theme.",
+    "investment_philosophy": "The fund endeavours to invest in a portfolio of high quality stocks listed on recognized stock exchanges of US. The investment strategy of the fund would be powered by the research support of MIA (Morningstar Investment Adviser India Private Limited), a group company of Morningstar Inc.). Morningstar employs their proprietary research methodology, focused on economic moats, to identify investment opportunity. The fund proposes to follow the Hare Strategy for its investments. The Hare portfolio invests in stocks of firms that are experiencing rapid growth, emphasizing those that possess sustainable competitive advantages. Companies in this strategy tend to grow faster with both higher risk and higher return potential. The investment philosophy would be a blend of top down and bottom up approach without any sector or market capitalization bias.",
+    "inception_date": "July 23, 2015",
+    "fund_manager": "Kinjal Desai (Managing Since May 2018), Total Experience more than 13 years",
+    "benchmark": "S&P 500 TRI",
+    "aum_cr": 768.5,
+    "aum_monthly_avg_cr": 758.35,
+    "nav_regular_growth": 40.3853,
+    "nav_direct_growth": 45.5,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 2.01,
+    "expense_ratio_direct": 1.1,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities of companies listed on recognized stock exchanges in the US.",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 month from the date of allotment of units. Nil.",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": 15.44,
+    "beta": 0.97,
+    "sharpe_ratio": 0.87,
+    "portfolio_turnover": 0.07,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 1310000.0,
+        "market_value": 3058021.0,
+        "scheme_return_pct": 14.8,
+        "benchmark_return_pct": 20.97,
+        "add_benchmark_return_pct": 11.08
+      },
+      "10yr": {
+        "amount_invested": 1200000.0,
+        "market_value": 2593877.0,
+        "scheme_return_pct": 14.82,
+        "benchmark_return_pct": 21.45,
+        "add_benchmark_return_pct": 10.8
+      },
+      "5yr": {
+        "amount_invested": 600000.0,
+        "market_value": 874822.0,
+        "scheme_return_pct": 15.26,
+        "benchmark_return_pct": 25.8,
+        "add_benchmark_return_pct": 5.33
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 457010.0,
+        "scheme_return_pct": 16.48,
+        "benchmark_return_pct": 31.61,
+        "add_benchmark_return_pct": 0.14
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 131851.0,
+        "scheme_return_pct": 20.08,
+        "benchmark_return_pct": 45.59,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 23,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Interactive Media & Services",
+        "weight": 14.64
+      },
+      {
+        "sector": "Semiconductors",
+        "weight": 9.85
+      },
+      {
+        "sector": "Systems Software",
+        "weight": 7.16
+      },
+      {
+        "sector": "Broadline Retail",
+        "weight": 6.9
+      },
+      {
+        "sector": "Transaction & Payment Processing Services",
+        "weight": 6.53
+      },
+      {
+        "sector": "Hotels, Resorts & Cruise Lines",
+        "weight": 5.55
+      },
+      {
+        "sector": "Semiconductor Materials & Equipment",
+        "weight": 5.09
+      },
+      {
+        "sector": "Application Software",
+        "weight": 4.93
+      },
+      {
+        "sector": "Investment Banking & Brokerage",
+        "weight": 4.41
+      },
+      {
+        "sector": "Life Sciences Tools & Services",
+        "weight": 4.25
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-taiwan-equity-fund",
+    "name": "Nippon India Taiwan Equity Fund",
+    "category": "Thematic (International)",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme following Taiwan focused theme.",
+    "investment_philosophy": "The fund seeks to provide an attractive diversification opportunity by investing in a high conviction portfolio of stocks of companies listed on recognized stock exchanges of Taiwan. The fund endeavors to identify industry leaders with a long term horizon and will follow a bottom up investment approach layered with flexible cash position to minimize draw down.",
+    "inception_date": "December 11, 2021",
+    "fund_manager": "Kinjal Desai (Managing Since Dec 2021), Total Experience more than 13 years",
+    "benchmark": "Taiwan Capitalization Weighted Stock Index (TAIEX) TRI",
+    "aum_cr": 1256.27,
+    "aum_monthly_avg_cr": 1200.3,
+    "nav_regular_growth": 37.0864,
+    "nav_direct_growth": 39.5724,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.86,
+    "expense_ratio_direct": 0.72,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities of companies listed on recognized stock exchange of Taiwan",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 3 months from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": 29.34,
+    "beta": 0.91,
+    "sharpe_ratio": 1.66,
+    "portfolio_turnover": 0.99,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 540000.0,
+        "market_value": 2005915.0,
+        "scheme_return_pct": 63.82,
+        "benchmark_return_pct": 49.04,
+        "add_benchmark_return_pct": 4.77
+      },
+      "3yr": {
+        "amount_invested": 360000.0,
+        "market_value": 1131352.0,
+        "scheme_return_pct": 92.71,
+        "benchmark_return_pct": 66.98,
+        "add_benchmark_return_pct": 0.11
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 252425.0,
+        "scheme_return_pct": 276.79,
+        "benchmark_return_pct": 154.37,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 28,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Semiconductors",
+        "weight": 26.88
+      },
+      {
+        "sector": "Electronic Components",
+        "weight": 25.83
+      },
+      {
+        "sector": "Semiconductor Materials & Equipment",
+        "weight": 13.0
+      },
+      {
+        "sector": "Electronic Equipment & Instruments",
+        "weight": 8.19
+      },
+      {
+        "sector": "Communications Equipment",
+        "weight": 6.41
+      },
+      {
+        "sector": "Technology Hardware, Storage & Peripherals",
+        "weight": 3.81
+      },
+      {
+        "sector": "Electrical Components & Equipment",
+        "weight": 3.71
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-innovation-fund",
+    "name": "Nippon India Innovation Fund",
+    "category": "Thematic Fund",
+    "instrument_type": "equity",
+    "type_description": "An open ended equity scheme investing in innovation theme",
+    "investment_philosophy": "The Fund seeks to provide long term capital appreciation to investors by primarily investing in equities of companies seeking to benefit from innovation. The fund will follow a high conviction approach and focus on high quality-high growth businesses driving transformation across sectors.",
+    "inception_date": "August 29, 2023",
+    "fund_manager": "Vinay Sharma (Managing Since Aug 2023), Total Experience more than 22 years; Rishit Parikh (Co-Fund Manager) (Managing Since Aug 2024), Total Experience more than 17 years",
+    "benchmark": "Nifty 500 TRI",
+    "aum_cr": 2835.99,
+    "aum_monthly_avg_cr": 2800.46,
+    "nav_regular_growth": 14.0152,
+    "nav_direct_growth": 14.5327,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.68,
+    "expense_ratio_direct": 0.61,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long term capital growth; Investment in equity and equity related securities of companies adopting innovation theme",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 year from the date of allotment of units. Nil, thereafter",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 330000.0,
+        "market_value": 357374.0,
+        "scheme_return_pct": 5.85,
+        "benchmark_return_pct": 4.72,
+        "add_benchmark_return_pct": -1.06
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 119631.0,
+        "scheme_return_pct": -0.61,
+        "benchmark_return_pct": -3.28,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 33,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Retailing",
+        "weight": 21.06
+      },
+      {
+        "sector": "Auto Components",
+        "weight": 10.84
+      },
+      {
+        "sector": "Electrical Equipment",
+        "weight": 7.39
+      },
+      {
+        "sector": "Banks",
+        "weight": 5.27
+      },
+      {
+        "sector": "Healthcare Services",
+        "weight": 4.73
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 4.57
+      },
+      {
+        "sector": "Automobiles",
+        "weight": 4.34
+      },
+      {
+        "sector": "Beverages",
+        "weight": 4.19
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 3.64
+      },
+      {
+        "sector": "Industrial Products",
+        "weight": 3.6
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-active-momentum-fund",
+    "name": "Nippon India Active Momentum Fund",
+    "category": "Thematic Fund",
+    "instrument_type": "equity",
+    "type_description": "An open-ended equity scheme following momentum theme",
+    "investment_philosophy": "The Fund seeks to achieve long-term capital appreciation for its investors. This objective will be pursued by strategically investing in a diversified portfolio of equity and equity-related instruments. The selection of these instruments will be based on a quantitative model meticulously designed to identify potential investment opportunities that exhibit the potential for significant capital appreciation over the specified investment horizon.",
+    "inception_date": "February 28, 2025",
+    "fund_manager": "Shirish Guthe (Managing Since Feb 2026), Total Experience more than 13 years",
+    "benchmark": "Nifty 500 TRI",
+    "aum_cr": 424.11,
+    "aum_monthly_avg_cr": 416.12,
+    "nav_regular_growth": 12.1342,
+    "nav_direct_growth": 12.2824,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 1.42,
+    "expense_ratio_direct": 0.59,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long Term Capital Appreciation; An actively managed thematic equity scheme that invests in stocks exhibiting momentum characteristics",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 year from the date of allotment of units. Nil, thereafter.",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {
+      "since_inception": {
+        "amount_invested": 150000.0,
+        "market_value": 158433.0,
+        "scheme_return_pct": 8.94,
+        "benchmark_return_pct": 0.75,
+        "add_benchmark_return_pct": -10.13
+      },
+      "1yr": {
+        "amount_invested": 120000.0,
+        "market_value": 123688.0,
+        "scheme_return_pct": 6.12,
+        "benchmark_return_pct": -3.28,
+        "add_benchmark_return_pct": -14.96
+      }
+    },
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 44,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Banks",
+        "weight": 15.7
+      },
+      {
+        "sector": "Retailing",
+        "weight": 7.8
+      },
+      {
+        "sector": "Automobiles",
+        "weight": 6.72
+      },
+      {
+        "sector": "Beverages",
+        "weight": 6.64
+      },
+      {
+        "sector": "Finance",
+        "weight": 5.83
+      },
+      {
+        "sector": "Auto Components",
+        "weight": 5.59
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 4.8
+      },
+      {
+        "sector": "Industrial Products",
+        "weight": 4.59
+      },
+      {
+        "sector": "Aerospace & Defense",
+        "weight": 4.41
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 4.0
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-mnc-fund",
+    "name": "Nippon India MNC Fund",
+    "category": "Thematic Fund",
+    "instrument_type": "equity",
+    "type_description": "An open-ended equity scheme following multinational company (MNC) theme",
+    "investment_philosophy": "The fund follows a bottom-up approach focusing on Business, Management, and Valuation to identify MNCs offering growth at reasonable valuations. It invests predominantly in equity and equity-related securities of such companies. The fund has flexibility to invest across all market capitalisation.",
+    "inception_date": "July 22, 2025",
+    "fund_manager": "Dhrumil Shah (Managing Since Jul 2025), Total Experience more than 19 years",
+    "benchmark": "Nifty MNC TRI",
+    "aum_cr": 427.37,
+    "aum_monthly_avg_cr": 424.07,
+    "nav_regular_growth": 10.5527,
+    "nav_direct_growth": 10.6692,
+    "nav_as_of": "May 29, 2026",
+    "expense_ratio_regular": 2.1,
+    "expense_ratio_direct": 1.04,
+    "riskometer": "Very High",
+    "risk_score_1_to_6": 6,
+    "risk_rating": "very_high",
+    "benchmark_riskometer": "Very High",
+    "product_label": "Long Term Capital Appreciation; Investments predominantly in equity & equity related instruments of multinational companies",
+    "load_structure": "Entry Load: Not Applicable. Exit Load: 1% if redeemed or switched out on or before completion of 1 year from the date of allotment of units. Nil, thereafter",
+    "entry_load": "Not Applicable",
+    "exit_load": null,
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": null,
+    "modified_duration": null,
+    "macaulay_duration": null,
+    "ytm": null,
+    "holdings_count": 24,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [
+      {
+        "sector": "Food Products",
+        "weight": 12.53
+      },
+      {
+        "sector": "Automobiles",
+        "weight": 10.52
+      },
+      {
+        "sector": "Pharmaceuticals & Biotechnology",
+        "weight": 10.42
+      },
+      {
+        "sector": "Auto Components",
+        "weight": 10.06
+      },
+      {
+        "sector": "Industrial Products",
+        "weight": 8.27
+      },
+      {
+        "sector": "IT - Software",
+        "weight": 7.59
+      },
+      {
+        "sector": "Consumer Durables",
+        "weight": 6.41
+      },
+      {
+        "sector": "Diversified FMCG",
+        "weight": 5.29
+      },
+      {
+        "sector": "Healthcare Services",
+        "weight": 4.75
+      },
+      {
+        "sector": "Beverages",
+        "weight": 3.63
+      }
+    ],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 500,
+    "max_investment": null,
+    "suitable_for": [
+      "growth"
+    ]
+  },
+  {
+    "id": "nippon-overnight-fund",
+    "name": "Nippon India Overnight Fund",
+    "category": "Overnight Fund",
+    "instrument_type": "debt",
+    "type_description": "An open-ended debt scheme investing in overnight securities. Relatively Low Interest Rate Risk and Relatively Low Credit Risk.",
+    "investment_philosophy": "The fund endeavours to provide investors with income commensurate with relatively low risk along with higher liquidity by investing in debt and money market instruments maturing on or before next business day. It is suitable for investors with an investment horizon of 1 day to 7 days.",
+    "inception_date": "December 18, 2018",
+    "fund_manager": "Vikash Agarwal (Managing Since Apr 2025); Total Experience of more than 19 years",
+    "benchmark": "CRISIL Liquid Overnight Index",
+    "aum_cr": 7462.91,
+    "aum_monthly_avg_cr": 7702.82,
+    "nav_regular_growth": 144.9285,
+    "nav_direct_growth": 145.9233,
+    "expense_ratio_regular": 0.14,
+    "expense_ratio_direct": 0.07,
+    "riskometer": "Low",
+    "risk_score_1_to_6": 1,
+    "risk_rating": "low",
+    "benchmark_riskometer": "Low",
+    "product_label": "Income over short term; Investment in Debt & Money Market Instruments with overnight maturity",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "A-I (Relatively Low Interest Rate Risk / Relatively Low Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "1 Days",
+    "modified_duration": "1 Days",
+    "macaulay_duration": "1 Days",
+    "ytm": "5.39%",
+    "avg_maturity_years": 0.00274,
+    "modified_duration_years": 0.00274,
+    "macaulay_duration_years": 0.00274,
+    "ytm_decimal": 0.0539,
+    "instrument_allocation": {
+      "cd": null,
+      "cp": null,
+      "gsec_sdl_tbill": 0.0368,
+      "corp_debt": null,
+      "ptc": null,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.9632
+    },
+    "trailing_returns": {
+      "7_days": 5.14,
+      "15_days": 5.1,
+      "30_days": 5.04,
+      "1_year": 5.28,
+      "3_years": 6.15,
+      "5_years": 5.52,
+      "since_inception": 5.1
+    },
+    "holdings_count": 2,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "safety",
+      "income"
+    ]
+  },
+  {
+    "id": "nippon-liquid-fund",
+    "name": "Nippon India Liquid Fund",
+    "category": "Liquid Fund",
+    "instrument_type": "debt",
+    "type_description": "An Open Ended Liquid Scheme. Relatively Low interest rate risk and moderate Credit Risk.",
+    "investment_philosophy": "The fund focuses on reasonable carry with a view to maximize returns while ensuring adequate liquidity through investments in various money market and debt instruments with maturity up to 91 days. The endeavour will be to maintain average maturity of the portfolio in the range of 40 - 70 days under normal market conditions.",
+    "inception_date": "December 09, 2003",
+    "fund_manager": "Vikash Agarwal (Managing Since Sep 2024); Total Experience of more than 19 years",
+    "benchmark": "NIFTY Liquid Index A-I",
+    "aum_cr": 31752.32,
+    "aum_monthly_avg_cr": 36609.54,
+    "nav_regular_growth": 6728.8397,
+    "nav_direct_growth": 6823.3265,
+    "expense_ratio_regular": 0.29,
+    "expense_ratio_direct": 0.17,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Low to Moderate",
+    "product_label": "Income over short term; Investment in debt and money market instruments",
+    "entry_load": "Not Applicable",
+    "exit_load": "Exit Load as % of redemption Investor exit upon subscription/switchout amount (including systematic transactions): Up to Day1: 0.0070%; Day2: 0.0065%; Day3: 0.0060%; Day4: 0.0055%; Day5: 0.0050%; Day6: 0.0045%; Day7 Onwards: 0.0000%",
+    "prc_rating": "B-I (Relatively Low Interest Rate Risk / Moderate Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "48 Days",
+    "modified_duration": "45 Days",
+    "macaulay_duration": "49 Days",
+    "ytm": "6.98%",
+    "avg_maturity_years": 0.131507,
+    "modified_duration_years": 0.123288,
+    "macaulay_duration_years": 0.134247,
+    "ytm_decimal": 0.0698,
+    "instrument_allocation": {
+      "cd": 0.341,
+      "cp": 0.5564,
+      "gsec_sdl_tbill": 0.1605,
+      "corp_debt": null,
+      "ptc": null,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": -0.0609
+    },
+    "trailing_returns": {
+      "7_days": 7.1,
+      "15_days": 6.06,
+      "30_days": 5.72,
+      "1_year": 6.12,
+      "3_years": 6.84,
+      "5_years": 6.02,
+      "since_inception": 6.84
+    },
+    "holdings_count": 59,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "safety",
+      "income"
+    ]
+  },
+  {
+    "id": "nippon-money-market-fund",
+    "name": "Nippon India Money Market Fund",
+    "category": "Money Market Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended debt scheme investing in money market instruments. Relatively Low interest rate risk and moderate Credit Risk.",
+    "investment_philosophy": "The fund would invest in money market instruments like Certificate of Deposits (CD), Commercial Papers (CP), etc. The portfolio duration would be maintained between 110 - 160 days.",
+    "inception_date": "June 16, 2005",
+    "fund_manager": "Vikash Agarwal (Managing Since Sep 2024); Total Experience of more than 19 years",
+    "benchmark": "NIFTY Money Market Index A-I",
+    "aum_cr": 21262.69,
+    "aum_monthly_avg_cr": 21467.34,
+    "nav_regular_growth": 4372.2531,
+    "nav_direct_growth": 4435.3881,
+    "expense_ratio_regular": 0.33,
+    "expense_ratio_direct": 0.19,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Low to Moderate",
+    "product_label": "Income over short term; Investment in money market instruments having residual maturity up to 1 year",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "B-I (Relatively Low Interest Rate Risk / Moderate Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "222 Days",
+    "modified_duration": "196 Days",
+    "macaulay_duration": "212 Days",
+    "ytm": "7.70%",
+    "avg_maturity_years": 0.608219,
+    "modified_duration_years": 0.536986,
+    "macaulay_duration_years": 0.580822,
+    "ytm_decimal": 0.077,
+    "instrument_allocation": {
+      "cd": 0.5973,
+      "cp": 0.2473,
+      "gsec_sdl_tbill": 0.1375,
+      "corp_debt": null,
+      "ptc": null,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0151
+    },
+    "trailing_returns": {
+      "7_days": 6.98,
+      "15_days": 0.65,
+      "30_days": 1.71,
+      "1_year": 5.76,
+      "3_years": 7.12,
+      "5_years": 6.34,
+      "since_inception": 7.29
+    },
+    "holdings_count": 49,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "safety",
+      "income"
+    ]
+  },
+  {
+    "id": "nippon-ultra-short-duration-fund",
+    "name": "Nippon India Ultra Short Duration Fund",
+    "category": "Ultra Short Duration Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended ultra-short term debt scheme investing in debt and money market instruments such that the Macaulay duration of the portfolio is between 3 - 6 months. Moderate interest rate risk and moderate Credit Risk.",
+    "investment_philosophy": "The fund invests in debt and money market instruments with an endeavour to maintain portfolio duration between 120 - 180 days. The aim is to generate higher gross yield through a portfolio investing across credit categories. It endeavors to protect against volatility.",
+    "inception_date": "December 07, 2001",
+    "fund_manager": "Vivek Sharma (Managing Since Oct 2013); Total Experience of more than 20 years",
+    "benchmark": "CRISIL Ultra Short Duration Debt A-I Index",
+    "aum_cr": 10937.99,
+    "aum_monthly_avg_cr": 11296.52,
+    "nav_regular_growth": 4240.5572,
+    "nav_direct_growth": 4707.1862,
+    "expense_ratio_regular": 0.95,
+    "expense_ratio_direct": 0.33,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Low to Moderate",
+    "product_label": "Income over short term; Investment in debt and money market instruments such that the Macaulay duration of the portfolio is between 3 - 6 months",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil (Not applicable for Segregated Portfolio)",
+    "prc_rating": "B-II (Moderate Interest Rate Risk / Moderate Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "216 Days",
+    "modified_duration": "153 Days",
+    "macaulay_duration": "165 Days",
+    "ytm": "7.83%",
+    "avg_maturity_years": 0.591781,
+    "modified_duration_years": 0.419178,
+    "macaulay_duration_years": 0.452055,
+    "ytm_decimal": 0.0783,
+    "instrument_allocation": {
+      "cd": 0.3154,
+      "cp": 0.0424,
+      "gsec_sdl_tbill": 0.0904,
+      "corp_debt": 0.4686,
+      "ptc": 0.0235,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0568
+    },
+    "trailing_returns": {
+      "1_year": 5.79,
+      "3_years": 6.69,
+      "5_years": 6.69,
+      "since_inception": 6.08
+    },
+    "holdings_count": 40,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-low-duration-fund",
+    "name": "Nippon India Low Duration Fund",
+    "category": "Low Duration Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended low duration debt scheme investing in debt and money market instruments such that the Macaulay duration of the portfolio is between 6 - 12 months. Relatively High interest rate risk and moderate Credit Risk.",
+    "investment_philosophy": "The fund endeavours to invest more than 80% in higher rated (AAA/A1+/equivalent) assets. A major part of the portfolio gets invested in 0-9 months and 15 - 30% allocation is made in assets of 9 - 18 months maturity bucket, which aims to give the portfolio carry advantage and roll down benefit. The portfolio duration would be maintained between 180 - 365 days.",
+    "inception_date": "March 20, 2007",
+    "fund_manager": "Vivek Sharma (Managing Since Feb 2020); Total Experience of more than 20 years",
+    "benchmark": "CRISIL Low Duration Debt A-I Index",
+    "aum_cr": 9358.51,
+    "aum_monthly_avg_cr": 9570.27,
+    "nav_regular_growth": 3927.6355,
+    "nav_direct_growth": 4187.2888,
+    "expense_ratio_regular": 0.83,
+    "expense_ratio_direct": 0.32,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Low to Moderate",
+    "product_label": "Income over short term; Investment in debt and money market instruments such that the Macaulay duration of the portfolio is between 6 - 12 months",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "B-III (Relatively High Interest Rate Risk / Moderate Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "448 Days",
+    "modified_duration": "336 Days",
+    "macaulay_duration": "359 Days",
+    "ytm": "7.88%",
+    "avg_maturity_years": 1.227397,
+    "modified_duration_years": 0.920548,
+    "macaulay_duration_years": 0.983562,
+    "ytm_decimal": 0.0788,
+    "instrument_allocation": {
+      "cd": 0.2043,
+      "cp": null,
+      "gsec_sdl_tbill": 0.1098,
+      "corp_debt": 0.5623,
+      "ptc": 0.0751,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0454
+    },
+    "trailing_returns": {
+      "1_year": 5.32,
+      "3_years": 6.71,
+      "5_years": 5.89,
+      "since_inception": 7.38
+    },
+    "holdings_count": 47,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-corporate-bond-fund",
+    "name": "Nippon India Corporate Bond Fund",
+    "category": "Corporate Bond Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended debt scheme predominantly investing in AA+ and above rated corporate bonds. Relatively High interest rate risk and moderate Credit Risk.",
+    "investment_philosophy": "The fund seeks to benefit from opportunities available in the corporate bond market space at different points in time. Therefore, this fund invests based on short to medium term interest rate view and shape of the yield curve. It endeavors to maintain average maturity of the portfolio duration between 1.25-4 years and invests in well researched credits/structures for yield enhancement. The fund is suitable for investors with 2-3 years investment horizon.",
+    "inception_date": "September 14, 2000",
+    "fund_manager": "Vivek Sharma (Managing Since Feb 2020); Total Experience of more than 20 years",
+    "benchmark": "NIFTY Corporate Bond Index A-II",
+    "aum_cr": 9392.92,
+    "aum_monthly_avg_cr": 9756.64,
+    "nav_regular_growth": 62.2804,
+    "nav_direct_growth": 65.5938,
+    "expense_ratio_regular": 0.65,
+    "expense_ratio_direct": 0.31,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Moderate",
+    "product_label": "Income over medium term; Investment predominantly in AA+ and above rated corporate bonds",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "B-III (Relatively High Interest Rate Risk / Moderate Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "2.87 Years",
+    "modified_duration": "2.35 Years",
+    "macaulay_duration": "2.47 Years",
+    "ytm": "7.90%",
+    "avg_maturity_years": 2.87,
+    "modified_duration_years": 2.35,
+    "macaulay_duration_years": 2.47,
+    "ytm_decimal": 0.079,
+    "instrument_allocation": {
+      "cd": 0.0708,
+      "cp": null,
+      "gsec_sdl_tbill": 0.1216,
+      "corp_debt": 0.6792,
+      "ptc": 0.0703,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0551
+    },
+    "trailing_returns": {
+      "1_year": 3.39,
+      "3_years": 6.88,
+      "5_years": 6.26,
+      "since_inception": 7.37
+    },
+    "holdings_count": 35,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-banking-and-psu-fund",
+    "name": "Nippon India Banking and PSU Fund",
+    "category": "Banking and PSU Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended debt scheme predominantly investing in Debt instruments of banks, Public Sector Undertakings, Public Financial Institutions and Municipal Bonds. Relatively High interest rate risk and moderate Credit Risk.",
+    "investment_philosophy": "The fund's portfolio duration will be maintained between 1.5 - 3.5 years. The fund will tactically use up to 10 years G-Secs/ SDLs/ AAA Bonds to generate alpha. Strategy is to capture opportunity on the desired part of yield curve depending on the interest rate expectations going forward.",
+    "inception_date": "May 15, 2015",
+    "fund_manager": "Pranay Sinha (Managing Since Mar 2021), Total Experience of more than 20 years; Vivek Sharma (Managing Since Jun 2020), Total Experience of more than 20 years",
+    "benchmark": "CRISIL Banking and PSU Debt A-II Index",
+    "aum_cr": 5152.74,
+    "aum_monthly_avg_cr": 5157.16,
+    "nav_regular_growth": 21.4622,
+    "nav_direct_growth": 22.3526,
+    "expense_ratio_regular": 0.66,
+    "expense_ratio_direct": 0.33,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Moderate",
+    "product_label": "Income over short to medium term; Investments in debt and money market instruments of various maturities, consisting predominantly of securities issued by Banks, Public Sector undertakings, Public Financial Institutions & Municipal Bonds",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "B-III (Relatively High Interest Rate Risk / Moderate Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "3.47 Years",
+    "modified_duration": "2.79 Years",
+    "macaulay_duration": "2.96 Years",
+    "ytm": "7.76%",
+    "avg_maturity_years": 3.47,
+    "modified_duration_years": 2.79,
+    "macaulay_duration_years": 2.96,
+    "ytm_decimal": 0.0776,
+    "instrument_allocation": {
+      "cd": 0.0367,
+      "cp": 0.0092,
+      "gsec_sdl_tbill": 0.1396,
+      "corp_debt": 0.7354,
+      "ptc": 0.0189,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0568
+    },
+    "trailing_returns": {
+      "1_year": 2.91,
+      "3_years": 6.4,
+      "5_years": 5.65,
+      "since_inception": 7.16
+    },
+    "holdings_count": 40,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-floater-fund",
+    "name": "Nippon India Floater Fund",
+    "category": "Floater Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended debt scheme predominantly investing in floating rate instruments (including fixed rate instruments converted to floating rate exposures using swaps/ derivatives). Relatively High interest rate risk and Low Credit Risk.",
+    "investment_philosophy": "The fund would predominantly invest in HFC/NBFC/Financial Institutions/Private Sector Corporate & Government Securities. The fund would endeavour to invest in high quality assets. The investment horizon for the fund would be around 1-3 years and is ideal for investors who are looking to benefit from higher accrual with lower volatility by investing in a high-grade portfolio. SEBI restriction of up to 65% investments in floating rate instruments will be taken care through a mix of OIS trades & floating rate instruments.",
+    "inception_date": "August 27, 2004",
+    "fund_manager": "Vikash Agarwal (Managing Since Sep 2024); Total Experience of more than 19 years",
+    "benchmark": "NIFTY Short Duration Debt Index A-II",
+    "aum_cr": 7522.06,
+    "aum_monthly_avg_cr": 7531.24,
+    "nav_regular_growth": 47.1742,
+    "nav_direct_growth": 49.7691,
+    "expense_ratio_regular": 0.55,
+    "expense_ratio_direct": 0.3,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Low to Moderate",
+    "product_label": "Income over short term; Investment predominantly in floating rate instruments (Including fixed rate instruments converted to floating rate exposures using swaps/ derivatives)",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "A-III (Relatively Low Credit Risk / Relatively High Interest Rate Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "2.67 Years",
+    "modified_duration": "2.17 Years",
+    "macaulay_duration": "2.29 Years",
+    "ytm": "7.90%",
+    "avg_maturity_years": 2.67,
+    "modified_duration_years": 2.17,
+    "macaulay_duration_years": 2.29,
+    "ytm_decimal": 0.079,
+    "instrument_allocation": {
+      "cd": 0.0529,
+      "cp": null,
+      "gsec_sdl_tbill": 0.2167,
+      "corp_debt": 0.616,
+      "ptc": 0.0796,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0315
+    },
+    "trailing_returns": {
+      "1_year": 4.31,
+      "3_years": 7.06,
+      "5_years": 6.1,
+      "since_inception": 7.39
+    },
+    "holdings_count": 37,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-short-duration-fund",
+    "name": "Nippon India Short Duration Fund",
+    "category": "Short Duration Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended short term debt scheme investing in instruments such that the Macaulay duration of the portfolio is between 1 to 3 years. Relatively High interest rate risk and moderate Credit Risk.",
+    "investment_philosophy": "The fund endeavors to maintain portfolio duration between 1.25 - 2.5 years. The portfolio will have allocations to G-Secs/ SDLs/ High grade bonds primarily in the 1 - 5 years till maturity bucket. Rebalancing to enhance returns through asset allocation and shape of the curve.",
+    "inception_date": "December 18, 2002",
+    "fund_manager": "Sushil Budhia (Managing Since Mar 2021), Total Experience of more than 25 years; Vivek Sharma (Managing Since Feb 2020), Total Experience of more than 20 years",
+    "benchmark": "CRISIL Short Duration Debt A-II Index",
+    "aum_cr": 7246.59,
+    "aum_monthly_avg_cr": 7274.99,
+    "nav_regular_growth": 54.9812,
+    "nav_direct_growth": 60.0467,
+    "expense_ratio_regular": 0.8,
+    "expense_ratio_direct": 0.32,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Low to Moderate",
+    "product_label": "Income over short term; Investment in debt & money market instruments with portfolio Macaulay Duration between 1 - 3 years",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "B-III (Relatively High Interest Rate Risk / Moderate Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "2.73 Years",
+    "modified_duration": "2.30 Years",
+    "macaulay_duration": "2.43 Years",
+    "ytm": "8.03%",
+    "avg_maturity_years": 2.73,
+    "modified_duration_years": 2.3,
+    "macaulay_duration_years": 2.43,
+    "ytm_decimal": 0.0803,
+    "instrument_allocation": {
+      "cd": 0.0131,
+      "cp": null,
+      "gsec_sdl_tbill": 0.2139,
+      "corp_debt": 0.638,
+      "ptc": 0.096,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0352
+    },
+    "trailing_returns": {
+      "1_year": 3.92,
+      "3_years": 6.81,
+      "5_years": 5.86,
+      "since_inception": 7.54
+    },
+    "holdings_count": 37,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-nivesh-lakshya-long-duration-fund",
+    "name": "Nippon India Nivesh Lakshya Long Duration Fund",
+    "category": "Long Duration Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended debt scheme investing in instruments such that the Macaulay duration of the portfolio is greater than 7 years. Relatively High interest rate risk and Relatively Low Credit Risk.",
+    "investment_philosophy": "The fund's investments are in long term fixed income securities predominantly Government Securities at the current yields. Most of the securities are held till maturity. Rebalancing of the portfolio is done to ensure that similar securities mix is maintained.",
+    "inception_date": "July 06, 2018",
+    "fund_manager": "Pranay Sinha (Managing Since Mar 2021); Total Experience of more than 20 years",
+    "benchmark": "CRISIL Long Duration Debt A-III Index",
+    "aum_cr": 6720.14,
+    "aum_monthly_avg_cr": 7039.62,
+    "nav_regular_growth": 17.7136,
+    "nav_direct_growth": 18.1612,
+    "expense_ratio_regular": 0.55,
+    "expense_ratio_direct": 0.28,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Moderate",
+    "product_label": "Income over long term; Investment in Debt & Money Market Instruments with portfolio Macaulay duration of greater than 7 years",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "A-III (Relatively Low Credit Risk / Relatively High Interest Rate Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "21.61 Years",
+    "modified_duration": "10.22 Years",
+    "macaulay_duration": "10.61 Years",
+    "ytm": "7.67%",
+    "avg_maturity_years": 21.61,
+    "modified_duration_years": 10.22,
+    "macaulay_duration_years": 10.61,
+    "ytm_decimal": 0.0767,
+    "instrument_allocation": {
+      "cd": null,
+      "cp": null,
+      "gsec_sdl_tbill": 0.963,
+      "corp_debt": null,
+      "ptc": null,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0328
+    },
+    "trailing_returns": {
+      "1_year": -2.7,
+      "3_years": 4.96,
+      "5_years": 5.13,
+      "since_inception": 7.5
+    },
+    "holdings_count": 2,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-credit-risk-fund-existing-number-of-segregated-portfolios-1",
+    "name": "Nippon India Credit Risk Fund (Existing Number of Segregated Portfolios - 1)",
+    "category": "Credit Risk Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended debt scheme predominantly investing in AA and below rated corporate bonds (excluding AA+ rated corporate bonds). Relatively High interest rate risk and Relatively High Credit Risk.",
+    "investment_philosophy": "The fund focuses on maximizing accrual with increased allocation to AA- and below segment, while maintaining duration of 1.5 - 2.5 years. The core mandate is to generate returns through credit risk diversification. Emphasis is on credit profile.",
+    "inception_date": "June 08, 2005",
+    "fund_manager": "Sushil Budhia (Managing Since Feb 2020); Total Experience of more than 25 years",
+    "benchmark": "CRISIL Credit Risk Debt B-II Index",
+    "aum_cr": null,
+    "aum_monthly_avg_cr": null,
+    "nav_regular_growth": 37.1385,
+    "nav_direct_growth": 41.1534,
+    "expense_ratio_regular": null,
+    "expense_ratio_direct": null,
+    "riskometer": "Moderately High",
+    "risk_score_1_to_6": 4,
+    "risk_rating": "moderately_high",
+    "benchmark_riskometer": "Moderately High",
+    "product_label": "Income over medium term; Investment predominantly in AA and below rated corporate bonds",
+    "entry_load": "Not Applicable",
+    "exit_load": "10% of the units allotted shall be redeemed without any exit load, on or before completion of 12 months from date of allotment of units. Any redemption in excess of such limit in first 12 months from the date of allotment shall be subject to following exit load: 1% if redeemed/switched out on or before completion of 12 months from date of allotment; Nil if after completion of 12 months. Redemption on FIFO basis. Not applicable for Segregated Portfolio.",
+    "prc_rating": "C-III (Relatively High Interest Rate Risk / Relatively High Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "2.43 Years",
+    "modified_duration": "2.03 Years",
+    "macaulay_duration": "2.11 Years",
+    "ytm": "9.12%",
+    "avg_maturity_years": 2.43,
+    "modified_duration_years": 2.03,
+    "macaulay_duration_years": 2.11,
+    "ytm_decimal": 0.0912,
+    "instrument_allocation": {
+      "cd": 0.067,
+      "cp": 0.007,
+      "gsec_sdl_tbill": 0.1421,
+      "corp_debt": 0.7343,
+      "ptc": null,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0475
+    },
+    "trailing_returns": {},
+    "holdings_count": 36,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income"
+    ]
+  },
+  {
+    "id": "nippon-medium-duration-fund-existing-number-of-segregated-portfolios-1",
+    "name": "Nippon India Medium Duration Fund (Existing Number of Segregated Portfolios - 1)",
+    "category": "Medium Duration Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended medium term debt scheme investing in instruments such that the Macaulay duration of the portfolio is between 3 to 4 years. Relatively High interest rate risk and Relatively High Credit Risk.",
+    "investment_philosophy": "The fund's core allocation of the portfolio is made into AA+ to AA rated Corporate Bonds. The focus is on carry with moderate duration. The fund intends to generate alpha through spread compression and rolldown over 3 years period.",
+    "inception_date": "June 26, 2014",
+    "fund_manager": "Sushil Budhia (Managing Since Feb 2020); Total Experience of more than 25 years",
+    "benchmark": "CRISIL Medium Duration Debt A-III Index",
+    "aum_cr": null,
+    "aum_monthly_avg_cr": null,
+    "nav_regular_growth": 16.464,
+    "nav_direct_growth": 17.9155,
+    "expense_ratio_regular": null,
+    "expense_ratio_direct": null,
+    "riskometer": "Moderately High",
+    "risk_score_1_to_6": 4,
+    "risk_rating": "moderately_high",
+    "benchmark_riskometer": "Moderate",
+    "product_label": "Income over medium term; Investment predominantly in debt and money market instruments with portfolio Macaulay Duration of 3 - 4 yrs",
+    "entry_load": "Not Applicable",
+    "exit_load": "Exit Load: 1%, if redeemed or switched out on or before completion of 12 months from date of allotment of units. Nil thereafter. Not applicable for Segregated Portfolio",
+    "prc_rating": "C-III (Relatively High Interest Rate Risk / Relatively High Credit Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "4.54 Years",
+    "modified_duration": "3.09 Years",
+    "macaulay_duration": "3.23 Years",
+    "ytm": "8.08%",
+    "avg_maturity_years": 4.54,
+    "modified_duration_years": 3.09,
+    "macaulay_duration_years": 3.23,
+    "ytm_decimal": 0.0808,
+    "instrument_allocation": {
+      "cd": 0.0646,
+      "cp": null,
+      "gsec_sdl_tbill": 0.2342,
+      "corp_debt": 0.5194,
+      "ptc": 0.0334,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.1451
+    },
+    "trailing_returns": {},
+    "holdings_count": 23,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-medium-to-long-duration-fund",
+    "name": "Nippon India Medium to Long Duration Fund",
+    "category": "Medium to Long Duration Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended medium term debt scheme investing in instruments such that the Macaulay duration of the portfolio is between 4 to 7 years. Relatively High interest rate risk and Relatively Low Credit Risk.",
+    "investment_philosophy": "The fund follows two-pronged strategy: Core and Tactical. Core strategy to reflect medium to long term view on interest rates and yield curve. The tactical strategy is to benefit out of short term opportunities in the market. The strategy is implemented through high grade assets like G-Secs/ SDLs/ Corporate Bonds to generate alpha by actively using G-Secs, IRF and IRS curve.",
+    "inception_date": "January 01, 1998",
+    "fund_manager": "Vivek Sharma (Managing Since Feb 2020); Total Experience of more than 20 years",
+    "benchmark": "NIFTY Medium to Long Duration Debt Index A-III",
+    "aum_cr": 357.19,
+    "aum_monthly_avg_cr": 360.62,
+    "nav_regular_growth": 90.8964,
+    "nav_direct_growth": 102.4388,
+    "expense_ratio_regular": 1.29,
+    "expense_ratio_direct": 0.57,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Moderate",
+    "product_label": "Income over medium to long term; Investment in debt and money market instruments with portfolio Macaulay Duration of 4 - 7 yrs",
+    "entry_load": "Not Applicable",
+    "exit_load": "0.25%, if redeemed or switched out on or before completion of 15 days from date of allotment of units. Nil, thereafter.",
+    "prc_rating": "A-III (Relatively Low Credit Risk / Relatively High Interest Rate Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "14.02 Years",
+    "modified_duration": "6.43 Years",
+    "macaulay_duration": "6.69 Years",
+    "ytm": "7.41%",
+    "avg_maturity_years": 14.02,
+    "modified_duration_years": 6.43,
+    "macaulay_duration_years": 6.69,
+    "ytm_decimal": 0.0741,
+    "instrument_allocation": {
+      "cd": null,
+      "cp": null,
+      "gsec_sdl_tbill": 0.8471,
+      "corp_debt": 0.0838,
+      "ptc": null,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0656
+    },
+    "trailing_returns": {
+      "1_year": 0.63,
+      "3_years": 5.37,
+      "5_years": 5.02,
+      "since_inception": 8.07
+    },
+    "holdings_count": 6,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-dynamic-bond-fund",
+    "name": "Nippon India Dynamic Bond Fund",
+    "category": "Dynamic Bond Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended dynamic debt scheme investing across duration. Relatively High interest rate risk and Relatively Low Credit Risk.",
+    "investment_philosophy": "The fund invests predominantly in State Government Securities at the current yields. Most of the securities are held till maturity. Rebalancing of the portfolio is done to ensure that similar securities mix is maintained. As per the current strategy this fund is suitable for investors with an investment horizon of more than 3 years.",
+    "inception_date": "November 15, 2004",
+    "fund_manager": "Pranay Sinha (Managing Since Mar 2021), Total Experience of more than 20 years; Vivek Sharma (Managing Since Jun 2020), Total Experience of more than 20 years",
+    "benchmark": "NIFTY Composite Debt Index A-III",
+    "aum_cr": 3908.74,
+    "aum_monthly_avg_cr": 3937.48,
+    "nav_regular_growth": 38.3987,
+    "nav_direct_growth": 41.3436,
+    "expense_ratio_regular": 0.63,
+    "expense_ratio_direct": 0.3,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Moderate",
+    "product_label": "Income over long term; Investment in debt and money market instruments across duration",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "A-III (Relatively Low Credit Risk / Relatively High Interest Rate Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "4.10 Years",
+    "modified_duration": "3.43 Years",
+    "macaulay_duration": "3.56 Years",
+    "ytm": "7.49%",
+    "avg_maturity_years": 4.1,
+    "modified_duration_years": 3.43,
+    "macaulay_duration_years": 3.56,
+    "ytm_decimal": 0.0749,
+    "instrument_allocation": {
+      "cd": null,
+      "cp": null,
+      "gsec_sdl_tbill": 0.9758,
+      "corp_debt": null,
+      "ptc": null,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0208
+    },
+    "trailing_returns": {
+      "1_year": 1.85,
+      "3_years": 6.52,
+      "5_years": 5.65,
+      "since_inception": 6.44
+    },
+    "holdings_count": 4,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  },
+  {
+    "id": "nippon-gilt-fund",
+    "name": "Nippon India Gilt Fund",
+    "category": "Gilt Fund",
+    "instrument_type": "debt",
+    "type_description": "An open ended debt scheme investing in government securities across maturity. Relatively High interest rate risk and Relatively Low Credit Risk.",
+    "investment_philosophy": "The fund follows two-pronged strategy: Core and Tactical. Core strategy to reflect medium to long term view on interest rates and yield curve. Tactical strategy to benefit out of short term opportunities in the market. The strategy is implemented through high grade assets like G-Secs/SDLs to generate alpha by actively using G-Secs, IRF and IRS curve.",
+    "inception_date": "August 22, 2008",
+    "fund_manager": "Pranay Sinha (Managing Since Mar 2021); Total Experience of more than 20 years",
+    "benchmark": "NIFTY All Duration G-Sec Index",
+    "aum_cr": 1637.22,
+    "aum_monthly_avg_cr": 1658.16,
+    "nav_regular_growth": 38.0257,
+    "nav_direct_growth": 43.1735,
+    "expense_ratio_regular": 1.06,
+    "expense_ratio_direct": 0.42,
+    "riskometer": "Moderate",
+    "risk_score_1_to_6": 3,
+    "risk_rating": "moderate",
+    "benchmark_riskometer": "Moderate",
+    "product_label": "Income over long term; Investment in government securities across maturity",
+    "entry_load": "Not Applicable",
+    "exit_load": "Nil",
+    "prc_rating": "A-III (Relatively Low Credit Risk / Relatively High Interest Rate Risk)",
+    "std_deviation": null,
+    "beta": null,
+    "sharpe_ratio": null,
+    "portfolio_turnover": null,
+    "sip_returns": {},
+    "avg_maturity": "21.29 Years",
+    "modified_duration": "8.66 Years",
+    "macaulay_duration": "8.99 Years",
+    "ytm": "7.45%",
+    "avg_maturity_years": 21.29,
+    "modified_duration_years": 8.66,
+    "macaulay_duration_years": 8.99,
+    "ytm_decimal": 0.0745,
+    "instrument_allocation": {
+      "cd": null,
+      "cp": null,
+      "gsec_sdl_tbill": 0.9549,
+      "corp_debt": null,
+      "ptc": null,
+      "invit": null,
+      "equity": null,
+      "treps_repo_cash": 0.0451
+    },
+    "trailing_returns": {
+      "1_year": -1.56,
+      "3_years": 4.98,
+      "5_years": 4.61,
+      "since_inception": 7.8
+    },
+    "holdings_count": 3,
+    "holdings_as_of": "2026-05-31",
+    "sector_allocation": [],
+    "data_vintage": "2026-06-refresh",
+    "min_age": null,
+    "max_age": null,
+    "min_monthly_income": null,
+    "min_investment": 5000,
+    "max_investment": null,
+    "suitable_for": [
+      "income",
+      "safety"
+    ]
+  }
+]

@@ -1,0 +1,5941 @@
+{
+  "nippon-large-cap-fund": {
+    "scheme_name": "Nippon India Large Cap Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 32,
+    "holdings": [
+      {
+        "name": "Tata Consumer Products Limited",
+        "weight": 1.03,
+        "is_top_10": false,
+        "sector": "Agricultural Food & other Products"
+      },
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 1.79,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Maruti Suzuki India Limited",
+        "weight": 2.44,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Mahindra & Mahindra Limited",
+        "weight": 2.35,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 9.31,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 8.19,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 4.06,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 2.35,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Kotak Mahindra Bank Limited",
+        "weight": 1.49,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Larsen & Toubro Limited",
+        "weight": 3.47,
+        "is_top_10": true,
+        "sector": "Construction"
+      },
+      {
+        "name": "Hindustan Unilever Limited",
+        "weight": 2.71,
+        "is_top_10": true,
+        "sector": "Diversified FMCG"
+      },
+      {
+        "name": "ITC Limited",
+        "weight": 2.5,
+        "is_top_10": false,
+        "sector": "Diversified FMCG"
+      },
+      {
+        "name": "GE Vernova T&D India Limited",
+        "weight": 2.81,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "ABB India Limited",
+        "weight": 1.13,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Tata Steel Limited",
+        "weight": 1.17,
+        "is_top_10": false,
+        "sector": "Ferrous Metals"
+      },
+      {
+        "name": "Bajaj Finance Limited",
+        "weight": 3.52,
+        "is_top_10": true,
+        "sector": "Finance"
+      },
+      {
+        "name": "Infosys Limited",
+        "weight": 2.72,
+        "is_top_10": true,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Tata Consultancy Services Limited",
+        "weight": 2.19,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "HDFC Life Insurance Company Limited",
+        "weight": 1.21,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "SBI Life Insurance Company Limited",
+        "weight": 1.19,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Chalet Hotels Limited",
+        "weight": 1.02,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Reliance Industries Limited",
+        "weight": 4.2,
+        "is_top_10": true,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "Sun Pharmaceutical Industries Limited",
+        "weight": 2.8,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Dr. Reddy's Laboratories Limited",
+        "weight": 1.35,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Divi's Laboratories Limited",
+        "weight": 1.11,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Cipla Limited",
+        "weight": 1.11,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Lupin Limited",
+        "weight": 1.03,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "NTPC Limited",
+        "weight": 2.1,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "Tata Power Company Limited",
+        "weight": 1.83,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "Avenue Supermarts Limited",
+        "weight": 2.2,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Eternal Limited",
+        "weight": 1.55,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Trent Limited",
+        "weight": 1.33,
+        "is_top_10": false,
+        "sector": "Retailing"
+      }
+    ]
+  },
+  "nippon-vision-large-mid-cap-fund": {
+    "scheme_name": "Nippon India Vision Large & Mid Cap Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 36,
+    "holdings": [
+      {
+        "name": "Tata Consumer Products Limited",
+        "weight": 1.28,
+        "is_top_10": false,
+        "sector": "Agricultural Food & other Products"
+      },
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 1.65,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Bajaj Auto Limited",
+        "weight": 1.74,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "TVS Motor Company Limited",
+        "weight": 1.62,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Hyundai Motor India Ltd",
+        "weight": 1.25,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 4.11,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 3.04,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 2.94,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 2.67,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "IndusInd Bank Limited",
+        "weight": 1.01,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Varun Beverages Limited",
+        "weight": 1.9,
+        "is_top_10": true,
+        "sector": "Beverages"
+      },
+      {
+        "name": "BSE Limited",
+        "weight": 2.55,
+        "is_top_10": true,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "ICICI Prudential Asset Management Company Limited",
+        "weight": 1.41,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "UltraTech Cement Limited",
+        "weight": 1.43,
+        "is_top_10": false,
+        "sector": "Cement & Cement Products"
+      },
+      {
+        "name": "JK Cement Limited",
+        "weight": 1.07,
+        "is_top_10": false,
+        "sector": "Cement & Cement Products"
+      },
+      {
+        "name": "Larsen & Toubro Limited",
+        "weight": 1.63,
+        "is_top_10": false,
+        "sector": "Construction"
+      },
+      {
+        "name": "Titan Company Limited",
+        "weight": 1.7,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Blue Star Limited",
+        "weight": 1.42,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Dixon Technologies (India) Limited",
+        "weight": 1.27,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "CG Power and Industrial Solutions Limited",
+        "weight": 1.9,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Bharat Heavy Electricals Limited",
+        "weight": 1.33,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "One 97 Communications Limited",
+        "weight": 1.24,
+        "is_top_10": false,
+        "sector": "Food Products"
+      },
+      {
+        "name": "Britannia Industries Limited",
+        "weight": 1.15,
+        "is_top_10": false,
+        "sector": "Food Products"
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "weight": 1.02,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Coforge Limited",
+        "weight": 2.08,
+        "is_top_10": true,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Persistent Systems Limited",
+        "weight": 1.58,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "KEI Industries Limited",
+        "weight": 1.46,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "Oil & Natural Gas Corporation Limited",
+        "weight": 2.57,
+        "is_top_10": true,
+        "sector": "Oil"
+      },
+      {
+        "name": "Reliance Industries Limited",
+        "weight": 2.37,
+        "is_top_10": true,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "Biocon Limited",
+        "weight": 1.41,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Aurobindo Pharma Limited",
+        "weight": 1.28,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "NTPC Limited",
+        "weight": 1.42,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "FSN E-Commerce Ventures Limited",
+        "weight": 1.81,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Trent Limited",
+        "weight": 1.8,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Eternal Limited",
+        "weight": 1.61,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Indus Towers Limited",
+        "weight": 1.03,
+        "is_top_10": false,
+        "sector": "Telecom - Services"
+      }
+    ]
+  },
+  "nippon-quant-fund": {
+    "scheme_name": "Nippon India Quant Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 36,
+    "holdings": [
+      {
+        "name": "Bharat Electronics Limited",
+        "weight": 3.51,
+        "is_top_10": true,
+        "sector": "Aerospace & Defense"
+      },
+      {
+        "name": "Hindustan Aeronautics Limited",
+        "weight": 1.75,
+        "is_top_10": false,
+        "sector": "Aerospace & Defense"
+      },
+      {
+        "name": "Tata Consumer Products Limited",
+        "weight": 1.49,
+        "is_top_10": false,
+        "sector": "Agricultural Food & other Products"
+      },
+      {
+        "name": "Mahindra & Mahindra Limited",
+        "weight": 3.02,
+        "is_top_10": true,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "TVS Motor Company Limited",
+        "weight": 2.27,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Bajaj Auto Limited",
+        "weight": 2.0,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Eicher Motors Limited",
+        "weight": 1.94,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Maruti Suzuki India Limited",
+        "weight": 1.82,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 6.79,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 5.03,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 4.95,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Varun Beverages Limited",
+        "weight": 2.33,
+        "is_top_10": true,
+        "sector": "Beverages"
+      },
+      {
+        "name": "HDFC Asset Management Company Limited",
+        "weight": 1.93,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "Larsen & Toubro Limited",
+        "weight": 5.32,
+        "is_top_10": true,
+        "sector": "Construction"
+      },
+      {
+        "name": "Dixon Technologies (India) Limited",
+        "weight": 2.96,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Asian Paints Limited",
+        "weight": 1.81,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "GE Vernova T&D India Limited",
+        "weight": 3.2,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Bajaj Finance Limited",
+        "weight": 2.85,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "weight": 2.51,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Muthoot Finance Limited",
+        "weight": 2.26,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Shriram Finance Limited",
+        "weight": 1.96,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Britannia Industries Limited",
+        "weight": 1.59,
+        "is_top_10": false,
+        "sector": "Food Products"
+      },
+      {
+        "name": "Petronet LNG Limited",
+        "weight": 1.22,
+        "is_top_10": false,
+        "sector": "Gas"
+      },
+      {
+        "name": "Apollo Hospitals Enterprise Limited",
+        "weight": 2.58,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Infosys Limited",
+        "weight": 3.35,
+        "is_top_10": true,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Tech Mahindra Limited",
+        "weight": 2.41,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Cummins India Limited",
+        "weight": 1.82,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "SBI Life Insurance Company Limited",
+        "weight": 1.65,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Vedanta Aluminium Metal Limited",
+        "weight": 1.31,
+        "is_top_10": false,
+        "sector": "Non-Ferrous Metals"
+      },
+      {
+        "name": "Reliance Industries Limited",
+        "weight": 5.71,
+        "is_top_10": true,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "Lupin Limited",
+        "weight": 2.14,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "NTPC Limited",
+        "weight": 2.79,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "Power Grid Corporation of India Limited",
+        "weight": 2.22,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "FSN E-Commerce Ventures Limited",
+        "weight": 1.89,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Trent Limited",
+        "weight": 1.76,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Bharti Airtel Limited",
+        "weight": 3.62,
+        "is_top_10": true,
+        "sector": "Telecom - Services"
+      }
+    ]
+  },
+  "nippon-growth-mid-cap-fund": {
+    "scheme_name": "Nippon India Growth Mid Cap Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 37,
+    "holdings": [
+      {
+        "name": "Ashok Leyland Limited",
+        "weight": 1.44,
+        "is_top_10": false,
+        "sector": "Agricultural, Commercial & Construction Vehicles"
+      },
+      {
+        "name": "Bharat Forge Limited",
+        "weight": 2.25,
+        "is_top_10": true,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 1.6,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Tube Investments of India Limited",
+        "weight": 1.59,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "The Federal Bank Limited",
+        "weight": 2.5,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "AU Small Finance Bank Limited",
+        "weight": 2.28,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 1.85,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Indian Bank",
+        "weight": 1.41,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Varun Beverages Limited",
+        "weight": 1.82,
+        "is_top_10": true,
+        "sector": "Beverages"
+      },
+      {
+        "name": "BSE Limited",
+        "weight": 3.32,
+        "is_top_10": true,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "Multi Commodity Exchange of India Limited",
+        "weight": 1.5,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "Angel One Limited",
+        "weight": 1.18,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "Voltas Limited",
+        "weight": 1.14,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "GE Vernova T&D India Limited",
+        "weight": 1.95,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Bharat Heavy Electricals Limited",
+        "weight": 1.09,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "weight": 2.01,
+        "is_top_10": true,
+        "sector": "Finance"
+      },
+      {
+        "name": "Cholamandalam Financial Holdings Limited",
+        "weight": 1.8,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Max Financial Services Limited",
+        "weight": 1.73,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "ICICI Lombard General Insurance Company Limited",
+        "weight": 1.28,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Persistent Systems Limited",
+        "weight": 1.8,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Cummins India Limited",
+        "weight": 1.61,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "APL Apollo Tubes Limited",
+        "weight": 1.12,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "The Indian Hotels Company Limited",
+        "weight": 1.07,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Mankind Pharma Limited",
+        "weight": 1.7,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Alkem Laboratories Limited",
+        "weight": 1.33,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Gland Pharma Limited",
+        "weight": 1.05,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "NTPC Green Energy Limited",
+        "weight": 1.69,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "NLC India Limited",
+        "weight": 1.1,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "NTPC Limited",
+        "weight": 1.14,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "Torrent Power Limited (Torrent group)",
+        "weight": 1.05,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "Prestige Estates Projects Limited",
+        "weight": 1.08,
+        "is_top_10": false,
+        "sector": "Realty"
+      },
+      {
+        "name": "Eternal Limited",
+        "weight": 2.17,
+        "is_top_10": true,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Info Edge (India) Limited",
+        "weight": 2.1,
+        "is_top_10": true,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Indus Towers Limited",
+        "weight": 1.68,
+        "is_top_10": false,
+        "sector": "Telecom - Services"
+      },
+      {
+        "name": "One 97 Communications Limited",
+        "weight": 1.56,
+        "is_top_10": false,
+        "sector": "Financial Technology (Fintech)"
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "weight": 2.68,
+        "is_top_10": true,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Max Healthcare Institute Limited",
+        "weight": 1.36,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      }
+    ]
+  },
+  "nippon-focused-fund": {
+    "scheme_name": "Nippon India Focused Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 29,
+    "holdings": [
+      {
+        "name": "Hindustan Aeronautics Limited",
+        "weight": 3.53,
+        "is_top_10": false,
+        "sector": "Aerospace & Defense"
+      },
+      {
+        "name": "Tata Motors Limited",
+        "weight": 1.48,
+        "is_top_10": false,
+        "sector": "Agricultural, Commercial & Construction Vehicles"
+      },
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 3.19,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Tube Investments of India Limited",
+        "weight": 2.58,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 8.56,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 8.25,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 7.02,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 3.99,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Varun Beverages Limited",
+        "weight": 4.11,
+        "is_top_10": true,
+        "sector": "Beverages"
+      },
+      {
+        "name": "Angel One Limited",
+        "weight": 2.48,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "3M India Limited",
+        "weight": 2.53,
+        "is_top_10": false,
+        "sector": "Diversified"
+      },
+      {
+        "name": "Siemens Energy India Limited",
+        "weight": 3.6,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Bharat Heavy Electricals Limited",
+        "weight": 2.44,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "PVR INOX Limited",
+        "weight": 1.06,
+        "is_top_10": false,
+        "sector": "Entertainment"
+      },
+      {
+        "name": "Bajaj Finserv Limited",
+        "weight": 3.62,
+        "is_top_10": true,
+        "sector": "Finance"
+      },
+      {
+        "name": "SBI Cards and Payment Services Limited",
+        "weight": 3.35,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Syngene International Limited",
+        "weight": 3.03,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Infosys Limited",
+        "weight": 4.75,
+        "is_top_10": true,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Sapphire Foods India Limited",
+        "weight": 1.41,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Thomas Cook (India) Limited",
+        "weight": 1.33,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Restaurant Brands Asia Limited",
+        "weight": 1.31,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Oil & Natural Gas Corporation Limited",
+        "weight": 2.22,
+        "is_top_10": false,
+        "sector": "Oil"
+      },
+      {
+        "name": "Reliance Industries Limited",
+        "weight": 3.08,
+        "is_top_10": false,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "Biocon Limited",
+        "weight": 1.94,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Eternal Limited",
+        "weight": 4.27,
+        "is_top_10": true,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Trent Limited",
+        "weight": 3.61,
+        "is_top_10": true,
+        "sector": "Retailing"
+      },
+      {
+        "name": "FSN E-Commerce Ventures Limited",
+        "weight": 2.99,
+        "is_top_10": false,
+        "sector": "Diversified (other)"
+      },
+      {
+        "name": "MedPlus Health Services Limited",
+        "weight": 2.24,
+        "is_top_10": false,
+        "sector": "Diversified (other)"
+      },
+      {
+        "name": "Swiggy Limited",
+        "weight": 1.96,
+        "is_top_10": false,
+        "sector": "Diversified (other)"
+      }
+    ]
+  },
+  "nippon-small-cap-fund": {
+    "scheme_name": "Nippon India Small Cap Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 11,
+    "holdings": [
+      {
+        "name": "Tube Investments of India Limited",
+        "weight": 1.05,
+        "is_top_10": true,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 1.77,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 1.29,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Karur Vysya Bank Limited",
+        "weight": 1.23,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 1.03,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Multi Commodity Exchange of India Limited",
+        "weight": 1.57,
+        "is_top_10": true,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "Bharat Heavy Electricals Limited",
+        "weight": 1.93,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "TD Power Systems Limited",
+        "weight": 1.71,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Apar Industries Limited",
+        "weight": 1.55,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Zydus Wellness Limited",
+        "weight": 1.17,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "NLC India Limited",
+        "weight": 1.26,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      }
+    ]
+  },
+  "nippon-value-fund": {
+    "scheme_name": "Nippon India Value Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 32,
+    "holdings": [
+      {
+        "name": "Maruti Suzuki India Limited",
+        "weight": 1.81,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Tata Motors Passenger Vehicles Limited",
+        "weight": 1.32,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 7.3,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 4.39,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "IndusInd Bank Limited",
+        "weight": 3.73,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 3.41,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 3.07,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Kotak Mahindra Bank Limited",
+        "weight": 2.9,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Larsen & Toubro Limited",
+        "weight": 2.12,
+        "is_top_10": false,
+        "sector": "Construction"
+      },
+      {
+        "name": "Coal India Limited",
+        "weight": 1.67,
+        "is_top_10": false,
+        "sector": "Consumable Fuels"
+      },
+      {
+        "name": "Asian Paints Limited",
+        "weight": 2.29,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "PG Electroplast Limited",
+        "weight": 1.67,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Dixon Technologies (India) Limited",
+        "weight": 1.52,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Voltas Limited",
+        "weight": 1.49,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "ITC Limited",
+        "weight": 1.8,
+        "is_top_10": false,
+        "sector": "Diversified FMCG"
+      },
+      {
+        "name": "Bharat Heavy Electricals Limited",
+        "weight": 3.07,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Jindal Steel Limited",
+        "weight": 1.66,
+        "is_top_10": false,
+        "sector": "Ferrous Metals"
+      },
+      {
+        "name": "Bajaj Finance Limited",
+        "weight": 1.94,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Piramal Finance Limited",
+        "weight": 1.6,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "PB Fintech Limited",
+        "weight": 1.03,
+        "is_top_10": false,
+        "sector": "Financial Technology (Fintech)"
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "weight": 1.0,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Tata Consultancy Services Limited",
+        "weight": 1.97,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Infosys Limited",
+        "weight": 1.74,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "LTM Limited",
+        "weight": 1.12,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Kaynes Technology India Limited",
+        "weight": 1.04,
+        "is_top_10": false,
+        "sector": "Industrial Manufacturing"
+      },
+      {
+        "name": "Max Financial Services Limited",
+        "weight": 1.08,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Reliance Industries Limited",
+        "weight": 2.88,
+        "is_top_10": true,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "Torrent Pharmaceuticals Limited",
+        "weight": 1.64,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "NTPC Limited",
+        "weight": 4.14,
+        "is_top_10": true,
+        "sector": "Power"
+      },
+      {
+        "name": "NTPC Green Energy Limited",
+        "weight": 1.46,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "Trent Limited",
+        "weight": 1.1,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Bharti Airtel Limited",
+        "weight": 3.05,
+        "is_top_10": true,
+        "sector": "Telecom - Services"
+      }
+    ]
+  },
+  "nippon-multi-cap-fund": {
+    "scheme_name": "Nippon India Multi Cap Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 29,
+    "holdings": [
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 1.78,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Maruti Suzuki India Limited",
+        "weight": 1.17,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 6.0,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 4.21,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 3.53,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 1.1,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Aditya Birla Sun Life AMC Limited",
+        "weight": 1.08,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "Linde India Limited",
+        "weight": 2.06,
+        "is_top_10": true,
+        "sector": "Chemicals & Petrochemicals"
+      },
+      {
+        "name": "Larsen & Toubro Limited",
+        "weight": 1.9,
+        "is_top_10": true,
+        "sector": "Construction"
+      },
+      {
+        "name": "Voltas Limited",
+        "weight": 1.05,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "ITC Limited",
+        "weight": 1.5,
+        "is_top_10": false,
+        "sector": "Diversified FMCG"
+      },
+      {
+        "name": "GE Vernova T&D India Limited",
+        "weight": 2.87,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Siemens Energy India Limited",
+        "weight": 1.32,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Hitachi Energy India Limited",
+        "weight": 1.17,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Bajaj Finance Limited",
+        "weight": 1.52,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Infosys Limited",
+        "weight": 2.49,
+        "is_top_10": true,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Kennametal India Limited",
+        "weight": 1.06,
+        "is_top_10": false,
+        "sector": "Industrial Manufacturing"
+      },
+      {
+        "name": "Vesuvius India Limited",
+        "weight": 1.32,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "Max Financial Services Limited",
+        "weight": 2.09,
+        "is_top_10": true,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Jubilant Foodworks Limited",
+        "weight": 1.12,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "EIH Limited",
+        "weight": 1.1,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "The Indian Hotels Company Limited",
+        "weight": 1.1,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Reliance Industries Limited",
+        "weight": 2.88,
+        "is_top_10": true,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "Lupin Limited",
+        "weight": 1.07,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "NTPC Limited",
+        "weight": 4.14,
+        "is_top_10": true,
+        "sector": "Power"
+      },
+      {
+        "name": "NTPC Green Energy Limited",
+        "weight": 1.46,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "Trent Limited",
+        "weight": 1.1,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Swiggy Limited",
+        "weight": 1.29,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Crompton Greaves Consumer Electricals Limited",
+        "weight": 1.05,
+        "is_top_10": false,
+        "sector": "Retailing"
+      }
+    ]
+  },
+  "nippon-flexi-cap-fund": {
+    "scheme_name": "Nippon India Flexi Cap Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 35,
+    "holdings": [
+      {
+        "name": "Hindustan Aeronautics Limited",
+        "weight": 1.48,
+        "is_top_10": false,
+        "sector": "Aerospace & Defense"
+      },
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 2.01,
+        "is_top_10": true,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Mahindra & Mahindra Limited",
+        "weight": 2.41,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Maruti Suzuki India Limited",
+        "weight": 1.46,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 6.64,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 6.06,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 4.05,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 1.98,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Kotak Mahindra Bank Limited",
+        "weight": 1.08,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Radico Khaitan Limited",
+        "weight": 1.51,
+        "is_top_10": false,
+        "sector": "Beverages"
+      },
+      {
+        "name": "Varun Beverages Limited",
+        "weight": 1.39,
+        "is_top_10": false,
+        "sector": "Beverages"
+      },
+      {
+        "name": "Aditya Birla Sun Life AMC Limited",
+        "weight": 1.31,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "UltraTech Cement Limited",
+        "weight": 1.05,
+        "is_top_10": false,
+        "sector": "Cement & Cement Products"
+      },
+      {
+        "name": "Larsen & Toubro Limited",
+        "weight": 2.82,
+        "is_top_10": true,
+        "sector": "Construction"
+      },
+      {
+        "name": "Vedanta Limited",
+        "weight": 1.09,
+        "is_top_10": false,
+        "sector": "Diversified Metals"
+      },
+      {
+        "name": "Siemens Energy India Limited",
+        "weight": 1.79,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Bharat Heavy Electricals Limited",
+        "weight": 1.56,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Jindal Steel Limited",
+        "weight": 1.75,
+        "is_top_10": false,
+        "sector": "Ferrous Metals"
+      },
+      {
+        "name": "Bajaj Finance Limited",
+        "weight": 1.82,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Coforge Limited",
+        "weight": 1.25,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Tech Mahindra Limited",
+        "weight": 1.09,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Kirloskar Oil Engines Limited",
+        "weight": 1.64,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "SBI Life Insurance Company Limited",
+        "weight": 1.13,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Vedanta Aluminium Metal Limited",
+        "weight": 1.19,
+        "is_top_10": false,
+        "sector": "Non-Ferrous Metals"
+      },
+      {
+        "name": "Reliance Industries Limited",
+        "weight": 3.73,
+        "is_top_10": false,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "Hindustan Petroleum Corporation Limited",
+        "weight": 1.08,
+        "is_top_10": false,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "Mankind Pharma Limited",
+        "weight": 1.75,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "JB Chemicals & Pharmaceuticals Limited",
+        "weight": 1.23,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Lupin Limited",
+        "weight": 1.03,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "NTPC Limited",
+        "weight": 1.89,
+        "is_top_10": true,
+        "sector": "Power"
+      },
+      {
+        "name": "Eternal Limited",
+        "weight": 1.6,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Swiggy Limited",
+        "weight": 1.28,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Avenue Supermarts Limited",
+        "weight": 1.21,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Bharti Airtel Limited",
+        "weight": 1.96,
+        "is_top_10": true,
+        "sector": "Telecom - Services"
+      },
+      {
+        "name": "InterGlobe Aviation Limited",
+        "weight": 1.36,
+        "is_top_10": false,
+        "sector": "Transport Services"
+      }
+    ]
+  },
+  "nippon-elss-tax-saver-fund": {
+    "scheme_name": "Nippon India ELSS Tax Saver Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 31,
+    "holdings": [
+      {
+        "name": "Tata Consumer Products Limited",
+        "weight": 1.12,
+        "is_top_10": false,
+        "sector": "Agricultural Food & other Products"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 6.84,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 6.18,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 4.11,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 3.21,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "BSE Limited",
+        "weight": 1.41,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "Angel One Limited",
+        "weight": 1.14,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "NTPC Limited",
+        "weight": 1.68,
+        "is_top_10": false,
+        "sector": "Cement & Cement Products"
+      },
+      {
+        "name": "Larsen & Toubro Limited",
+        "weight": 1.76,
+        "is_top_10": true,
+        "sector": "Construction"
+      },
+      {
+        "name": "Coal India Limited",
+        "weight": 1.39,
+        "is_top_10": false,
+        "sector": "Consumable Fuels"
+      },
+      {
+        "name": "3M India Limited",
+        "weight": 1.08,
+        "is_top_10": false,
+        "sector": "Diversified"
+      },
+      {
+        "name": "GE Vernova T&D India Limited",
+        "weight": 1.51,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "weight": 2.66,
+        "is_top_10": true,
+        "sector": "Finance"
+      },
+      {
+        "name": "TVS Holdings Limited",
+        "weight": 2.45,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Cholamandalam Financial Holdings Limited",
+        "weight": 1.51,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "REC Limited",
+        "weight": 1.42,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Healthcare Global Enterprises Limited",
+        "weight": 1.61,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "KSB Limited",
+        "weight": 1.42,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "ICICI Lombard General Insurance Company Limited",
+        "weight": 1.58,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Max Financial Services Limited",
+        "weight": 1.37,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Radico Khaitan Limited",
+        "weight": 2.39,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Varun Beverages Limited",
+        "weight": 1.62,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "United Spirits Limited",
+        "weight": 1.38,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Reliance Industries Limited",
+        "weight": 3.06,
+        "is_top_10": true,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "Mankind Pharma Limited",
+        "weight": 1.75,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Gland Pharma Limited",
+        "weight": 1.14,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Divi's Laboratories Limited",
+        "weight": 1.03,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Eternal Limited",
+        "weight": 1.76,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Avenue Supermarts Limited",
+        "weight": 1.57,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Bharti Airtel Limited",
+        "weight": 2.85,
+        "is_top_10": true,
+        "sector": "Telecom - Services"
+      },
+      {
+        "name": "Infosys Limited",
+        "weight": 3.0,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      }
+    ]
+  },
+  "nippon-banking-financial-services-fund": {
+    "scheme_name": "Nippon India Banking & Financial Services Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 32,
+    "holdings": [
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 12.73,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 12.63,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 9.35,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 5.4,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Kotak Mahindra Bank Limited",
+        "weight": 3.55,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "IndusInd Bank Limited",
+        "weight": 2.66,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Equitas Small Finance Bank Limited",
+        "weight": 2.03,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "AU Small Finance Bank Limited",
+        "weight": 1.67,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Multi Commodity Exchange of India Limited",
+        "weight": 2.74,
+        "is_top_10": true,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "ICICI Prudential Asset Management Company Limited",
+        "weight": 2.54,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "Angel One Limited",
+        "weight": 1.77,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "KFin Technologies Limited",
+        "weight": 1.61,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "HDFC Asset Management Company Limited",
+        "weight": 1.57,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "UTI Asset Management Company Limited",
+        "weight": 1.44,
+        "is_top_10": false,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "SBI Cards and Payment Services Limited",
+        "weight": 3.27,
+        "is_top_10": true,
+        "sector": "Finance"
+      },
+      {
+        "name": "Bajaj Finserv Limited",
+        "weight": 3.06,
+        "is_top_10": true,
+        "sector": "Finance"
+      },
+      {
+        "name": "Cholamandalam Financial Holdings Limited",
+        "weight": 2.72,
+        "is_top_10": true,
+        "sector": "Finance"
+      },
+      {
+        "name": "Aye Finance Limited",
+        "weight": 1.8,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "L&T Finance Limited",
+        "weight": 1.67,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Bajaj Finance Limited",
+        "weight": 1.65,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "PNB Housing Finance Limited",
+        "weight": 1.46,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Piramal Finance Limited",
+        "weight": 1.43,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "weight": 1.35,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Aptus Value Housing Finance India Limited",
+        "weight": 1.05,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Pine Labs Limited",
+        "weight": 1.36,
+        "is_top_10": false,
+        "sector": "Financial Technology (Fintech)"
+      },
+      {
+        "name": "One 97 Communications Limited",
+        "weight": 1.02,
+        "is_top_10": false,
+        "sector": "Financial Technology (Fintech)"
+      },
+      {
+        "name": "SBI Life Insurance Company Limited",
+        "weight": 3.29,
+        "is_top_10": true,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Max Financial Services Limited",
+        "weight": 2.51,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Star Health And Allied Insurance Company Limited",
+        "weight": 1.88,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "ICICI Prudential Life Insurance Company Limited",
+        "weight": 1.43,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "ICICI Lombard General Insurance Company Limited",
+        "weight": 1.32,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "HDFC Life Insurance Company Limited",
+        "weight": 1.3,
+        "is_top_10": false,
+        "sector": "Insurance"
+      }
+    ]
+  },
+  "nippon-power-infra-fund": {
+    "scheme_name": "Nippon India Power & Infra Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 25,
+    "holdings": [
+      {
+        "name": "Hindustan Aeronautics Limited",
+        "weight": 2.14,
+        "is_top_10": false,
+        "sector": "Aerospace & Defense"
+      },
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 2.04,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Bharat Forge Limited",
+        "weight": 1.52,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Tube Investments of India Limited",
+        "weight": 1.01,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Tata Motors Passenger Vehicles Limited",
+        "weight": 1.2,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "UltraTech Cement Limited",
+        "weight": 2.18,
+        "is_top_10": false,
+        "sector": "Cement & Cement Products"
+      },
+      {
+        "name": "Ambuja Cements Limited",
+        "weight": 1.75,
+        "is_top_10": false,
+        "sector": "Cement & Cement Products"
+      },
+      {
+        "name": "Larsen & Toubro Limited",
+        "weight": 7.06,
+        "is_top_10": true,
+        "sector": "Construction"
+      },
+      {
+        "name": "Voltas Limited",
+        "weight": 1.51,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Bharat Heavy Electricals Limited",
+        "weight": 3.06,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Triveni Turbine Limited",
+        "weight": 3.0,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "CG Power and Industrial Solutions Limited",
+        "weight": 2.2,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Siemens Energy India Limited",
+        "weight": 1.11,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "weight": 2.51,
+        "is_top_10": true,
+        "sector": "Finance"
+      },
+      {
+        "name": "Carborundum Universal Limited",
+        "weight": 1.96,
+        "is_top_10": false,
+        "sector": "Industrial Manufacturing"
+      },
+      {
+        "name": "Cummins India Limited",
+        "weight": 1.57,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "Reliance Industries Limited",
+        "weight": 7.8,
+        "is_top_10": true,
+        "sector": "Petroleum Products"
+      },
+      {
+        "name": "NTPC Limited",
+        "weight": 6.17,
+        "is_top_10": true,
+        "sector": "Power"
+      },
+      {
+        "name": "NTPC Green Energy Limited",
+        "weight": 3.75,
+        "is_top_10": true,
+        "sector": "Power"
+      },
+      {
+        "name": "Tata Power Company Limited",
+        "weight": 3.12,
+        "is_top_10": true,
+        "sector": "Power"
+      },
+      {
+        "name": "NLC India Limited",
+        "weight": 1.89,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "JSW Energy Limited",
+        "weight": 1.29,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "Bharti Airtel Limited",
+        "weight": 2.39,
+        "is_top_10": true,
+        "sector": "Telecom - Services"
+      },
+      {
+        "name": "Adani Ports and Special Economic Zone Limited",
+        "weight": 1.17,
+        "is_top_10": false,
+        "sector": "Transport Infrastructure"
+      },
+      {
+        "name": "Apollo Hospitals Enterprise Limited",
+        "weight": 1.05,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      }
+    ]
+  },
+  "nippon-pharma-fund": {
+    "scheme_name": "Nippon India Pharma Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 23,
+    "holdings": [
+      {
+        "name": "Apollo Hospitals Enterprise Limited",
+        "weight": 5.2,
+        "is_top_10": true,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Vijaya Diagnostic Centre Limited",
+        "weight": 3.21,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Max Healthcare Institute Limited",
+        "weight": 2.97,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Thyrocare Technologies Limited",
+        "weight": 2.56,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Narayana Hrudayalaya Limited",
+        "weight": 1.81,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Syngene International Limited",
+        "weight": 1.79,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Suraksha Diagnostic Limited",
+        "weight": 1.29,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "weight": 1.19,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Sun Pharmaceutical Industries Limited",
+        "weight": 13.35,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Lupin Limited",
+        "weight": 7.31,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Dr. Reddy's Laboratories Limited",
+        "weight": 6.72,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Cipla Limited",
+        "weight": 6.16,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Divi's Laboratories Limited",
+        "weight": 5.8,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Mankind Pharma Limited",
+        "weight": 3.94,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Sai Life Sciences Limited",
+        "weight": 3.43,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Ajanta Pharma Limited",
+        "weight": 3.21,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "IPCA Laboratories Limited",
+        "weight": 2.41,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "GlaxoSmithKline Pharmaceuticals Limited",
+        "weight": 2.34,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Aurobindo Pharma Limited",
+        "weight": 2.32,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Abbott India Limited",
+        "weight": 2.31,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Gland Pharma Limited",
+        "weight": 2.09,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Alkem Laboratories Limited",
+        "weight": 2.06,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "MedPlus Health Services Limited",
+        "weight": 4.61,
+        "is_top_10": true,
+        "sector": "Retailing"
+      }
+    ]
+  },
+  "nippon-consumption-fund": {
+    "scheme_name": "Nippon India Consumption Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 29,
+    "holdings": [
+      {
+        "name": "Tata Consumer Products Limited",
+        "weight": 1.08,
+        "is_top_10": false,
+        "sector": "Agricultural Food & other Products"
+      },
+      {
+        "name": "Mahindra & Mahindra Limited",
+        "weight": 7.52,
+        "is_top_10": true,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Maruti Suzuki India Limited",
+        "weight": 6.73,
+        "is_top_10": true,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Bajaj Auto Limited",
+        "weight": 4.54,
+        "is_top_10": true,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "TVS Motor Company Limited",
+        "weight": 1.64,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Varun Beverages Limited",
+        "weight": 4.04,
+        "is_top_10": true,
+        "sector": "Beverages"
+      },
+      {
+        "name": "United Spirits Limited",
+        "weight": 2.69,
+        "is_top_10": false,
+        "sector": "Beverages"
+      },
+      {
+        "name": "United Breweries Limited",
+        "weight": 2.48,
+        "is_top_10": false,
+        "sector": "Beverages"
+      },
+      {
+        "name": "Asian Paints Limited",
+        "weight": 3.63,
+        "is_top_10": true,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Titan Company Limited",
+        "weight": 2.96,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Bluestone Jewellery and Lifestyle Limited",
+        "weight": 1.91,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Electronics Mart India Limited",
+        "weight": 1.07,
+        "is_top_10": false,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Hindustan Unilever Limited",
+        "weight": 6.5,
+        "is_top_10": true,
+        "sector": "Diversified FMCG"
+      },
+      {
+        "name": "ITC Limited",
+        "weight": 2.07,
+        "is_top_10": false,
+        "sector": "Diversified FMCG"
+      },
+      {
+        "name": "PB Fintech Limited",
+        "weight": 1.73,
+        "is_top_10": false,
+        "sector": "Financial Technology (Fintech)"
+      },
+      {
+        "name": "Britannia Industries Limited",
+        "weight": 3.82,
+        "is_top_10": true,
+        "sector": "Food Products"
+      },
+      {
+        "name": "Zydus Wellness Limited",
+        "weight": 2.91,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Nestle India Limited",
+        "weight": 1.38,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Orkla India Limited",
+        "weight": 1.03,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Sapphire Foods India Limited",
+        "weight": 1.64,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Jubilant Foodworks Limited",
+        "weight": 1.19,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Godrej Consumer Products Limited",
+        "weight": 3.05,
+        "is_top_10": true,
+        "sector": "Personal Products"
+      },
+      {
+        "name": "Colgate-Palmolive (India) Limited",
+        "weight": 1.03,
+        "is_top_10": false,
+        "sector": "Personal Products"
+      },
+      {
+        "name": "Trent Limited",
+        "weight": 6.0,
+        "is_top_10": true,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Avenue Supermarts Limited",
+        "weight": 1.9,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Swiggy Limited",
+        "weight": 1.07,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Bharti Airtel Limited",
+        "weight": 1.78,
+        "is_top_10": false,
+        "sector": "Telecom - Services"
+      },
+      {
+        "name": "Page Industries Limited",
+        "weight": 1.66,
+        "is_top_10": false,
+        "sector": "Textiles & Apparels"
+      },
+      {
+        "name": "InterGlobe Aviation Limited",
+        "weight": 2.73,
+        "is_top_10": false,
+        "sector": "Transport Services"
+      }
+    ]
+  },
+  "nippon-japan-equity-fund": {
+    "scheme_name": "Nippon India Japan Equity Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 30,
+    "holdings": [
+      {
+        "name": "Fast Retailing Co Ltd",
+        "weight": 3.41,
+        "is_top_10": true,
+        "sector": "Apparel Retail"
+      },
+      {
+        "name": "Toyota Motor Corp",
+        "weight": 2.39,
+        "is_top_10": false,
+        "sector": "Automobile Manufacturers"
+      },
+      {
+        "name": "Sumitomo Elec Indust",
+        "weight": 3.54,
+        "is_top_10": true,
+        "sector": "Automotive Parts & Equipment"
+      },
+      {
+        "name": "Komatsu Ltd",
+        "weight": 2.62,
+        "is_top_10": false,
+        "sector": "Construction Machinery & Heavy Transportation Equipment"
+      },
+      {
+        "name": "Sony Group Corporation",
+        "weight": 2.74,
+        "is_top_10": false,
+        "sector": "Consumer Electronics"
+      },
+      {
+        "name": "Mitsubishi UFJ Financial Group Inc",
+        "weight": 3.0,
+        "is_top_10": false,
+        "sector": "Diversified Banks"
+      },
+      {
+        "name": "Orix Corporation",
+        "weight": 2.59,
+        "is_top_10": true,
+        "sector": "Diversified Financial Services"
+      },
+      {
+        "name": "Daiwa House Industry",
+        "weight": 2.21,
+        "is_top_10": false,
+        "sector": "Diversified Real Estate Activities"
+      },
+      {
+        "name": "Mitsui Fudosan Co",
+        "weight": 2.17,
+        "is_top_10": false,
+        "sector": "Marine Transportation"
+      },
+      {
+        "name": "TDK Corp",
+        "weight": 5.21,
+        "is_top_10": true,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Keyence Corp",
+        "weight": 3.59,
+        "is_top_10": true,
+        "sector": "Electronic Equipment & Instruments"
+      },
+      {
+        "name": "Terumo Corp",
+        "weight": 3.08,
+        "is_top_10": false,
+        "sector": "Health Care Equipment"
+      },
+      {
+        "name": "Nitori Holdings Co Ltd",
+        "weight": 2.49,
+        "is_top_10": false,
+        "sector": "Homefurnishing Retail"
+      },
+      {
+        "name": "Recruit Holdings Co Ltd",
+        "weight": 4.3,
+        "is_top_10": true,
+        "sector": "Human Resource & Employment Services"
+      },
+      {
+        "name": "OTSUKA Corp",
+        "weight": 2.64,
+        "is_top_10": false,
+        "sector": "IT Consulting & Other Services"
+      },
+      {
+        "name": "Hitachi Ltd",
+        "weight": 2.88,
+        "is_top_10": false,
+        "sector": "Industrial Conglomerates"
+      },
+      {
+        "name": "SMC Corp",
+        "weight": 2.86,
+        "is_top_10": false,
+        "sector": "Industrial Machinery & Supplies & Components"
+      },
+      {
+        "name": "NTT Corp",
+        "weight": 2.6,
+        "is_top_10": false,
+        "sector": "Integrated Telecommunication Services"
+      },
+      {
+        "name": "Dai-ichi Life Holdings Inc",
+        "weight": 3.04,
+        "is_top_10": false,
+        "sector": "Life & Health Insurance"
+      },
+      {
+        "name": "MITSUBISHI HEAVY ORD",
+        "weight": 2.09,
+        "is_top_10": false,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "Kao Corporation",
+        "weight": 2.59,
+        "is_top_10": false,
+        "sector": "Diversified Financials"
+      },
+      {
+        "name": "Tokio Marine Holdings Inc",
+        "weight": 2.42,
+        "is_top_10": false,
+        "sector": "Property & Casualty Insurance"
+      },
+      {
+        "name": "East Japan Railway",
+        "weight": 2.42,
+        "is_top_10": false,
+        "sector": "Rail Transportation"
+      },
+      {
+        "name": "BayCurrent Consulting Inc",
+        "weight": 3.37,
+        "is_top_10": true,
+        "sector": "Research & Consulting Services"
+      },
+      {
+        "name": "Tokyo Electron Ltd",
+        "weight": 3.61,
+        "is_top_10": true,
+        "sector": "Semiconductor Materials & Equipment"
+      },
+      {
+        "name": "Shin Etsu Chemical Co",
+        "weight": 3.29,
+        "is_top_10": true,
+        "sector": "Specialty Chemicals"
+      },
+      {
+        "name": "Bridgestone Corp",
+        "weight": 2.78,
+        "is_top_10": false,
+        "sector": "Tires & Rubber"
+      },
+      {
+        "name": "Mitsubishi Corp",
+        "weight": 2.64,
+        "is_top_10": false,
+        "sector": "Trading Companies & Distributors"
+      },
+      {
+        "name": "Ajinomoto Co Inc",
+        "weight": 3.08,
+        "is_top_10": false,
+        "sector": "Personal Care Products"
+      },
+      {
+        "name": "Nippon Yusen Kabushiki Kaisha",
+        "weight": 2.49,
+        "is_top_10": false,
+        "sector": "Packaged Foods & Meats"
+      }
+    ]
+  },
+  "nippon-us-equity-opportunities-fund": {
+    "scheme_name": "Nippon India US Equity Opportunities Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 23,
+    "holdings": [
+      {
+        "name": "Salesforce Inc",
+        "weight": 1.8,
+        "is_top_10": false,
+        "sector": "Application Software"
+      },
+      {
+        "name": "AUTODESK INC COM",
+        "weight": 1.68,
+        "is_top_10": false,
+        "sector": "Application Software"
+      },
+      {
+        "name": "Adobe Inc",
+        "weight": 1.45,
+        "is_top_10": false,
+        "sector": "Application Software"
+      },
+      {
+        "name": "Amazon Com Inc",
+        "weight": 6.9,
+        "is_top_10": true,
+        "sector": "Broadline Retail"
+      },
+      {
+        "name": "Cencora Inc",
+        "weight": 1.66,
+        "is_top_10": false,
+        "sector": "Health Care Distributors"
+      },
+      {
+        "name": "Booking Holdings Inc",
+        "weight": 4.08,
+        "is_top_10": true,
+        "sector": "Hotels, Resorts & Cruise Lines"
+      },
+      {
+        "name": "Airbnb Inc",
+        "weight": 1.47,
+        "is_top_10": false,
+        "sector": "Hotels, Resorts & Cruise Lines"
+      },
+      {
+        "name": "Air Products & Chemicals Inc",
+        "weight": 1.65,
+        "is_top_10": false,
+        "sector": "Industrial Gases"
+      },
+      {
+        "name": "Alphabet Inc A",
+        "weight": 8.35,
+        "is_top_10": true,
+        "sector": "Interactive Media & Services"
+      },
+      {
+        "name": "Meta Platforms Registered Shares A",
+        "weight": 6.29,
+        "is_top_10": true,
+        "sector": "Interactive Media & Services"
+      },
+      {
+        "name": "Charles Schwab Corp",
+        "weight": 4.41,
+        "is_top_10": true,
+        "sector": "Investment Banking & Brokerage"
+      },
+      {
+        "name": "Iqvia Holdings",
+        "weight": 4.25,
+        "is_top_10": true,
+        "sector": "Life Sciences Tools & Services"
+      },
+      {
+        "name": "Elevance Health Inc",
+        "weight": 3.17,
+        "is_top_10": false,
+        "sector": "Managed Health Care"
+      },
+      {
+        "name": "The Walt Disney Company",
+        "weight": 2.87,
+        "is_top_10": false,
+        "sector": "Movies & Entertainment"
+      },
+      {
+        "name": "Starbucks ORD",
+        "weight": 2.72,
+        "is_top_10": false,
+        "sector": "Restaurants"
+      },
+      {
+        "name": "APPLIED MATLS INC COM",
+        "weight": 5.09,
+        "is_top_10": true,
+        "sector": "Semiconductor Materials & Equipment"
+      },
+      {
+        "name": "Taiwan Semiconductor Sp ADR",
+        "weight": 6.74,
+        "is_top_10": true,
+        "sector": "Semiconductor Materials & Equipment"
+      },
+      {
+        "name": "QUALCOMM INC",
+        "weight": 3.1,
+        "is_top_10": false,
+        "sector": "Semiconductor Materials & Equipment"
+      },
+      {
+        "name": "Ecolab Inc",
+        "weight": 1.1,
+        "is_top_10": false,
+        "sector": "Specialty Chemicals"
+      },
+      {
+        "name": "Microsoft Corp",
+        "weight": 5.27,
+        "is_top_10": true,
+        "sector": "Systems Software"
+      },
+      {
+        "name": "Check Point Software Tech",
+        "weight": 1.89,
+        "is_top_10": false,
+        "sector": "Systems Software"
+      },
+      {
+        "name": "Visa Inc",
+        "weight": 3.81,
+        "is_top_10": true,
+        "sector": "Transaction & Payment Processing Services"
+      },
+      {
+        "name": "Mastercard Incorporated",
+        "weight": 2.72,
+        "is_top_10": false,
+        "sector": "Transaction & Payment Processing Services"
+      }
+    ]
+  },
+  "nippon-taiwan-equity-fund": {
+    "scheme_name": "Nippon India Taiwan Equity Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 28,
+    "holdings": [
+      {
+        "name": "Accton Technology Corporation",
+        "weight": 4.07,
+        "is_top_10": true,
+        "sector": "Communications Equipment"
+      },
+      {
+        "name": "Browave Corp",
+        "weight": 2.34,
+        "is_top_10": false,
+        "sector": "Communications Equipment"
+      },
+      {
+        "name": "Bizlink Holding Inc",
+        "weight": 1.88,
+        "is_top_10": false,
+        "sector": "Electrical Components & Equipment"
+      },
+      {
+        "name": "Advanced Energy Solution Holding Co Ltd",
+        "weight": 1.83,
+        "is_top_10": false,
+        "sector": "Electrical Components & Equipment"
+      },
+      {
+        "name": "Delta Electronics Inc",
+        "weight": 4.61,
+        "is_top_10": true,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Yageo Corporation",
+        "weight": 4.3,
+        "is_top_10": true,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Gold Circuit Electronics Ltd",
+        "weight": 3.33,
+        "is_top_10": true,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Elite Material Co Ltd",
+        "weight": 3.32,
+        "is_top_10": true,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Unimicron Technology Corp",
+        "weight": 3.09,
+        "is_top_10": false,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Compeq Manufacturing Co Ltd",
+        "weight": 1.87,
+        "is_top_10": false,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Fositek Corp",
+        "weight": 1.87,
+        "is_top_10": false,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Dynapack International Technology Corporation",
+        "weight": 1.75,
+        "is_top_10": false,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Co-Tech Development Corp.",
+        "weight": 1.69,
+        "is_top_10": false,
+        "sector": "Electronic Components"
+      },
+      {
+        "name": "Chroma Ate",
+        "weight": 6.4,
+        "is_top_10": true,
+        "sector": "Electronic Equipment & Instruments"
+      },
+      {
+        "name": "All Ring Tech Co Ltd",
+        "weight": 1.79,
+        "is_top_10": false,
+        "sector": "Electronic Equipment & Instruments"
+      },
+      {
+        "name": "Mpi Corporation",
+        "weight": 6.35,
+        "is_top_10": true,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "WinWay Technology Co. Ltd",
+        "weight": 4.39,
+        "is_top_10": true,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "MediaTek Incorporation",
+        "weight": 6.88,
+        "is_top_10": true,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "Nanya Technology Corporation",
+        "weight": 3.46,
+        "is_top_10": true,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "Aspeed Technology Inc",
+        "weight": 3.28,
+        "is_top_10": false,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "GCS Holdings Inc",
+        "weight": 3.2,
+        "is_top_10": false,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "Macronix International Co Ltd",
+        "weight": 3.07,
+        "is_top_10": false,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+        "weight": 2.24,
+        "is_top_10": false,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "Ardentec Corporation",
+        "weight": 1.92,
+        "is_top_10": false,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "eMemory Technology Inc",
+        "weight": 1.68,
+        "is_top_10": false,
+        "sector": "Semiconductors"
+      },
+      {
+        "name": "Asia Vital Components Co Ltd",
+        "weight": 1.47,
+        "is_top_10": false,
+        "sector": "Technology Hardware, Storage & Peripherals"
+      },
+      {
+        "name": "MITAC Holdings Corporation",
+        "weight": 1.47,
+        "is_top_10": false,
+        "sector": "Technology Hardware, Storage & Peripherals"
+      },
+      {
+        "name": "LandMark Optoelectronics Corporation",
+        "weight": 1.83,
+        "is_top_10": false,
+        "sector": "Electronic Equipment & Instruments (Other)"
+      }
+    ]
+  },
+  "nippon-innovation-fund": {
+    "scheme_name": "Nippon India Innovation Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 33,
+    "holdings": [
+      {
+        "name": "Hindustan Aeronautics Limited",
+        "weight": 1.9,
+        "is_top_10": false,
+        "sector": "Aerospace & Defense"
+      },
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 4.86,
+        "is_top_10": true,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Motherson Sumi Wiring India Limited",
+        "weight": 1.85,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Tata Motors Passenger Vehicles Limited",
+        "weight": 1.63,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Maruti Suzuki India Limited",
+        "weight": 1.37,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 2.72,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "weight": 2.55,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Varun Beverages Limited",
+        "weight": 4.19,
+        "is_top_10": true,
+        "sector": "Beverages"
+      },
+      {
+        "name": "3M India Limited",
+        "weight": 3.32,
+        "is_top_10": true,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "LG Electronics India Ltd",
+        "weight": 1.85,
+        "is_top_10": false,
+        "sector": "Diversified"
+      },
+      {
+        "name": "Siemens Energy India Limited",
+        "weight": 2.73,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "ABB India Limited",
+        "weight": 2.17,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Siemens Limited",
+        "weight": 1.65,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Bajaj Finserv Limited",
+        "weight": 2.7,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "PB Fintech Limited",
+        "weight": 1.75,
+        "is_top_10": false,
+        "sector": "Financial Technology (Fintech)"
+      },
+      {
+        "name": "One 97 Communications Limited",
+        "weight": 1.52,
+        "is_top_10": false,
+        "sector": "Financial Technology (Fintech)"
+      },
+      {
+        "name": "Coforge Limited",
+        "weight": 4.86,
+        "is_top_10": false,
+        "sector": "IT-Software"
+      },
+      {
+        "name": "Infosys Limited",
+        "weight": 2.13,
+        "is_top_10": false,
+        "sector": "IT-Software"
+      },
+      {
+        "name": "Kirloskar Oil Engines Limited",
+        "weight": 2.33,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "Timken India Limited",
+        "weight": 1.27,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "ICICI Lombard General Insurance Company Limited",
+        "weight": 1.58,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "Jubilant Foodworks Limited",
+        "weight": 2.03,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Honasa Consumer Limited",
+        "weight": 1.13,
+        "is_top_10": false,
+        "sector": "Personal Products"
+      },
+      {
+        "name": "Sun Pharmaceutical Industries Limited",
+        "weight": 2.06,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Sanofi Consumer Healthcare India Limited",
+        "weight": 1.24,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Eternal Limited",
+        "weight": 4.21,
+        "is_top_10": true,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Trent Limited",
+        "weight": 3.92,
+        "is_top_10": true,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Info Edge (India) Limited",
+        "weight": 3.17,
+        "is_top_10": true,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Avenue Supermarts Limited",
+        "weight": 2.93,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Swiggy Limited",
+        "weight": 2.91,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Delhivery Limited",
+        "weight": 1.71,
+        "is_top_10": false,
+        "sector": "Transport Services"
+      },
+      {
+        "name": "Syngene International Limited",
+        "weight": 2.05,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Krishna Institute Of Medical Sciences Limited",
+        "weight": 2.03,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      }
+    ]
+  },
+  "nippon-active-momentum-fund": {
+    "scheme_name": "Nippon India Active Momentum Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 44,
+    "holdings": [
+      {
+        "name": "Bharat Electronics Limited",
+        "weight": 2.58,
+        "is_top_10": true,
+        "sector": "Aerospace & Defense"
+      },
+      {
+        "name": "Hindustan Aeronautics Limited",
+        "weight": 1.83,
+        "is_top_10": false,
+        "sector": "Aerospace & Defense"
+      },
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 2.34,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Bharat Forge Limited",
+        "weight": 1.86,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Craftsman Automation Limited",
+        "weight": 1.39,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Mahindra & Mahindra Limited",
+        "weight": 3.29,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "TVS Motor Company Limited",
+        "weight": 1.82,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Eicher Motors Limited",
+        "weight": 1.61,
+        "is_top_10": false,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "weight": 5.73,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Axis Bank Limited",
+        "weight": 3.8,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "State Bank of India",
+        "weight": 3.2,
+        "is_top_10": true,
+        "sector": "Banks"
+      },
+      {
+        "name": "Karur Vysya Bank Limited",
+        "weight": 1.59,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "RBL Bank Limited",
+        "weight": 1.38,
+        "is_top_10": false,
+        "sector": "Banks"
+      },
+      {
+        "name": "Varun Beverages Limited",
+        "weight": 2.65,
+        "is_top_10": true,
+        "sector": "Beverages"
+      },
+      {
+        "name": "Radico Khaitan Limited",
+        "weight": 2.28,
+        "is_top_10": false,
+        "sector": "Beverages"
+      },
+      {
+        "name": "Allied Blenders And Distillers Limited",
+        "weight": 1.71,
+        "is_top_10": false,
+        "sector": "Beverages"
+      },
+      {
+        "name": "Multi Commodity Exchange of India Limited",
+        "weight": 2.93,
+        "is_top_10": true,
+        "sector": "Capital Markets"
+      },
+      {
+        "name": "Navin Fluorine International Limited",
+        "weight": 2.07,
+        "is_top_10": false,
+        "sector": "Chemicals & Petrochemicals"
+      },
+      {
+        "name": "eClerx Services Limited",
+        "weight": 1.09,
+        "is_top_10": false,
+        "sector": "Commercial Services & Supplies"
+      },
+      {
+        "name": "GE Vernova T&D India Limited",
+        "weight": 3.94,
+        "is_top_10": true,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Tata Steel Limited",
+        "weight": 1.81,
+        "is_top_10": false,
+        "sector": "Ferrous Metals"
+      },
+      {
+        "name": "L&T Finance Limited",
+        "weight": 2.39,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Shriram Finance Limited",
+        "weight": 2.0,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Muthoot Finance Limited",
+        "weight": 1.44,
+        "is_top_10": false,
+        "sector": "Finance"
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "weight": 2.05,
+        "is_top_10": false,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Tech Mahindra Limited",
+        "weight": 2.49,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Mphasis Limited",
+        "weight": 1.51,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Cummins India Limited",
+        "weight": 2.58,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "Craftsman Automation Limited",
+        "weight": 1.39,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "Polycab India Limited",
+        "weight": 2.01,
+        "is_top_10": false,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "Max Financial Services Limited",
+        "weight": 1.73,
+        "is_top_10": false,
+        "sector": "Insurance"
+      },
+      {
+        "name": "TBO Tek Limited",
+        "weight": 1.07,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "National Aluminium Company Limited",
+        "weight": 2.2,
+        "is_top_10": false,
+        "sector": "Non-Ferrous Metals"
+      },
+      {
+        "name": "Vedanta Aluminium Metal Limited",
+        "weight": 1.27,
+        "is_top_10": false,
+        "sector": "Non-Ferrous Metals"
+      },
+      {
+        "name": "Honasa Consumer Limited",
+        "weight": 2.46,
+        "is_top_10": false,
+        "sector": "Personal Products"
+      },
+      {
+        "name": "Sun Pharmaceutical Industries Limited",
+        "weight": 2.51,
+        "is_top_10": true,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Lupin Limited",
+        "weight": 2.29,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Acme Solar Holdings Ltd",
+        "weight": 2.09,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "NTPC Green Energy Limited",
+        "weight": 1.73,
+        "is_top_10": false,
+        "sector": "Power"
+      },
+      {
+        "name": "Eternal Limited",
+        "weight": 3.19,
+        "is_top_10": true,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Trent Limited",
+        "weight": 2.44,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "FSN E-Commerce Ventures Limited",
+        "weight": 2.16,
+        "is_top_10": false,
+        "sector": "Retailing"
+      },
+      {
+        "name": "Bharti Hexacom Limited",
+        "weight": 2.12,
+        "is_top_10": false,
+        "sector": "Telecom - Services"
+      },
+      {
+        "name": "Delhivery Limited",
+        "weight": 1.75,
+        "is_top_10": false,
+        "sector": "Transport Services"
+      }
+    ]
+  },
+  "nippon-mnc-fund": {
+    "scheme_name": "Nippon India MNC Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 24,
+    "holdings": [
+      {
+        "name": "Escorts Kubota Limited",
+        "weight": 2.51,
+        "is_top_10": false,
+        "sector": "Agricultural, Commercial & Construction Vehicles"
+      },
+      {
+        "name": "Samvardhana Motherson International Limited",
+        "weight": 6.65,
+        "is_top_10": true,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Schaeffler India Limited",
+        "weight": 2.46,
+        "is_top_10": false,
+        "sector": "Auto Components"
+      },
+      {
+        "name": "Maruti Suzuki India Limited",
+        "weight": 6.69,
+        "is_top_10": true,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "Hyundai Motor India Ltd",
+        "weight": 3.83,
+        "is_top_10": true,
+        "sector": "Automobiles"
+      },
+      {
+        "name": "United Spirits Limited",
+        "weight": 2.08,
+        "is_top_10": false,
+        "sector": "Beverages"
+      },
+      {
+        "name": "United Breweries Limited",
+        "weight": 1.55,
+        "is_top_10": false,
+        "sector": "Beverages"
+      },
+      {
+        "name": "Gujarat Fluorochemicals Limited",
+        "weight": 2.51,
+        "is_top_10": false,
+        "sector": "Chemicals & Petrochemicals"
+      },
+      {
+        "name": "Kansai Nerolac Paints Limited",
+        "weight": 6.02,
+        "is_top_10": true,
+        "sector": "Consumer Durables"
+      },
+      {
+        "name": "Hindustan Unilever Limited",
+        "weight": 5.29,
+        "is_top_10": true,
+        "sector": "Diversified FMCG"
+      },
+      {
+        "name": "Vedanta Limited",
+        "weight": 2.23,
+        "is_top_10": false,
+        "sector": "Diversified Metals"
+      },
+      {
+        "name": "Siemens Energy India Limited",
+        "weight": 2.63,
+        "is_top_10": false,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "name": "Nestle India Limited",
+        "weight": 6.98,
+        "is_top_10": true,
+        "sector": "Food Products"
+      },
+      {
+        "name": "Britannia Industries Limited",
+        "weight": 5.48,
+        "is_top_10": true,
+        "sector": "Food Products"
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "weight": 4.24,
+        "is_top_10": true,
+        "sector": "Healthcare Services"
+      },
+      {
+        "name": "Infosys Limited",
+        "weight": 4.07,
+        "is_top_10": true,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "LTM Limited",
+        "weight": 2.85,
+        "is_top_10": false,
+        "sector": "IT - Software"
+      },
+      {
+        "name": "Cummins India Limited",
+        "weight": 8.27,
+        "is_top_10": true,
+        "sector": "Industrial Products"
+      },
+      {
+        "name": "TBO Tek Limited",
+        "weight": 1.84,
+        "is_top_10": false,
+        "sector": "Leisure Services"
+      },
+      {
+        "name": "Vedanta Aluminium Metal Limited",
+        "weight": 2.42,
+        "is_top_10": false,
+        "sector": "Non-Ferrous Metals"
+      },
+      {
+        "name": "Sai Life Sciences Limited",
+        "weight": 3.39,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Lupin Limited",
+        "weight": 3.18,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Dr. Reddy's Laboratories Limited",
+        "weight": 2.75,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "name": "Divi's Laboratories Limited",
+        "weight": 1.09,
+        "is_top_10": false,
+        "sector": "Pharmaceuticals & Biotechnology"
+      }
+    ]
+  },
+  "nippon-overnight-fund": {
+    "scheme_name": "Nippon India Overnight Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 2,
+    "holdings": [
+      {
+        "name": "AMC Repo Clearing Limited",
+        "rating": null,
+        "weight": 11.02
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 3.68
+      }
+    ]
+  },
+  "nippon-liquid-fund": {
+    "scheme_name": "Nippon India Liquid Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 59,
+    "holdings": [
+      {
+        "name": "HDFC Bank Limited",
+        "rating": "CRISIL",
+        "weight": 6.77
+      },
+      {
+        "name": "Bank of Baroda",
+        "rating": "FITCH A1+/CARE A1+",
+        "weight": 4.74
+      },
+      {
+        "name": "Canara Bank",
+        "rating": "CRISIL A1+",
+        "weight": 4.67
+      },
+      {
+        "name": "Union Bank of India",
+        "rating": "FITCH A1+/ICRA A1+",
+        "weight": 3.75
+      },
+      {
+        "name": "IndusInd Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 2.56
+      },
+      {
+        "name": "IDBI Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 2.33
+      },
+      {
+        "name": "Central Bank of India",
+        "rating": "CARE A1+",
+        "weight": 2.03
+      },
+      {
+        "name": "Punjab National Bank",
+        "rating": "CRISIL A1+",
+        "weight": 1.73
+      },
+      {
+        "name": "UCO Bank",
+        "rating": "CRISIL A1+",
+        "weight": 1.57
+      },
+      {
+        "name": "AU Small Finance Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.94
+      },
+      {
+        "name": "Citibank N.A.",
+        "rating": "ICRA A1+",
+        "weight": 0.94
+      },
+      {
+        "name": "Punjab & Sind Bank",
+        "rating": "ICRA A1+",
+        "weight": 0.93
+      },
+      {
+        "name": "Karur Vysya Bank Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.55
+      },
+      {
+        "name": "Axis Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.24
+      },
+      {
+        "name": "Indian Bank",
+        "rating": "CRISIL A1+",
+        "weight": 0.13
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL A1+",
+        "weight": 5.49
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "ICRA A1+/CARE A1+",
+        "weight": 5.16
+      },
+      {
+        "name": "Reliance Retail Ventures Limited",
+        "rating": "CARE A1+/CRISIL A1+",
+        "weight": 0.31
+      },
+      {
+        "name": "NTPC Limited",
+        "rating": "CRISIL A1+",
+        "weight": 2.34
+      },
+      {
+        "name": "HDFC Securities Limited",
+        "rating": "CRISIL A1+",
+        "weight": 2.26
+      },
+      {
+        "name": "ICICI Home Finance Company Limited",
+        "rating": "CARE A1+",
+        "weight": 0.24
+      },
+      {
+        "name": "Manappuram Finance Limited",
+        "rating": "CRISIL",
+        "weight": 2.26
+      },
+      {
+        "name": "Bajaj Financial Securities Limited",
+        "rating": "CRISIL A1+/CARE A1+",
+        "weight": 1.87
+      },
+      {
+        "name": "IIFL Finance Limited",
+        "rating": "CRISIL A1+",
+        "weight": 1.86
+      },
+      {
+        "name": "National Bank For Financing Infrastructure And Development",
+        "rating": "CRISIL A1+",
+        "weight": 1.55
+      },
+      {
+        "name": "360 One Prime Limited",
+        "rating": "CRISIL A1+",
+        "weight": 1.41
+      },
+      {
+        "name": "Julius Baer Capital India Pvt Ltd",
+        "rating": "CRISIL A1+",
+        "weight": 1.24
+      },
+      {
+        "name": "Cholamandalam Investment and Finance Company Ltd",
+        "rating": "CRISIL A1+",
+        "weight": 0.08
+      },
+      {
+        "name": "Adani Ports and Special Economic Zone Limited",
+        "rating": "CARE A1+",
+        "weight": 0.78
+      },
+      {
+        "name": "Jamnagar Utilities & Power Private Limited (Mukesh Ambani Group)",
+        "rating": "CRISIL A1+",
+        "weight": 0.78
+      },
+      {
+        "name": "Export Import Bank of India",
+        "rating": "CRISIL A1+",
+        "weight": 0.77
+      },
+      {
+        "name": "Godrej Industries Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.71
+      },
+      {
+        "name": "Kotak Securities Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.69
+      },
+      {
+        "name": "Mirae Asset Capital Markets Private Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.63
+      },
+      {
+        "name": "CESC Limited",
+        "rating": "FITCH A1+",
+        "weight": 0.63
+      },
+      {
+        "name": "Godrej Properties Limited",
+        "rating": "FITCH A1+",
+        "weight": 0.62
+      },
+      {
+        "name": "JM Financial Services Limited",
+        "rating": "CARE A1+",
+        "weight": 0.62
+      },
+      {
+        "name": "Aditya Birla Real Estate Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.62
+      },
+      {
+        "name": "Sharekhan Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.62
+      },
+      {
+        "name": "SBICAP Securities Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.62
+      },
+      {
+        "name": "Hero Fincorp Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.62
+      },
+      {
+        "name": "Deutsche Investments India Pvt Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.55
+      },
+      {
+        "name": "Axis Securities Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.55
+      },
+      {
+        "name": "IGH Holdings Private Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.54
+      },
+      {
+        "name": "Infina Finance Private Limited (Kotak Group)",
+        "rating": "CRISIL A1+",
+        "weight": 0.47
+      },
+      {
+        "name": "Angel One Limited",
+        "rating": "CARE A1+",
+        "weight": 0.46
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.39
+      },
+      {
+        "name": "Tata Capital Housing Finance Limited",
+        "rating": "CRISIL A1+/CRISIL A1+",
+        "weight": 0.31
+      },
+      {
+        "name": "Bajaj Finance Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.31
+      },
+      {
+        "name": "Nu Vista Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.31
+      },
+      {
+        "name": "ICICI Securities Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.24
+      },
+      {
+        "name": "Embassy Office Parks REIT (Blackstone group)(Exposure to the NCDs issued by REIT)",
+        "rating": "CRISIL A1+",
+        "weight": 0.24
+      },
+      {
+        "name": "HSBC InvestDirect Financial Services (India) Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.23
+      },
+      {
+        "name": "360 One Prime Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.16
+      },
+      {
+        "name": "Julius Baer Capital India Pvt Ltd",
+        "rating": "CRISIL A1+",
+        "weight": 0.16
+      },
+      {
+        "name": "Cholamandalam Investment and Finance Company Ltd",
+        "rating": "CRISIL A1+",
+        "weight": 0.08
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 0.06
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 15.99
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.3
+      }
+    ]
+  },
+  "nippon-money-market-fund": {
+    "scheme_name": "Nippon India Money Market Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 49,
+    "holdings": [
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL A1+/ICRA A1+",
+        "weight": 8.46
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CARE A1+/CRISIL A1+",
+        "weight": 8.26
+      },
+      {
+        "name": "Punjab National Bank",
+        "rating": "CRISIL A1+/CARE A1+",
+        "weight": 6.0
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "rating": "CARE A1+/CRISIL A1+",
+        "weight": 5.13
+      },
+      {
+        "name": "Canara Bank",
+        "rating": "CRISIL A1+/ICRA A1+",
+        "weight": 5.12
+      },
+      {
+        "name": "IndusInd Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 4.68
+      },
+      {
+        "name": "Bank of Baroda",
+        "rating": "FITCH A1+/CARE A1+",
+        "weight": 4.05
+      },
+      {
+        "name": "IDFC First Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 2.9
+      },
+      {
+        "name": "Indian Bank",
+        "rating": "CRISIL A1+",
+        "weight": 2.81
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "rating": "ICRA A1+",
+        "weight": 2.23
+      },
+      {
+        "name": "UCO Bank",
+        "rating": "CRISIL A1+",
+        "weight": 2.22
+      },
+      {
+        "name": "Kotak Mahindra Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 1.37
+      },
+      {
+        "name": "Union Bank of India",
+        "rating": "FITCH A1+/ICRA A1+",
+        "weight": 1.15
+      },
+      {
+        "name": "Karur Vysya Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 1.11
+      },
+      {
+        "name": "AU Small Finance Bank Limited",
+        "rating": "CARE A1+",
+        "weight": 1.11
+      },
+      {
+        "name": "Punjab & Sind Bank",
+        "rating": "ICRA A1+",
+        "weight": 0.89
+      },
+      {
+        "name": "Indian Overseas Bank",
+        "rating": "CARE A1+",
+        "weight": 0.56
+      },
+      {
+        "name": "Axis Bank Limited",
+        "rating": "CARE A1+",
+        "weight": 0.11
+      },
+      {
+        "name": "Muthoot Fincorp Ltd",
+        "rating": "CRISIL A1+",
+        "weight": 2.01
+      },
+      {
+        "name": "Angel One Limited",
+        "rating": "ICRA A1+/CARE A1+",
+        "weight": 1.66
+      },
+      {
+        "name": "Manappuram Finance Limited",
+        "rating": "CRISIL A1+",
+        "weight": 1.58
+      },
+      {
+        "name": "360 One Prime Limited",
+        "rating": "CRISIL A1+",
+        "weight": 1.55
+      },
+      {
+        "name": "Kotak Securities Limited",
+        "rating": "ICRA A1+/CRISIL A1+",
+        "weight": 1.34
+      },
+      {
+        "name": "Fedbank Financial Services Limited",
+        "rating": "ICRA A1+/CRISIL A1+",
+        "weight": 1.33
+      },
+      {
+        "name": "Bahadur Chand Investments Pvt Limited (Hero Group)",
+        "rating": "CARE A1+",
+        "weight": 1.11
+      },
+      {
+        "name": "Bharti Telecom Limited",
+        "rating": "CRISIL A1+",
+        "weight": 1.11
+      },
+      {
+        "name": "IGH Holdings Private Limited",
+        "rating": "CRISIL A1+",
+        "weight": 1.1
+      },
+      {
+        "name": "Embassy Office Parks REIT (Blackstone group)",
+        "rating": "CRISIL A1+",
+        "weight": 1.1
+      },
+      {
+        "name": "Motilal Oswal Financial Services Limited",
+        "rating": "ICRA A1+",
+        "weight": 1.0
+      },
+      {
+        "name": "Tata Capital Housing Finance Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.89
+      },
+      {
+        "name": "Bajaj Housing Finance Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.89
+      },
+      {
+        "name": "Mindspace Business Parks REIT (K RAHEJA CORP GROUP)",
+        "rating": "CRISIL A1+",
+        "weight": 0.89
+      },
+      {
+        "name": "ICICI Securities Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.89
+      },
+      {
+        "name": "Kisetsu Saison Fin Ind Pvt Ltd",
+        "rating": "CARE A1+",
+        "weight": 0.89
+      },
+      {
+        "name": "Credila Financial Services Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.88
+      },
+      {
+        "name": "Torrent Pharmaceuticals Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.79
+      },
+      {
+        "name": "Bajaj Finance Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.69
+      },
+      {
+        "name": "SBFC Finance Limited",
+        "rating": "CARE A1+",
+        "weight": 0.69
+      },
+      {
+        "name": "Export Import Bank of India",
+        "rating": "CRISIL A1+",
+        "weight": 0.67
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL A1+",
+        "weight": 0.45
+      },
+      {
+        "name": "Nuvama Wealth And Investment Ltd",
+        "rating": "ICRA A1+",
+        "weight": 0.44
+      },
+      {
+        "name": "DSP Finance Private Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.44
+      },
+      {
+        "name": "Kotak Mahindra Prime Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.22
+      },
+      {
+        "name": "Kotak Mahindra Investments Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.11
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 0.36
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 2.24
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 10.95
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 0.2
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.28
+      }
+    ]
+  },
+  "nippon-ultra-short-duration-fund": {
+    "scheme_name": "Nippon India Ultra Short Duration Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 40,
+    "holdings": [
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CARE A1+/CRISIL A1+",
+        "weight": 5.01
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "rating": "CRISIL",
+        "weight": 4.86
+      },
+      {
+        "name": "Axis Bank Limited",
+        "rating": "CRISIL A1+/CARE A1+",
+        "weight": 4.41
+      },
+      {
+        "name": "AU Small Finance Bank Limited",
+        "rating": "CRISIL A1+/CARE A1+",
+        "weight": 4.03
+      },
+      {
+        "name": "Punjab National Bank",
+        "rating": "CRISIL A1+/CARE A1+",
+        "weight": 3.93
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL A1+",
+        "weight": 3.45
+      },
+      {
+        "name": "Indian Bank",
+        "rating": "CRISIL A1+",
+        "weight": 3.34
+      },
+      {
+        "name": "Bank of Baroda",
+        "rating": "CRISIL A1+/FITCH A1+",
+        "weight": 2.28
+      },
+      {
+        "name": "Canara Bank",
+        "rating": "CRISIL A1+",
+        "weight": 0.22
+      },
+      {
+        "name": "Muthoot Finorp Ltd",
+        "rating": "CRISIL A1+",
+        "weight": 2.2
+      },
+      {
+        "name": "IIFL Home Finance Limited",
+        "rating": "CRISIL A1+",
+        "weight": 1.78
+      },
+      {
+        "name": "Motilal Oswal Financial Services Limited",
+        "rating": "ICRA A1+",
+        "weight": 0.22
+      },
+      {
+        "name": "Export Import Bank of India",
+        "rating": "CRISIL A1+",
+        "weight": 0.05
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 3.15
+      },
+      {
+        "name": "Piramal Finance Limited",
+        "rating": "CARE AA+/ICRA AA",
+        "weight": 2.66
+      },
+      {
+        "name": "Vedanta Limited",
+        "rating": "CRISIL AA/ICRA AA",
+        "weight": 2.27
+      },
+      {
+        "name": "IndiGrid Infrastructure Trust (India Grid Trust Group)",
+        "rating": "CRISIL AAA",
+        "weight": 2.19
+      },
+      {
+        "name": "Nuvama Wealth And Investment Ltd",
+        "rating": "CARE AA",
+        "weight": 2.1
+      },
+      {
+        "name": "Tata Communications Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.05
+      },
+      {
+        "name": "Adani Transmission Step-Two Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.95
+      },
+      {
+        "name": "Aadhar Housing Finance Limited (Blackstone Group)",
+        "rating": "ICRA AA",
+        "weight": 1.83
+      },
+      {
+        "name": "Embassy Office Parks REIT (Blackstone group)(Exposure to the NCDs issued by REIT)",
+        "rating": "CRISIL AAA",
+        "weight": 1.82
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL AAA",
+        "weight": 1.64
+      },
+      {
+        "name": "Interise Trust (INVIT sponsored by CPPIB)",
+        "rating": "ICRA AAA",
+        "weight": 1.63
+      },
+      {
+        "name": "Incred Financial Services Limited",
+        "rating": "CRISIL AA-",
+        "weight": 1.61
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL AAA",
+        "weight": 1.54
+      },
+      {
+        "name": "SK Finance Limited (SK Finance Group)(Backed by pool of receivables assigned by SK Finance)",
+        "rating": "ICRA AA-",
+        "weight": 1.44
+      },
+      {
+        "name": "Godrej Industries Limited",
+        "rating": "CRISIL AA+",
+        "weight": 1.42
+      },
+      {
+        "name": "Mindspace Business Parks REIT (K RAHEJA CORP GROUP)",
+        "rating": "CRISIL AAA",
+        "weight": 1.37
+      },
+      {
+        "name": "Adani Power Limited",
+        "rating": "FITCH AA(CE)",
+        "weight": 1.36
+      },
+      {
+        "name": "Andhra Pradesh State Beverages Corporation Limited (A.P.State PSU) (Structured escrow mechanism for payments & Guarantee by government of Andhra Pradesh)",
+        "rating": "ICRA AA",
+        "weight": 1.28
+      },
+      {
+        "name": "360 One Prime Limited",
+        "rating": null,
+        "weight": 1.28
+      },
+      {
+        "name": "360 One Prime Limited",
+        "rating": "ICRA AA",
+        "weight": 0.91
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 0.46
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 8.58
+      },
+      {
+        "name": "Liquid Gold Series",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 0.85
+      },
+      {
+        "name": "Granger Trust",
+        "rating": "CARE AA(SO)",
+        "weight": 0.83
+      },
+      {
+        "name": "Samriddhi Trust",
+        "rating": "ICRA AA(SO)",
+        "weight": 0.57
+      },
+      {
+        "name": "India Universal Trust",
+        "rating": "FITCH AA(SO)/CRISIL AAA(SO)",
+        "weight": 0.11
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.28
+      }
+    ]
+  },
+  "nippon-low-duration-fund": {
+    "scheme_name": "Nippon India Low Duration Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 47,
+    "holdings": [
+      {
+        "name": "HDFC Bank Limited",
+        "rating": "CARE A1+/CRISIL A1+",
+        "weight": 7.4
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CARE A1+/CRISIL A1+",
+        "weight": 3.56
+      },
+      {
+        "name": "Bank of Baroda",
+        "rating": "CARE A1+/FITCH A1+",
+        "weight": 3.09
+      },
+      {
+        "name": "Axis Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 2.33
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL A1+/ICRA A1+",
+        "weight": 1.78
+      },
+      {
+        "name": "Punjab National Bank",
+        "rating": "CRISIL A1+",
+        "weight": 1.26
+      },
+      {
+        "name": "Canara Bank",
+        "rating": "CRISIL A1+",
+        "weight": 1.02
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 7.38
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 4.72
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 4.3
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL AAA",
+        "weight": 3.55
+      },
+      {
+        "name": "IndiGrid Infrastructure Trust (India Grid Trust Group)",
+        "rating": "CRISIL AAA",
+        "weight": 2.51
+      },
+      {
+        "name": "Aditya Birla Capital Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.19
+      },
+      {
+        "name": "Telangana State Industrial Infrastructure Corporation Limited",
+        "rating": "FITCH AA(CE)",
+        "weight": 2.15
+      },
+      {
+        "name": "Tata Communications Limited",
+        "rating": "CARE AAA",
+        "weight": 2.13
+      },
+      {
+        "name": "Poonawalla Fincorp Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.12
+      },
+      {
+        "name": "Piramal Finance Limited",
+        "rating": "ICRA AA+",
+        "weight": 1.87
+      },
+      {
+        "name": "Interise Trust (INVIT sponsored by CPPIB)",
+        "rating": "ICRA AAA",
+        "weight": 1.75
+      },
+      {
+        "name": "Muthoot Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.7
+      },
+      {
+        "name": "Manchereal Repallewada Road Private Limited",
+        "rating": "CARE AAA",
+        "weight": 1.67
+      },
+      {
+        "name": "Truhome Finance Limited",
+        "rating": "FITCH AA",
+        "weight": 1.57
+      },
+      {
+        "name": "Bharti Telecom Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.43
+      },
+      {
+        "name": "ICICI Home Finance Company Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.33
+      },
+      {
+        "name": "Tata Capital Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.32
+      },
+      {
+        "name": "Brookfield India Real Estate Trust",
+        "rating": "CRISIL AAA",
+        "weight": 1.05
+      },
+      {
+        "name": "HDB Financial Services Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.03
+      },
+      {
+        "name": "Andhra Pradesh State Beverages Corporation Limited (A.P.State PSU) (Structured escrow mechanism for payments & Guarantee by government of Andhra Pradesh)",
+        "rating": "FITCH AA(CE)",
+        "weight": 1.02
+      },
+      {
+        "name": "Vedanta Limited",
+        "rating": "CRISIL AA",
+        "weight": 0.8
+      },
+      {
+        "name": "SMFG India Home Finance Company Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.8
+      },
+      {
+        "name": "Bahadur Chand Investments Pvt Limited (Hero Group)",
+        "rating": "ICRA AA+",
+        "weight": 0.4
+      },
+      {
+        "name": "PNB Housing Finance Limited",
+        "rating": "CRISIL AA+",
+        "weight": 0.21
+      },
+      {
+        "name": "Sikka Ports and Terminals Limited (Mukesh Ambani Group)",
+        "rating": "CRISIL AAA",
+        "weight": 0.11
+      },
+      {
+        "name": "Muthoot Finance Limited",
+        "rating": "CRISIL AA+",
+        "weight": 1.07
+      },
+      {
+        "name": "360 One Prime Limited",
+        "rating": "ICRA AA",
+        "weight": 1.07
+      },
+      {
+        "name": "Cholamandalam Investment and Finance Company Ltd",
+        "rating": "ICRA AA+",
+        "weight": 1.07
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 5.71
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 5.27
+      },
+      {
+        "name": "Jubilant Beverages Limited",
+        "rating": "CRISIL AA",
+        "weight": 0.99
+      },
+      {
+        "name": "JTPM Metal Traders Limited",
+        "rating": "CRISIL AA",
+        "weight": 0.22
+      },
+      {
+        "name": "Radhakrishna Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 2.08
+      },
+      {
+        "name": "Liquid Gold Series",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 1.88
+      },
+      {
+        "name": "Shivshakti Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 1.04
+      },
+      {
+        "name": "Vajra Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 0.96
+      },
+      {
+        "name": "India Universal Trust",
+        "rating": "FITCH AAA(SO)/CRISIL AAA(SO)",
+        "weight": 0.88
+      },
+      {
+        "name": "Naomi",
+        "rating": "FITCH AAA(SO)",
+        "weight": 0.63
+      },
+      {
+        "name": "Dhruva XXIII",
+        "rating": "ICRA AAA(SO)",
+        "weight": 0.03
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.31
+      }
+    ]
+  },
+  "nippon-corporate-bond-fund": {
+    "scheme_name": "Nippon India Corporate Bond Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 35,
+    "holdings": [
+      {
+        "name": "Bank of Baroda",
+        "rating": "CARE A1+",
+        "weight": 3.03
+      },
+      {
+        "name": "Canara Bank",
+        "rating": "CRISIL A1+",
+        "weight": 2.03
+      },
+      {
+        "name": "Punjab National Bank",
+        "rating": "CRISIL A1+",
+        "weight": 1.01
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL A1+",
+        "weight": 1.0
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 7.44
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL AAA",
+        "weight": 7.35
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 6.47
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 4.83
+      },
+      {
+        "name": "Indian Railway Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 4.36
+      },
+      {
+        "name": "Bharti Telecom Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.62
+      },
+      {
+        "name": "Poonawalla Fincorp Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.59
+      },
+      {
+        "name": "Tata Capital Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.44
+      },
+      {
+        "name": "Summit Digitel Infrastructure Limited (BROOKFIELD GROUP)",
+        "rating": "CRISIL AAA",
+        "weight": 2.23
+      },
+      {
+        "name": "Aditya Birla Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.11
+      },
+      {
+        "name": "Aditya Birla Capital Limited",
+        "rating": "ICRA AAA",
+        "weight": 2.11
+      },
+      {
+        "name": "Nexus Select Trust - REIT",
+        "rating": "CRISIL AAA",
+        "weight": 1.89
+      },
+      {
+        "name": "JIO Credit Limited",
+        "rating": "ICRA AAA",
+        "weight": 1.83
+      },
+      {
+        "name": "HDB Financial Services Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.8
+      },
+      {
+        "name": "Bajaj Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.69
+      },
+      {
+        "name": "National Highways Infra Trust",
+        "rating": "CARE AAA",
+        "weight": 1.18
+      },
+      {
+        "name": "Siddhivinayak Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 2.08
+      },
+      {
+        "name": "Shivshakti Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 2.07
+      },
+      {
+        "name": "India Universal Trust",
+        "rating": "FITCH AAA(SO)/CRISIL AAA(SO)",
+        "weight": 1.06
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 6.59
+      },
+      {
+        "name": "Mahindra & Mahindra Financial Services Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.87
+      },
+      {
+        "name": "Toyota Financial Services India Limited",
+        "rating": "ICRA AAA",
+        "weight": 0.69
+      },
+      {
+        "name": "ICICI Prudential Life Insurance Company Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.63
+      },
+      {
+        "name": "L&T Metro Rail (Hyderabad) Limited (Guarantee by L&T Ltd.)",
+        "rating": "CRISIL AAA(CE)",
+        "weight": 0.57
+      },
+      {
+        "name": "ICICI Home Finance Company Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.53
+      },
+      {
+        "name": "Sundaram Home Finance Limited",
+        "rating": "ICRA AAA",
+        "weight": 0.53
+      },
+      {
+        "name": "Mindspace Business Parks REIT (K RAHEJA CORP GROUP)",
+        "rating": "CRISIL AAA",
+        "weight": 0.48
+      },
+      {
+        "name": "IndiGrid Infrastructure Trust (India Grid Trust Group)",
+        "rating": "CRISIL AAA",
+        "weight": 0.32
+      },
+      {
+        "name": "Larsen & Toubro Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.27
+      },
+      {
+        "name": "SBI General Insurance Company Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.02
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.3
+      }
+    ]
+  },
+  "nippon-banking-and-psu-fund": {
+    "scheme_name": "Nippon India Banking and PSU Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 40,
+    "holdings": [
+      {
+        "name": "Bank of Baroda",
+        "rating": "CARE A1+",
+        "weight": 1.84
+      },
+      {
+        "name": "Canara Bank",
+        "rating": "CRISIL A1+",
+        "weight": 0.92
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "rating": "CARE A1+",
+        "weight": 0.91
+      },
+      {
+        "name": "Export Import Bank of India",
+        "rating": "CRISIL A1+",
+        "weight": 0.92
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL AAA",
+        "weight": 9.01
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 8.43
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 7.48
+      },
+      {
+        "name": "Indian Railway Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 6.35
+      },
+      {
+        "name": "Power Grid Corporation of India Limited",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 3.95
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.89
+      },
+      {
+        "name": "Export Import Bank of India",
+        "rating": "CRISIL AAA",
+        "weight": 2.36
+      },
+      {
+        "name": "ICICI Bank Limited",
+        "rating": "ICRA AAA",
+        "weight": 1.98
+      },
+      {
+        "name": "Union Bank of India",
+        "rating": "ICRA AAA",
+        "weight": 1.94
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.92
+      },
+      {
+        "name": "Bharti Telecom Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.91
+      },
+      {
+        "name": "National Bank For Financing Infrastructure And Development",
+        "rating": "CRISIL AAA",
+        "weight": 1.3
+      },
+      {
+        "name": "HDFC Bank Limited BASEL III",
+        "rating": "CRISIL AAA",
+        "weight": 1.17
+      },
+      {
+        "name": "Poonawalla Fincorp Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.77
+      },
+      {
+        "name": "Kotak Mahindra Prime Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.77
+      },
+      {
+        "name": "National Highways Authority Of India",
+        "rating": "CRISIL AAA",
+        "weight": 0.59
+      },
+      {
+        "name": "HDB Financial Services Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.48
+      },
+      {
+        "name": "Aditya Birla Capital Limited",
+        "rating": "ICRA AAA",
+        "weight": 0.48
+      },
+      {
+        "name": "L&T Metro Rail (Hyderabad) Limited (Guarantee by L&T Ltd.)",
+        "rating": "CRISIL AAA(CE)",
+        "weight": 0.47
+      },
+      {
+        "name": "NTPC Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.46
+      },
+      {
+        "name": "NHPC Limited",
+        "rating": "ICRA AAA/CARE AAA",
+        "weight": 0.39
+      },
+      {
+        "name": "Numaligarh Refinery Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.37
+      },
+      {
+        "name": "ICICI Prudential Life Insurance Company Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.24
+      },
+      {
+        "name": "SBI General Insurance Company Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.23
+      },
+      {
+        "name": "LIC Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.1
+      },
+      {
+        "name": "Tata Capital Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.1
+      },
+      {
+        "name": "Indian Railway Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.54
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.46
+      },
+      {
+        "name": "Mahindra & Mahindra Financial Services Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.46
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 3.54
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 10.42
+      },
+      {
+        "name": "Indian Railway Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.83
+      },
+      {
+        "name": "National Bank For Financing Infrastructure And Development",
+        "rating": "CARE AAA",
+        "weight": 0.4
+      },
+      {
+        "name": "Siddhivinayak Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 0.95
+      },
+      {
+        "name": "Shivshakti Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 0.95
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.33
+      }
+    ]
+  },
+  "nippon-floater-fund": {
+    "scheme_name": "Nippon India Floater Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 37,
+    "holdings": [
+      {
+        "name": "Union Bank of India",
+        "rating": "ICRA A1+",
+        "weight": 2.27
+      },
+      {
+        "name": "Canara Bank",
+        "rating": "CRISIL A1+/CRISIL A1+",
+        "weight": 2.08
+      },
+      {
+        "name": "Punjab National Bank",
+        "rating": "CRISIL A1+",
+        "weight": 0.32
+      },
+      {
+        "name": "Kotak Mahindra Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 0.32
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "rating": "CARE A1+",
+        "weight": 0.31
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 6.06
+      },
+      {
+        "name": "Summit Digitel Infrastructure Limited (BROOKFIELD GROUP)",
+        "rating": "CRISIL AAA",
+        "weight": 5.97
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL AAA",
+        "weight": 5.25
+      },
+      {
+        "name": "Indian Railway Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 4.47
+      },
+      {
+        "name": "Bajaj Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 3.95
+      },
+      {
+        "name": "Pipeline Infrastructure Private Limited",
+        "rating": "CRISIL AAA",
+        "weight": 3.89
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL AAA",
+        "weight": 3.36
+      },
+      {
+        "name": "Aditya Birla Housing Finance Limited",
+        "rating": "ICRA AAA",
+        "weight": 2.89
+      },
+      {
+        "name": "LIC Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.84
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.81
+      },
+      {
+        "name": "Bharti Telecom Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.61
+      },
+      {
+        "name": "Poonawalla Fincorp Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.11
+      },
+      {
+        "name": "Mahindra & Mahindra Financial Services Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.98
+      },
+      {
+        "name": "Kotak Mahindra Investments Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.24
+      },
+      {
+        "name": "JIO Credit Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.98
+      },
+      {
+        "name": "Tata Capital Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.8
+      },
+      {
+        "name": "Nomura Fixed Inc Securities Pvt Ltd",
+        "rating": "FITCH AA",
+        "weight": 0.66
+      },
+      {
+        "name": "IndiGrid Infrastructure Trust (India Grid Trust Group)",
+        "rating": "CRISIL AAA",
+        "weight": 0.66
+      },
+      {
+        "name": "Jamnagar Utilities & Power Private Limited (Mukesh Ambani Group)",
+        "rating": "CRISIL AAA",
+        "weight": 0.66
+      },
+      {
+        "name": "Export Import Bank of India",
+        "rating": "CRISIL AAA",
+        "weight": 0.66
+      },
+      {
+        "name": "Housing & Urban Development Corporation Limited",
+        "rating": "ICRA AAA",
+        "weight": 0.65
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 2.67
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL AAA",
+        "weight": 0.33
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 3.08
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 17.2
+      },
+      {
+        "name": "Sundaram Home Finance Limited",
+        "rating": "ICRA AAA",
+        "weight": 2.63
+      },
+      {
+        "name": "National Housing Bank",
+        "rating": "CARE AAA",
+        "weight": 0.25
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 1.39
+      },
+      {
+        "name": "Siddhivinayak Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 1.62
+      },
+      {
+        "name": "Radhakrishna Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 1.62
+      },
+      {
+        "name": "Shivshakti Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 1.36
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.32
+      }
+    ]
+  },
+  "nippon-short-duration-fund": {
+    "scheme_name": "Nippon India Short Duration Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 37,
+    "holdings": [
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "ICRA A1+",
+        "weight": 1.31
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 6.86
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 6.2
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 5.87
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL AAA/ICRA AAA",
+        "weight": 3.57
+      },
+      {
+        "name": "Muthoot Finance Limited",
+        "rating": "CRISIL AA+",
+        "weight": 3.34
+      },
+      {
+        "name": "Indian Railway Finance Corporation Limited",
+        "rating": "CRISIL AA+",
+        "weight": 2.61
+      },
+      {
+        "name": "Summit Digitel Infrastructure Limited (BROOKFIELD GROUP)",
+        "rating": "CRISIL AAA",
+        "weight": 2.33
+      },
+      {
+        "name": "Poonawalla Fincorp Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.19
+      },
+      {
+        "name": "Aditya Birla Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 2.06
+      },
+      {
+        "name": "Bharti Telecom Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.58
+      },
+      {
+        "name": "Truhome Finance Limited",
+        "rating": "CRISIL AA/FITCH AA",
+        "weight": 1.45
+      },
+      {
+        "name": "Mahindra & Mahindra Financial Services Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.38
+      },
+      {
+        "name": "Piramal Finance Limited",
+        "rating": "CARE AA+",
+        "weight": 1.31
+      },
+      {
+        "name": "Toyota Financial Services India Limited",
+        "rating": "ICRA AAA",
+        "weight": 1.03
+      },
+      {
+        "name": "ICICI Home Finance Company Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.03
+      },
+      {
+        "name": "The Federal Bank Limited BASEL III",
+        "rating": "CARE AA+",
+        "weight": 0.23
+      },
+      {
+        "name": "National Highways Authority Of India",
+        "rating": "CRISIL AAA",
+        "weight": 0.14
+      },
+      {
+        "name": "Nuclear Power Corporation Of India Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.07
+      },
+      {
+        "name": "Cholamandalam Investment and Finance Company Ltd",
+        "rating": "CRISIL AA+",
+        "weight": 0.07
+      },
+      {
+        "name": "Aditya Birla Capital Limited",
+        "rating": "ICRA AAA",
+        "weight": 0.07
+      },
+      {
+        "name": "Kotak Mahindra Prime Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.05
+      },
+      {
+        "name": "Muthoot Finance Limited",
+        "rating": "CRISIL AA+",
+        "weight": 1.1
+      },
+      {
+        "name": "Mahindra & Mahindra Financial Services Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.04
+      },
+      {
+        "name": "Cholamandalam Investment and Finance Company Ltd",
+        "rating": "ICRA AA+",
+        "weight": 1.03
+      },
+      {
+        "name": "Mahindra Rural Housing Finance Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.43
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 3.28
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 18.11
+      },
+      {
+        "name": "Jubilant Beverages Limited",
+        "rating": "CRISIL AA",
+        "weight": 1.42
+      },
+      {
+        "name": "Toyota Financial Services India Limited",
+        "rating": "ICRA AA+",
+        "weight": 1.03
+      },
+      {
+        "name": "JTPM Metal Traders Limited",
+        "rating": "CRISIL AA",
+        "weight": 0.05
+      },
+      {
+        "name": "Shivshakti Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 3.02
+      },
+      {
+        "name": "Siddhivinayak Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 2.69
+      },
+      {
+        "name": "India Universal Trust",
+        "rating": "FITCH AAA(SO)/CRISIL AAA(SO)",
+        "weight": 2.07
+      },
+      {
+        "name": "Liquid Gold Series",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 1.12
+      },
+      {
+        "name": "Dhruva XXIII",
+        "rating": "ICRA AAA(SO)",
+        "weight": 0.69
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.38
+      }
+    ]
+  },
+  "nippon-nivesh-lakshya-long-duration-fund": {
+    "scheme_name": "Nippon India Nivesh Lakshya Long Duration Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 2,
+    "holdings": [
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 96.3
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.42
+      }
+    ]
+  },
+  "nippon-credit-risk-fund-existing-number-of-segregated-portfolios-1": {
+    "scheme_name": "Nippon India Credit Risk Fund (Existing Number of Segregated Portfolios - 1)",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 36,
+    "holdings": [
+      {
+        "name": "HDFC Bank Limited",
+        "rating": "CRISIL A1+",
+        "weight": 3.36
+      },
+      {
+        "name": "Union Bank of India",
+        "rating": "ICRA A1+",
+        "weight": 3.34
+      },
+      {
+        "name": "Trust Investment Advisors Private Limited (TRUST GROUP)",
+        "rating": "CARE A1+",
+        "weight": 0.7
+      },
+      {
+        "name": "Mindspace Business Parks REIT (K RAHEJA CORP GROUP)",
+        "rating": "AAA/ICRA AA",
+        "weight": 5.25
+      },
+      {
+        "name": "Vedanta Limited",
+        "rating": "ICRA AA+/CRISIL AA",
+        "weight": 4.6
+      },
+      {
+        "name": "Triumph Composites Limited",
+        "rating": "FITCH AA-",
+        "weight": 4.26
+      },
+      {
+        "name": "Aditya Birla Real Estate Limited",
+        "rating": "CRISIL AA",
+        "weight": 3.86
+      },
+      {
+        "name": "Delhi International Airport Limited",
+        "rating": "ICRA AA",
+        "weight": 3.57
+      },
+      {
+        "name": "GMR Airports Limited",
+        "rating": "CRISIL A+",
+        "weight": 3.4
+      },
+      {
+        "name": "Muthoot Fincorp Ltd",
+        "rating": "CRISIL AA-",
+        "weight": 3.18
+      },
+      {
+        "name": "Muthoot Mcred Limited",
+        "rating": "ICRA A",
+        "weight": 3.11
+      },
+      {
+        "name": "Truhome Finance Limited",
+        "rating": "CRISIL AA",
+        "weight": 2.85
+      },
+      {
+        "name": "Navi Finserv Limited",
+        "rating": "FITCH A-",
+        "weight": 2.82
+      },
+      {
+        "name": "Gaursons India Private Limited",
+        "rating": "FITCH A-",
+        "weight": 2.8
+      },
+      {
+        "name": "Andhra Pradesh State Beverages Corporation Limited (Structured escrow mechanism for payments & Guarantee by government of Andhra Pradesh)",
+        "rating": "FITCH AA(CE)",
+        "weight": 2.5
+      },
+      {
+        "name": "Hiranandani Financial Services Private Limited",
+        "rating": "CARE A+",
+        "weight": 2.48
+      },
+      {
+        "name": "Mancherial Repallewada Road Private Limited",
+        "rating": "CARE AAA",
+        "weight": 2.24
+      },
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL AAA",
+        "weight": 2.1
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.82
+      },
+      {
+        "name": "Adani Airport Holdings Limited",
+        "rating": "CRISIL AA-",
+        "weight": 1.77
+      },
+      {
+        "name": "Small Industries Dev Bank of India",
+        "rating": "CRISIL AAA",
+        "weight": 1.77
+      },
+      {
+        "name": "Incred Financial Services Limited",
+        "rating": "CRISIL AA-",
+        "weight": 1.76
+      },
+      {
+        "name": "Adani Power Limited",
+        "rating": "CRISIL AA",
+        "weight": 1.76
+      },
+      {
+        "name": "Telangana State Industrial Infrastructure Corporation Limited",
+        "rating": "FITCH AA(CE)",
+        "weight": 1.74
+      },
+      {
+        "name": "Power Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.71
+      },
+      {
+        "name": "Adani Transmission Step-Two Limited",
+        "rating": "CRISIL AA+",
+        "weight": 0.7
+      },
+      {
+        "name": "Suryapet Khammam Road Pvt Ltd",
+        "rating": "CARE AAA",
+        "weight": 0.5
+      },
+      {
+        "name": "Auxilo Finserve Private Limited",
+        "rating": "CRISIL A+",
+        "weight": 2.27
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 9.68
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 4.53
+      },
+      {
+        "name": "JSW Kalinga Steel Limited",
+        "rating": "CRISIL AA",
+        "weight": 1.78
+      },
+      {
+        "name": "Jubilant Beverages Limited",
+        "rating": "CRISIL AA",
+        "weight": 0.96
+      },
+      {
+        "name": "JTPM Metal Traders Limited",
+        "rating": "CRISIL AA",
+        "weight": 0.75
+      },
+      {
+        "name": "Jubilant Bevco Limited",
+        "rating": "CRISIL AA",
+        "weight": 0.19
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.21
+      },
+      {
+        "name": "Yes Bank Limited Basel III",
+        "rating": "ICRA D",
+        "weight": 0.0
+      }
+    ]
+  },
+  "nippon-medium-duration-fund-existing-number-of-segregated-portfolios-1": {
+    "scheme_name": "Nippon India Medium Duration Fund (Existing Number of Segregated Portfolios - 1)",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 23,
+    "holdings": [
+      {
+        "name": "Punjab National Bank",
+        "rating": "CRISIL A1+",
+        "weight": 6.46
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL AAA",
+        "weight": 3.52
+      },
+      {
+        "name": "Andhra Pradesh State Beverages Corporation Limited (A.P.State PSU) (Structured escrow mechanism for payments & Guarantee by government of Andhra Pradesh)",
+        "rating": "FITCH AA(CE)",
+        "weight": 3.46
+      },
+      {
+        "name": "Truhome Finance Limited",
+        "rating": "CRISIL AA",
+        "weight": 3.45
+      },
+      {
+        "name": "Triumph Composites Limited",
+        "rating": "FITCH AA-",
+        "weight": 3.43
+      },
+      {
+        "name": "Muthoot Fincorp Ltd",
+        "rating": "CRISIL AA-",
+        "weight": 3.41
+      },
+      {
+        "name": "Aditya Birla Real Estate Limited",
+        "rating": "CRISIL AA",
+        "weight": 3.39
+      },
+      {
+        "name": "Kotak Mahindra Investments Limited",
+        "rating": "CRISIL AAA",
+        "weight": 3.39
+      },
+      {
+        "name": "Adani Power Limited",
+        "rating": "CRISIL AA",
+        "weight": 3.38
+      },
+      {
+        "name": "Vastu Finserve India Private Limited",
+        "rating": "CARE AA-",
+        "weight": 3.33
+      },
+      {
+        "name": "Delhi International Airport Limited",
+        "rating": "ICRA AA",
+        "weight": 2.76
+      },
+      {
+        "name": "IndoStar Capital Finance Limited",
+        "rating": "CRISIL AA-",
+        "weight": 2.75
+      },
+      {
+        "name": "Vedanta Limited",
+        "rating": "CRISIL AA",
+        "weight": 2.4
+      },
+      {
+        "name": "Cholamandalam Investment and Finance Company Ltd",
+        "rating": "ICRA AA+",
+        "weight": 2.07
+      },
+      {
+        "name": "Arka Fincap Limited",
+        "rating": "CRISIL AA",
+        "weight": 2.05
+      },
+      {
+        "name": "Telangana State Industrial Infrastructure Corporation Limited",
+        "rating": "FITCH AA(CE)",
+        "weight": 0.35
+      },
+      {
+        "name": "Indian Railway Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 3.6
+      },
+      {
+        "name": "National Highways Infra Trust",
+        "rating": "CARE AAA",
+        "weight": 1.81
+      },
+      {
+        "name": "Siddhivinayak Securitisation Trust",
+        "rating": "CRISIL AAA(SO)",
+        "weight": 3.34
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.34
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 13.28
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 10.14
+      },
+      {
+        "name": "Yes Bank Limited Basel III",
+        "rating": "ICRA D",
+        "weight": 0.0
+      }
+    ]
+  },
+  "nippon-medium-to-long-duration-fund": {
+    "scheme_name": "Nippon India Medium to Long Duration Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 6,
+    "holdings": [
+      {
+        "name": "National Bank For Agriculture and Rural Development",
+        "rating": "CRISIL AAA",
+        "weight": 6.95
+      },
+      {
+        "name": "REC Limited",
+        "rating": "CRISIL AAA",
+        "weight": 1.35
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 37.98
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 46.73
+      },
+      {
+        "name": "Indian Railway Finance Corporation Limited",
+        "rating": "CRISIL AAA",
+        "weight": 0.07
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.35
+      }
+    ]
+  },
+  "nippon-dynamic-bond-fund": {
+    "scheme_name": "Nippon India Dynamic Bond Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 4,
+    "holdings": [
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 2.77
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 93.22
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 1.58
+      },
+      {
+        "name": "Corporate Debt Market Development Fund Class A2",
+        "rating": null,
+        "weight": 0.35
+      }
+    ]
+  },
+  "nippon-gilt-fund": {
+    "scheme_name": "Nippon India Gilt Fund",
+    "as_of_date": "2026-05-31",
+    "holdings_count": 3,
+    "holdings": [
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 79.62
+      },
+      {
+        "name": "State Government Securities",
+        "rating": "SOV",
+        "weight": 9.81
+      },
+      {
+        "name": "Government of India",
+        "rating": "SOV",
+        "weight": 6.05
+      }
+    ]
+  }
+}

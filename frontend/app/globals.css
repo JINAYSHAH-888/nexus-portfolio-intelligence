@@ -1,0 +1,976 @@
+@import "tailwindcss";
+
+/* Design tokens. Generated and contrast-verified — see DESIGN.md.
+ * A hex literal in a component is a bug. */
+@import "../styles/tokens/color-neutral.css";
+@import "../styles/tokens/color-brand.css";
+@import "../styles/tokens/color-coral.css";
+@import "../styles/tokens/color-status.css";
+@import "../styles/tokens/type.css";
+@import "../styles/tokens/space.css";
+@import "../styles/tokens/motion.css";
+
+/* ── Semantic layer ────────────────────────────────────────────────────────
+ * Components reference THESE, never a ramp step directly. Swapping a ramp
+ * must not require touching a component.
+ */
+:root {
+  --bg:            var(--n-1);
+  --bg-subtle:     var(--n-2);
+  --bg-component:  var(--n-3);
+  --bg-hover:      var(--n-4);
+
+  --line:          var(--n-6);   /* hairline, structural */
+  --line-strong:   var(--n-8);
+
+  --text:          var(--n-12);
+  --text-secondary:var(--n-11);
+  /* Step 11 is the ramp's "low-contrast text" step and the LAST one that
+   * clears 4.5:1 on a step-1 surface. Step 10 is a hover fill, not a text
+   * colour -- it measures 3.85:1 on white, which fails.
+   *
+   * So muted text is not a lighter grey than secondary; it is the same value
+   * at a smaller size, in mono, uppercase and letter-spaced (see `.label`).
+   * Hierarchy here comes from scale and texture rather than from pushing text
+   * below the legibility floor, which is the usual way "muted" copy becomes
+   * unreadable for anyone over about forty. */
+  --text-muted:    var(--n-11);
+
+  --accent:        var(--brand-9);
+  --accent-hover:  var(--brand-10);
+  --accent-text:   var(--brand-11);
+  /* The reference palette's lighter red. One highlight moment per view --
+   * a live indicator, the single most important figure -- never body text. */
+  --highlight:     var(--coral-9);
+  /* Text on an accent fill. The off-white in BOTH themes: in dark mode --n-1
+   * is near-black, which on the mid-tone crimson fails AA. 4.75:1 measured
+   * (scripts/build-tokens.mjs gates it). */
+  --on-accent:     oklch(96.2% 0.0074 80.7);
+  /* Red for DISPLAY-size words. Deep crimson on off-white (8.7:1); on black
+   * the deep crimson sinks, so dark mode lifts it to step 10 (large text,
+   * 3:1 floor, measured well above it). */
+  --display-accent: var(--brand-11);
+
+  /* ── Liquid glass ─────────────────────────────────────────────────────
+   * Apple-style material: translucent fill over a strong backdrop blur, a
+   * specular rim brightest top-left, an inner glow, and a soft cast shadow.
+   * Theme-tuned below; components use the .glass* classes, never these raw. */
+  --glass-fill:    color-mix(in oklch, white 62%, transparent);
+  --glass-fill-2:  color-mix(in oklch, white 30%, transparent);
+  --glass-rim:     color-mix(in oklch, white 95%, transparent);
+  --glass-rim-dim: color-mix(in oklch, black 6%, transparent);
+  --glass-glow:    color-mix(in oklch, white 50%, transparent);
+  --glass-shadow:  0 18px 40px -18px color-mix(in oklch, black 22%, transparent);
+  --glass-blur:    20px;
+
+  /* The ruby N's colours are FIXED, not themed: three.js materials resolve
+   * them once, and the dark ramp's step 12 is a pale pink -- swapping the
+   * stone's studio for it would wash the gem out the moment dark mode
+   * switches on. Values are the light brand ramp's. */
+  --gem-tint:      oklch(66.0% 0.186 25);
+  --gem-core:      oklch(55.5% 0.215 25);
+  --gem-solid:     oklch(50.5% 0.205 25);
+  --gem-studio:    oklch(40.7% 0.156 25);
+  --gem-glint:     oklch(92.4% 0.047 18);
+  --gem-chip:      oklch(94.3% 0.008 80);
+
+  /* Fixed crimsons for surfaces that carry off-white text in BOTH themes
+   * (the close panel). The themed ramp lightens its reds in dark mode, which
+   * would drop off-white text below AA; these never move. All three clear
+   * 4.75:1 with --on-accent (the lightest is the measured accent). */
+  --crimson-hi:    oklch(55.5% 0.215 25);
+  --crimson-mid:   oklch(40.7% 0.156 25);
+  --crimson-lo:    oklch(28.5% 0.105 25);
+
+  /* Functional state. Never used as decoration, never the sole carrier of
+   * meaning — each pairs with an icon and a text label. */
+  --ok:    var(--ok-11);
+  --warn:  var(--warn-11);
+  --err:   var(--brand-11);   /* one red in the system; it means ATTENTION */
+  --info:  var(--info-11);
+  --ok-bg: var(--ok-3);  --warn-bg: var(--warn-3);
+  --err-bg: var(--brand-3); --info-bg: var(--info-3);
+}
+
+/* Dark theme: the ramps swap themselves; only the glass material needs its
+ * own tuning -- a white frosted fill would glow on black. */
+:root[data-theme="dark"] {
+  --glass-fill:    color-mix(in oklch, white 7%, transparent);
+  --glass-fill-2:  color-mix(in oklch, white 2%, transparent);
+  --glass-rim:     color-mix(in oklch, white 34%, transparent);
+  --glass-rim-dim: color-mix(in oklch, white 5%, transparent);
+  --glass-glow:    color-mix(in oklch, white 6%, transparent);
+  --glass-shadow:  0 30px 60px -24px color-mix(in oklch, black 85%, transparent);
+  color-scheme: dark;
+  --display-accent: var(--brand-10);
+}
+:root[data-theme="light"] { color-scheme: light; }
+
+@theme inline {
+  --color-on-accent: var(--on-accent);
+  --color-display-accent: var(--display-accent);
+  --color-bg: var(--bg);
+  --color-bg-subtle: var(--bg-subtle);
+  --color-bg-component: var(--bg-component);
+  --color-bg-hover: var(--bg-hover);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-text: var(--text);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-text: var(--accent-text);
+  --color-highlight: var(--highlight);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-err: var(--err);
+  --color-info: var(--info);
+  --color-ok-bg: var(--ok-bg);
+  --color-warn-bg: var(--warn-bg);
+  --color-err-bg: var(--err-bg);
+  --color-info-bg: var(--info-bg);
+
+  /* MUST be "Archivo Variable": that is the family name
+   * @fontsource-variable/archivo actually declares. Asking for "Archivo"
+   * matched nothing, so every heading silently fell through to the OS
+   * system sans -- the one face DESIGN.md forbids as a display font. */
+  --font-display: "Archivo Variable", "Archivo", system-ui, sans-serif;
+  --font-sans: "IBM Plex Sans", "IBM Plex Sans Fallback", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius-sharp: var(--radius);
+  --spacing-gutter: var(--grid-gutter);
+
+  /* ── Migration aliases ───────────────────────────────────────────────────
+   * The previous identity (cream paper / ink / crimson) is referenced ~605
+   * times across 19 files. Rather than hand-edit every call site -- churn with
+   * a high chance of missing one and shipping an unstyled page -- the old
+   * names are re-pointed at the new semantic tokens. Every existing screen
+   * adopts the archetype immediately and correctly.
+   *
+   * These are a MIGRATION SHIM, not part of the system. New work uses the
+   * semantic names above (bg / text / accent / line). Delete these once the
+   * call sites are migrated; the colours they resolve to are already correct,
+   * so removing them is cosmetic cleanup rather than a redesign. */
+  --color-paper: var(--bg);
+  --color-paper-tint: var(--bg-subtle);
+  --color-ink: var(--text);
+  --color-ink-soft: var(--text-secondary);
+  /* The legacy `crimson` alias is used almost entirely for TEXT (eyebrows,
+   * section numbers, inline emphasis). It must therefore resolve to the ramp's
+   * TEXT step, not its solid-fill step: on white, brand-9 reaches only 3.49:1
+   * while brand-11 reaches 6.02:1. Fills, borders and focus rings keep using
+   * --accent directly, which is what that step is tuned for. */
+  --color-crimson: var(--accent-text);
+  --color-crimson-deep: var(--accent-text);
+  --color-crimson-bright: var(--accent-hover);
+  --color-success: var(--ok);
+}
+
+@layer base {
+  /* LIGHT is the default: white paper, crimson accents, deep maroon reserved
+   * for the frame (nav, footer, inverted callouts) -- the client reference's
+   * coordination. Dark remains a full peer, not an afterthought. */
+  :root { color-scheme: light; }
+  :root[data-theme="dark"] { color-scheme: dark; }
+
+  * { border-color: var(--line); }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    font-size: var(--step-0);
+    line-height: var(--lh-0);
+    min-height: 100dvh;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* EVERY figure in this product is tabular. A column of returns that changes
+   * width while a counter animates is a bug, not a flourish. */
+  .num, table td, table th, [data-numeric] {
+    font-variant-numeric: tabular-nums;
+    font-family: var(--font-mono);
+    font-feature-settings: "tnum" 1, "zero" 1;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  h1 { font-size: var(--step-6); line-height: var(--lh-6); }
+  h2 { font-size: var(--step-4); line-height: var(--lh-4); }
+  h3 { font-size: var(--step-2); line-height: var(--lh-2); }
+
+  p { text-wrap: pretty; max-inline-size: 68ch; }
+
+  /* Focus is never removed. 2px accent, 2px offset, on everything. */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: var(--radius);
+  }
+
+  ::selection { background-color: var(--accent); color: var(--on-accent); }
+
+  /* Scrollbar stays visible: this archetype does not hide system affordances. */
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: var(--bg-subtle); }
+  ::-webkit-scrollbar-thumb {
+    background: var(--n-7);
+    border: 2px solid var(--bg-subtle);
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--n-8); }
+}
+
+@layer components {
+  /* ── The label convention ───────────────────────────────────────────────
+   * Every number on this site carries one of these above it. It is the single
+   * most repeated element in the archetype and the main reason the interface
+   * reads as measured rather than asserted. */
+  .label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    line-height: 1.2;
+    display: block;
+  }
+
+  /* ── Corner ticks ───────────────────────────────────────────────────────
+   * The signature container detail: crosshair marks drawn with borders, never
+   * an SVG asset, so they inherit colour and cost nothing. */
+  .ticked { position: relative; }
+  .ticked::before,
+  .ticked::after {
+    content: "";
+    position: absolute;
+    width: 6px; height: 6px;
+    border-color: var(--line-strong);
+    pointer-events: none;
+  }
+  .ticked::before {
+    top: -1px; left: -1px;
+    border-top: 1px solid; border-left: 1px solid;
+  }
+  .ticked::after {
+    bottom: -1px; right: -1px;
+    border-bottom: 1px solid; border-right: 1px solid;
+  }
+
+  .panel {
+    background: var(--bg-subtle);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+
+  /* ── Full interaction-state matrix ──────────────────────────────────────
+   * DESIGN.md requires every interactive surface to cover hover / focus /
+   * active / disabled. These are defined once here rather than per component
+   * so a new control cannot ship with two of the four.
+   *
+   * No lift, no scale, no shadow: this archetype expresses state through
+   * value and border, which is also what keeps a dense table from shimmering
+   * as the pointer crosses it. */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sp-2);
+    min-height: 44px;          /* touch target floor, including in tables */
+    padding-inline: var(--sp-5);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--bg-component);
+    color: var(--text);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:
+      background-color var(--dur-fast) var(--ease-enter),
+      border-color var(--dur-fast) var(--ease-enter),
+      color var(--dur-fast) var(--ease-enter);
+  }
+  .btn:hover:not(:disabled) {
+    background: var(--bg-hover);
+    border-color: var(--accent);
+  }
+  .btn:active:not(:disabled) {
+    /* Pressed reads as a value step DOWN -- no transform, so a button inside a
+     * table never nudges the row it sits in. */
+    background: var(--n-5);
+    border-color: var(--accent-hover);
+  }
+  .btn:disabled,
+  .btn[aria-disabled='true'] {
+    opacity: 0.45;
+    cursor: not-allowed;
+    background: var(--bg-subtle);
+    border-color: var(--line);
+    color: var(--text-muted);
+  }
+  .btn-primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--on-accent);
+  }
+  .btn-primary:hover:not(:disabled) { background: var(--accent-hover); border-color: var(--accent-hover); }
+  .btn-primary:active:not(:disabled) { background: var(--brand-11); border-color: var(--brand-11); }
+
+  /* Inputs carry the same four states. */
+  .field {
+    min-height: 44px;
+    background: var(--bg-subtle);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    color: var(--text);
+    padding-inline: var(--sp-3);
+    transition: border-color var(--dur-fast) var(--ease-enter);
+  }
+  .field:hover:not(:disabled) { border-color: var(--line-strong); }
+  .field:active:not(:disabled) { border-color: var(--accent); }
+  .field:disabled { opacity: 0.45; cursor: not-allowed; }
+  .field[aria-invalid='true'] { border-color: var(--err); }
+
+  /* Row hover: background shift + the left rule turning accent.
+   * No lift, no scale, no shadow — those belong to other archetypes. */
+  .row-interactive {
+    border-left: 1px solid transparent;
+    transition:
+      background-color var(--dur-fast) var(--ease-enter),
+      border-color var(--dur-fast) var(--ease-enter);
+  }
+  .row-interactive:hover {
+    background: var(--bg-hover);
+    border-left-color: var(--accent);
+  }
+}
+
+@layer utilities {
+  .grid-page {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: var(--grid-gutter);
+    max-inline-size: var(--grid-max);
+    margin-inline: auto;
+    padding-inline: var(--grid-gutter);
+  }
+  /* Rules are the primary decoration in this archetype. */
+  .rule { border-top: 1px solid var(--line); }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+ * LANDING PAGE
+ * ════════════════════════════════════════════════════════════════════════ */
+@layer components {
+  /* ── Link wipe ──────────────────────────────────────────────────────────
+   * Adapted from Skiper UI `skiper40` (Link000), credited in the footer as its
+   * free licence requires. Retokenised: currentColor rather than a hardcoded
+   * white, motion tokens rather than duration-300, and the wipe also fires on
+   * keyboard focus -- the original was hover-only. */
+  .link-wipe {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-1);
+  }
+  .link-wipe::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform var(--dur-base) var(--ease-enter);
+    pointer-events: none;
+  }
+  .link-wipe:hover::before,
+  .link-wipe:focus-visible::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  /* ── Gradient hover card ────────────────────────────────────────────────
+   * A pointer-tracked light: a soft crimson-to-coral wash under the cursor,
+   * and the 1px border igniting only where the pointer is near it. The
+   * position comes from two custom properties written on pointermove, so
+   * there is no animation loop -- the browser composites it.
+   *
+   * DESIGN.md forbids gradients as decoration; the product owner asked for
+   * these explicitly, so they are scoped to this one interactive surface and
+   * carry the brand pair only (accent -> highlight), never a third hue. */
+  .gcard {
+    --mx: 50%;
+    --my: 50%;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    transition: border-color var(--dur-base) var(--ease-enter);
+  }
+  .gcard::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: radial-gradient(
+      460px circle at var(--mx) var(--my),
+      color-mix(in oklch, var(--accent) 26%, transparent),
+      color-mix(in oklch, var(--highlight) 14%, transparent) 36%,
+      transparent 70%
+    );
+    opacity: 0;
+    transition: opacity var(--dur-slow) var(--ease-enter);
+    pointer-events: none;
+  }
+  .gcard::after {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    padding: 1px;
+    border-radius: inherit;
+    background: radial-gradient(
+      320px circle at var(--mx) var(--my),
+      var(--accent),
+      var(--highlight) 40%,
+      transparent 75%
+    );
+    /* Two opaque layers, one clipped to the content box, XOR-ed: what is
+     * left is exactly the 1px padding ring -- a border made of gradient. */
+    -webkit-mask: linear-gradient(black 0 0) content-box, linear-gradient(black 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(black 0 0) content-box, linear-gradient(black 0 0);
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity var(--dur-base) var(--ease-enter);
+    pointer-events: none;
+  }
+  .gcard:hover::before,
+  .gcard:hover::after,
+  .gcard:focus-within::before,
+  .gcard:focus-within::after {
+    opacity: 1;
+  }
+
+  /* ── Movement crosshair ─────────────────────────────────────────────────
+   * The .ticked motif promoted to page scale: marks where a movement begins
+   * without drawing a line across the page. */
+  .cross {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    pointer-events: none;
+    color: var(--line-strong);
+  }
+  .cross::before,
+  .cross::after {
+    content: "";
+    position: absolute;
+    background: currentColor;
+  }
+  .cross::before { left: 5px; top: 0; width: 1px; height: 11px; }
+  .cross::after  { top: 5px; left: 0; height: 1px; width: 11px; }
+
+  /* ── Grid field ─────────────────────────────────────────────────────────
+   * The 12-column grid, drawn as hairlines that run unbroken through the
+   * whole document. Connective tissue in place of section dividers. */
+  .grid-field {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .grid-field__cols {
+    height: 100%;
+  }
+  .grid-field__cols > span {
+    position: relative;
+    overflow: hidden;
+    border-left: 1px solid color-mix(in oklch, var(--brand-7) 45%, transparent);
+  }
+  .grid-field__cols > span:last-child {
+    border-right: 1px solid color-mix(in oklch, var(--brand-7) 45%, transparent);
+  }
+  /* Two soft dark-red bands per column, fading to nothing at both ends, on a
+   * layer twice the viewport's height that drifts up and down. Transform
+   * only, so the drift is composited rather than repainted every frame.
+   * Requested by the product owner; scoped to this background layer and the
+   * brand hue only (see DESIGN.md, Owner overrides). */
+  .grid-field__shade {
+    position: absolute;
+    inset-inline: 0;
+    top: -50%;
+    height: 200%;
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      color-mix(in oklch, var(--brand-11) var(--s1, 0%), transparent) 24%,
+      transparent 44%,
+      color-mix(in oklch, var(--brand-10) var(--s2, 0%), transparent) 66%,
+      transparent 88%
+    );
+    animation: shade-drift var(--t, 24s) var(--ease-move) var(--delay, 0s) infinite alternate;
+  }
+  @keyframes shade-drift {
+    from { transform: translateY(-14%); }
+    to   { transform: translateY(14%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .grid-field__shade { animation: none; }
+  }
+
+  /* ── Entrance curtain ───────────────────────────────────────────────────
+   * Pure CSS on purpose: it starts on FIRST PAINT, before React hydrates, so
+   * the page underneath can never flash. pointer-events: none throughout --
+   * it never blocks a click, and it is aria-hidden, so it never traps focus.
+   * There is no loading percentage: a counter not tied to real progress
+   * would be the one fabricated number on a page about real numbers. */
+  .curtain {
+    position: fixed;
+    inset: 0;
+    z-index: var(--z-modal);
+    pointer-events: none;
+    animation: curtain-done 0s linear 1.6s forwards;
+  }
+  .curtain__half {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50.5%;
+    background: var(--brand-11);
+    animation: curtain-split 0.72s var(--ease-move) 0.82s forwards;
+  }
+  .curtain__half--top { top: 0; }
+  .curtain__half--bottom { bottom: 0; --dir: 1; }
+  .curtain__half--top { --dir: -1; }
+  .curtain__mark {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    gap: var(--sp-4);
+    color: var(--n-1);
+    animation: curtain-fade 0.3s var(--ease-exit) 0.78s forwards;
+  }
+  .curtain__word {
+    display: flex;
+    overflow: hidden;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--text-display);
+    line-height: 1;
+    letter-spacing: -0.04em;
+  }
+  .curtain__word > span {
+    display: inline-block;
+    transform: translateY(105%);
+    animation: curtain-rise 0.55s var(--ease-enter) forwards;
+    animation-delay: calc(var(--i) * 45ms);
+  }
+  .curtain__rule {
+    width: min(320px, 60vw);
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: curtain-rule 0.5s var(--ease-move) 0.18s forwards;
+  }
+
+  @keyframes curtain-rise  { to { transform: translateY(0); } }
+  @keyframes curtain-rule  { to { transform: scaleX(1); } }
+  @keyframes curtain-fade  { to { opacity: 0; } }
+  @keyframes curtain-split { to { transform: translateY(calc(var(--dir) * 101%)); } }
+  @keyframes curtain-done  { to { visibility: hidden; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .curtain { display: none; }
+  }
+}
+
+@layer components {
+  /* ── Opening entrance ───────────────────────────────────────────────────
+   * Lines rise out of a mask as the curtain parts. Timed after the curtain
+   * (which lifts at ~0.8s); under reduced motion there is no curtain and no
+   * rise, so the text is simply there. */
+  .rise-mask {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0.06em;
+    margin-bottom: -0.06em;
+  }
+  .rise {
+    animation: rise-in 0.95s var(--ease-enter) both;
+    animation-delay: calc(0.95s + var(--d, 0s));
+  }
+  .rise-fade {
+    animation: rise-fade 0.7s var(--ease-enter) both;
+    animation-delay: calc(1.15s + var(--d, 0s));
+  }
+  @keyframes rise-in { from { transform: translateY(108%); } }
+  @keyframes rise-fade { from { opacity: 0; transform: translateY(14px); } }
+
+  /* ── Pinned evidence: steps share one grid cell so they crossfade in
+   * place. Only where the pin actually runs -- this media query is identical
+   * to the gsap.matchMedia condition in evidence.tsx, so CSS and JS cannot
+   * disagree about which layout is live. */
+  @media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+    .ev-steps > * { grid-area: 1 / 1; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .rise, .rise-fade { animation: none; }
+  }
+
+  /* 12 hairlines are a texture on a desktop and noise on a phone: keep every
+   * third, which still lands on the 4-column mobile rhythm. */
+  @media (max-width: 767px) {
+    .grid-field__cols > span:not(:nth-child(3n + 1)) { border-left-color: transparent; }
+    /* Twelve narrow shaded columns on a phone read as stripes: soften them. */
+    .grid-field__shade { opacity: 0.55; }
+  }
+}
+
+@layer components {
+  /* ── Data ticker ────────────────────────────────────────────────────────
+   * Outlined so it reads as texture behind the content, never as copy
+   * competing with it; the figures are solid accent so the data still lands. */
+  .ticker-item {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35em;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--text-display);
+    line-height: 1;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+  }
+  .ticker-outline {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--line-strong);
+  }
+  .ticker-value {
+    color: color-mix(in oklch, var(--accent) 78%, transparent);
+    font-variant-numeric: tabular-nums;
+  }
+  .ticker-sep {
+    width: 0.32em;
+    height: 0.32em;
+    margin-inline: 0.55em;
+    align-self: center;
+    background: var(--accent);
+    transform: rotate(45deg);
+  }
+
+  /* ── Gem reticle ────────────────────────────────────────────────────────
+   * The .ticked corner motif, at the scale of the object it frames. */
+  .reticle-corner {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-color: var(--accent);
+  }
+}
+
+@layer components {
+  /* ── GlowCursor (vendored from React Bits) ──────────────────────────── */
+  .glow-cursor {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .glow-cursor__canvas {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+  }
+  .glow-cursor__content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+  }
+  /* Page-level placement: fixed under the content and the gem. */
+  .glow-cursor.glow-layer {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+}
+
+@layer components {
+  /* ── ElectricLogo (vendored from React Bits) ───────────────────────────── */
+  .electric-logo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  /* ── Full-bleed landing ─────────────────────────────────────────────────
+   * The system's --grid-max (1400px) is a reading width for the app's data
+   * screens. On the landing page it boxed the grid, nav and copy into a
+   * centred column, leaving empty bands either side on wide monitors. Here
+   * the grid runs edge to edge, with a fluid gutter so very wide screens
+   * still get breathing room. Copy keeps its own ch-based measures, so line
+   * length does not grow with the screen. */
+  .landing-bleed {
+    --grid-max: none;
+    --grid-gutter: clamp(16px, 3.2vw, 72px);
+  }
+}
+
+@layer components {
+  /* ── App screens ────────────────────────────────────────────────────────
+   * Full width, like the landing page, with the same fluid gutter. */
+  .app-bleed {
+    --grid-max: none;
+    --grid-gutter: clamp(16px, 3.2vw, 72px);
+  }
+
+  /* Entrance for app content. CSS, not a JS tween, on purpose: the previous
+   * screens wrapped ALL their content in a motion.div starting at opacity 0,
+   * so a throttled tab or a stalled animation frame left the page blank. A
+   * CSS animation completes on the document timeline whether or not frames
+   * are being painted, and with `both` fill the content is never stuck. */
+  .enter {
+    animation: enter-up 0.5s var(--ease-enter) both;
+    animation-delay: var(--d, 0s);
+  }
+  @keyframes enter-up { from { opacity: 0; transform: translateY(10px); } }
+  @media (prefers-reduced-motion: reduce) { .enter { animation: none; } }
+
+  /* Horizontally scrollable tab strip: fades at the edges so a clipped tab
+   * reads as "more this way", never as cut off. */
+  .tab-strip {
+    scrollbar-width: none;
+    -webkit-mask-image: linear-gradient(90deg, transparent, black 16px, black calc(100% - 16px), transparent);
+    mask-image: linear-gradient(90deg, transparent, black 16px, black calc(100% - 16px), transparent);
+  }
+  .tab-strip::-webkit-scrollbar { display: none; }
+}
+
+@layer components {
+  /* ══ LIQUID GLASS ══════════════════════════════════════════════════════
+   * Owner-directed material (2026-10-17 references: Apple liquid glass,
+   * glassmorphism cards). Three layers make it read as glass, not as a
+   * translucent box:
+   *   1. a frosted fill over a strong backdrop blur + saturation boost
+   *   2. a specular RIM -- a 1px gradient ring, bright top-left, dim
+   *      bottom-right, drawn with the mask-composite technique
+   *   3. an inner glow and a soft cast shadow
+   * Text on glass must still clear AA, so glass is only ever placed over
+   * the page background, never over imagery. */
+  .glass,
+  .glass-pill {
+    position: relative;
+    isolation: isolate;
+    background: linear-gradient(160deg, var(--glass-fill), var(--glass-fill-2));
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(170%);
+    backdrop-filter: blur(var(--glass-blur)) saturate(170%);
+    box-shadow:
+      inset 0 1px 0 0 var(--glass-glow),
+      inset 0 0 24px 0 var(--glass-glow),
+      var(--glass-shadow);
+  }
+  .glass { border-radius: 24px; }
+  .glass-pill { border-radius: 999px; }
+  .glass::before,
+  .glass-pill::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(145deg, var(--glass-rim), var(--glass-rim-dim) 38%, var(--glass-rim-dim) 62%, var(--glass-rim));
+    -webkit-mask: linear-gradient(black 0 0) content-box, linear-gradient(black 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(black 0 0) content-box, linear-gradient(black 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* Liquid-glass button: the pill material, pressable. */
+  .btn-glass {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sp-2);
+    min-height: 44px;
+    padding-inline: var(--sp-5);
+    border-radius: 999px;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text);
+    cursor: pointer;
+    transition: transform var(--dur-fast) var(--ease-enter), filter var(--dur-fast) var(--ease-enter);
+  }
+  .btn-glass:hover { filter: brightness(1.12); }
+  .btn-glass:active { transform: scale(0.97); }
+
+  /* The red CTA as a lit glass pill: accent fill, glass rim, a red glow. */
+  .btn-ember {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sp-2);
+    min-height: 44px;
+    padding-inline: var(--sp-6);
+    border-radius: 999px;
+    background: linear-gradient(180deg, color-mix(in oklch, var(--accent) 88%, white), var(--accent) 55%);
+    color: var(--on-accent);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    box-shadow:
+      inset 0 1px 0 0 color-mix(in oklch, white 45%, transparent),
+      0 0 0 1px color-mix(in oklch, var(--accent) 70%, black),
+      0 10px 30px -8px color-mix(in oklch, var(--accent) 70%, transparent);
+    transition: transform var(--dur-fast) var(--ease-enter), box-shadow var(--dur-base) var(--ease-enter);
+  }
+  .btn-ember:hover {
+    box-shadow:
+      inset 0 1px 0 0 color-mix(in oklch, white 55%, transparent),
+      0 0 0 1px color-mix(in oklch, var(--accent) 70%, black),
+      0 14px 42px -6px color-mix(in oklch, var(--accent) 90%, transparent);
+  }
+  .btn-ember:active { transform: scale(0.97); }
+
+  /* A pointer-lit card INSIDE a glass panel. Both draw with ::before (glow
+   * vs rim), so they cannot share an element -- the glass is the outer
+   * shell, this transparent .gcard the inner surface. */
+  .gcard--bare {
+    background: transparent;
+    border-color: transparent;
+    border-radius: inherit;
+  }
+
+  @media (prefers-reduced-transparency: reduce) {
+    .glass, .glass-pill {
+      -webkit-backdrop-filter: none;
+      backdrop-filter: none;
+      background: var(--bg-component);
+    }
+  }
+}
+
+@layer components {
+  /* The gem's glow: vivid crimson at the core, falling off to nothing.
+   * Strong on black, a soft blush on off-white. */
+  .gem-bloom {
+    background: radial-gradient(
+      circle,
+      color-mix(in oklch, var(--accent) 42%, transparent) 0%,
+      color-mix(in oklch, var(--accent) 16%, transparent) 34%,
+      transparent 66%
+    );
+  }
+  :root[data-theme="dark"] .gem-bloom {
+    background: radial-gradient(
+      circle,
+      color-mix(in oklch, var(--accent) 62%, transparent) 0%,
+      color-mix(in oklch, var(--brand-8) 26%, transparent) 28%,
+      transparent 62%
+    );
+  }
+}
+
+@layer components {
+  /* Blurred echo word -- giant, out of focus, in the accent. On black it is a
+   * red glow; on off-white a faint blush. Decorative only (aria-hidden). */
+  .echo-word {
+    font-size: clamp(6rem, 22vw, 22rem);
+    letter-spacing: -0.05em;
+    color: var(--accent);
+    opacity: 0.16;
+    filter: blur(14px);
+  }
+  :root[data-theme="dark"] .echo-word { opacity: 0.32; filter: blur(18px); }
+
+  /* On black, the column shades at full strength turned the whole ground
+   * maroon. The references keep BLACK dominant with red as a focal glow, so
+   * the shades step back in dark mode and the gem's bloom carries the red. */
+  :root[data-theme="dark"] .grid-field__shade { opacity: 0.5; }
+}
+
+@layer components {
+  /* The close: a lit crimson slab (owner reference: the red-and-black team
+   * poster). Fixed crimsons, so off-white text holds AA in either theme. */
+  .crimson-panel {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border-radius: 32px;
+    color: var(--on-accent);
+    background:
+      radial-gradient(120% 90% at 0% 0%, var(--crimson-hi) 0%, transparent 60%),
+      linear-gradient(150deg, var(--crimson-hi), var(--crimson-mid) 55%, var(--crimson-lo));
+    box-shadow:
+      inset 0 1px 0 0 color-mix(in oklch, white 28%, transparent),
+      inset 0 0 60px 0 color-mix(in oklch, white 6%, transparent),
+      0 50px 90px -40px var(--crimson-hi);
+  }
+  /* Ivory pill: the inverse CTA on crimson. */
+  .btn-ivory {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sp-2);
+    min-height: 44px;
+    padding-inline: var(--sp-6);
+    border-radius: 999px;
+    background: var(--on-accent);
+    color: var(--crimson-mid);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    box-shadow: inset 0 -2px 0 0 color-mix(in oklch, black 10%, transparent), 0 10px 26px -10px color-mix(in oklch, black 60%, transparent);
+    transition: transform var(--dur-fast) var(--ease-enter);
+  }
+  .btn-ivory:active { transform: scale(0.97); }
+}
+
+@layer components {
+  /* The echo word on the crimson slab: darker red, not accent-on-accent. */
+  :root .crimson-panel .echo-word--panel { color: var(--crimson-lo); opacity: 0.55; filter: blur(10px); }
+}
+
+@layer components {
+  /* Glass ON CRIMSON, either theme: light-mode glass is a white frost, and
+   * off-white text on it vanished. A white tint could only lighten it (3.94:1
+   * at the slab's brightest corner -- a fail), so this is SMOKED glass: a
+   * dark tint under the bright specular rim. >= 6.2:1 anywhere on the slab. */
+  .crimson-panel .glass-pill {
+    background: linear-gradient(160deg, color-mix(in oklch, black 22%, transparent), color-mix(in oklch, black 30%, transparent));
+    box-shadow: inset 0 1px 0 0 color-mix(in oklch, white 30%, transparent), 0 10px 24px -12px color-mix(in oklch, black 50%, transparent);
+  }
+}

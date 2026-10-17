@@ -1,0 +1,43 @@
+/* Motion tokens — engineered-precision.
+ *
+ * THE LAW FOR THIS ARCHETYPE: motion must carry information. Fast, linear-ish,
+ * mechanical. State changes are effectively instant; only SPATIAL moves and
+ * DATA REVEALS animate. If an animation would still make sense with the data
+ * removed, it does not belong here.
+ */
+:root {
+  --dur-fast: 140ms;   /* hover, focus, press — perceptually instant */
+  --dur-base: 220ms;   /* expand, reveal, tab change */
+  --dur-slow: 420ms;   /* pinned section hand-off, Flip between states */
+  /* scrub has no duration: it is bound to scroll position, not to time. */
+
+  --ease-enter: cubic-bezier(.4, 0, .2, 1);
+  --ease-exit:  cubic-bezier(.4, 0, 1, 1);   /* exits leave faster than they arrive */
+  --ease-move:  cubic-bezier(.65, 0, .35, 1);
+
+  --stagger-rows: 35ms;
+  --stagger-cards: 50ms;
+  --stagger-labels: 20ms;
+}
+
+/* Every transition over 200ms collapses to a short fade; counters jump to their
+ * final value. A retirement projection must stay readable for someone who gets
+ * motion sickness. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 120ms;
+    --dur-base: 120ms;
+    --dur-slow: 120ms;
+    --stagger-rows: 0ms;
+    --stagger-cards: 0ms;
+    --stagger-labels: 0ms;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 120ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "nippon-frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "frontend", "run", "dev", "--", "-p", "3100"],
+      "port": 3100,
+      "url": "http://localhost:3100"
+    },
+    {
+      "name": "nippon-frontend-prod",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "frontend", "run", "start", "--", "-p", "3200"],
+      "port": 3200,
+      "url": "http://localhost:3200"
+    }
+  ]
+}

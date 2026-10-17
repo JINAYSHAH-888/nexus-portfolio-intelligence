@@ -1,0 +1,79 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements-dev.txt
+
+      - name: Lint
+        run: ruff check backend/ tests/ scripts/
+
+      - name: Scheme metadata must stay normalised
+        # Guards the debt duration/YTM fix: if someone re-imports raw factsheet
+        # data without normalising it, every debt scheme silently drops back to
+        # the 20bps volatility floor. Fail the build instead.
+        run: python scripts/normalize_scheme_metadata.py --check
+
+      - name: Compiled proto must match the .proto source
+        # MarketDataFeedV3_pb2.py is committed (so the app doesn't need protoc
+        # at runtime) but generated FROM the .proto. If someone edits the
+        # .proto and forgets to regenerate, the committed bindings silently
+        # drift from the documented Upstox contract. Recompile into a temp dir
+        # and diff.
+        run: |
+          pip install grpcio-tools
+          mkdir -p /tmp/proto_check
+          python -m grpc_tools.protoc \
+            --proto_path=backend/integrations/upstox/proto \
+            --python_out=/tmp/proto_check \
+            backend/integrations/upstox/proto/MarketDataFeedV3.proto
+          diff -q /tmp/proto_check/MarketDataFeedV3_pb2.py \
+                  backend/integrations/upstox/proto/MarketDataFeedV3_pb2.py \
+            || (echo "Committed _pb2.py is stale -- regenerate it." && exit 1)
+
+      - name: Test
+        env:
+          ENVIRONMENT: test
+          MARKET_DATA_FORCE_SYNTHETIC: "true"
+          REDIS_ENABLED: "false"
+        run: pytest tests/ -q --cov=backend --cov-report=term-missing
+
+      - name: Migrations apply cleanly
+        env:
+          DATABASE_URL: sqlite+aiosqlite:///./ci.db
+          SECRET_KEY: ci-secret-key-long-enough-for-validation
+        run: alembic upgrade head
+
+      - name: Migrations must not drift from the ORM
+        # A model change without a matching migration is a silent production
+        # failure: tests pass (they create_all from the ORM) and the deploy
+        # then hits a missing column.
+        env:
+          DATABASE_URL: sqlite+aiosqlite:///./drift.db
+          SECRET_KEY: ci-secret-key-long-enough-for-validation
+        run: |
+          alembic upgrade head
+          python - <<'EOF'
+          import sqlite3
+          from backend.infrastructure.db import Base
+          import backend.models
+          con = sqlite3.connect("drift.db")
+          migrated = {r[0] for r in con.execute(
+              "SELECT name FROM sqlite_master WHERE type='table'")} - {"alembic_version"}
+          orm = set(Base.metadata.tables)
+          assert migrated == orm, f"TABLE DRIFT: {migrated ^ orm}"
+          for t in sorted(orm):
+              mc = {r[1] for r in con.execute(f"PRAGMA table_info({t})")}
+              oc = set(Base.metadata.tables[t].columns.keys())
+              assert mc == oc, f"{t} COLUMN DRIFT: {mc ^ oc}"
+          print("No drift.")
+          EOF
