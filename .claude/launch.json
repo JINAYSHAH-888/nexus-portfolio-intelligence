@@ -4,16 +4,47 @@
     {
       "name": "nippon-frontend",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "frontend", "run", "dev", "--", "-p", "3100"],
+      "runtimeArgs": [
+        "--prefix",
+        "frontend",
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3100"
+      ],
       "port": 3100,
       "url": "http://localhost:3100"
     },
     {
       "name": "nippon-frontend-prod",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "frontend", "run", "start", "--", "-p", "3200"],
+      "runtimeArgs": [
+        "--prefix",
+        "frontend",
+        "run",
+        "start",
+        "--",
+        "-p",
+        "3200"
+      ],
       "port": 3200,
       "url": "http://localhost:3200"
+    },
+    {
+      "name": "nexus-local",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "frontend",
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3400"
+      ],
+      "port": 3400,
+      "url": "http://localhost:3400"
     }
   ]
 }
