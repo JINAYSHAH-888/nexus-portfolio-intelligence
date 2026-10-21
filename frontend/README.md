@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Nexus Portfolio Intelligence — Frontend
 
-# Run and deploy your AI Studio app
+Next.js 15 · React 19 · TypeScript · Tailwind v4 · GSAP · React Three Fiber.
 
-This contains everything you need to run your app locally.
+```bash
+npm install
+echo "NEXT_PUBLIC_API_BASE_URL=http://localhost:8000/api/v1" > .env.local
+npm run dev -- -p 3400     # http://localhost:3400
+```
 
-View your app in AI Studio: https://ai.studio/apps/503abd3a-87a2-4faf-bea6-1ef679fafb27
+Omit `NEXT_PUBLIC_API_BASE_URL` to run in demo mode on bundled sample data.
 
-## Run Locally
+| Command | Purpose |
+|---|---|
+| `npm run dev` | Dev server |
+| `npm run build` / `npm start` | Production build / serve |
+| `npm run lint` | ESLint |
+| `node scripts/build-overlap-dataset.mjs` | Regenerate verified landing facts from factsheet holdings |
+| `node scripts/build-tokens.mjs` | Regenerate colour tokens (WCAG AA gated) |
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Design contract: [`../DESIGN.md`](../DESIGN.md). Full project docs: [`../README.md`](../README.md).
