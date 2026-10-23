@@ -6,7 +6,7 @@ python-multipart>=0.0.12          # OAuth2PasswordRequestForm (/auth/login)
 # ── Validation / settings ─────────────────────────────────────────────────────
 pydantic>=2.9,<3.0
 pydantic-settings>=2.6
-email-validator>=2.2              # EmailStr
+email-validator>=2.3.0              # EmailStr
 
 # ── Database ──────────────────────────────────────────────────────────────────
 SQLAlchemy[asyncio]>=2.0.36,<3.0
