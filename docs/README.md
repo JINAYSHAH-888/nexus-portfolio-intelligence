@@ -4,7 +4,7 @@
 |---|---|
 | [architecture.md](architecture.md) | Services, request flow, data flow, layering rules |
 | [api.md](api.md) | Every HTTP endpoint, generated from the live OpenAPI schema |
-| [engines.md](engines.md) | Filter, Overlap, PLOS, Risk and ARISE v4 — what each computes and why |
+| [engines.md](engines.md) | Filter, Overlap, PLOS, Risk and ARISE: what each computes and why (current model versions: [ml-models.md](ml-models.md)) |
 | [data-sources.md](data-sources.md) | Factsheet data, the market-data fallback chain, generated frontend data |
 | [ml-models.md](ml-models.md) | Every learned and quant model, its data, and its out-of-sample evidence |
 | [frontend.md](frontend.md) | App structure, theme system, tokens, the landing scene |
