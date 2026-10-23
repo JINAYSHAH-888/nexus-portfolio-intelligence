@@ -1,16 +1,25 @@
-name: CI
+name: Backend CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+    paths: ["backend/**", ".github/workflows/backend-ci.yml"]
+  pull_request:
+    paths: ["backend/**", ".github/workflows/backend-ci.yml"]
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: backend/requirements*.txt
 
       - run: pip install -r requirements-dev.txt
 
@@ -24,7 +33,7 @@ jobs:
         run: python scripts/normalize_scheme_metadata.py --check
 
       - name: Compiled proto must match the .proto source
-        # MarketDataFeedV3_pb2.py is committed (so the app doesn't need protoc
+        # nippon_market_data_feed_v3_pb2.py is committed (so the app doesn't need protoc
         # at runtime) but generated FROM the .proto. If someone edits the
         # .proto and forgets to regenerate, the committed bindings silently
         # drift from the documented Upstox contract. Recompile into a temp dir
@@ -35,9 +44,9 @@ jobs:
           python -m grpc_tools.protoc \
             --proto_path=backend/integrations/upstox/proto \
             --python_out=/tmp/proto_check \
-            backend/integrations/upstox/proto/MarketDataFeedV3.proto
-          diff -q /tmp/proto_check/MarketDataFeedV3_pb2.py \
-                  backend/integrations/upstox/proto/MarketDataFeedV3_pb2.py \
+            backend/integrations/upstox/proto/nippon_market_data_feed_v3.proto
+          diff -q /tmp/proto_check/nippon_market_data_feed_v3_pb2.py \
+                  backend/integrations/upstox/proto/nippon_market_data_feed_v3_pb2.py \
             || (echo "Committed _pb2.py is stale -- regenerate it." && exit 1)
 
       - name: Test

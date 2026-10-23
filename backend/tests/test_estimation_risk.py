@@ -26,9 +26,9 @@ def _stats(n_years=3.0, source="amfi_nav_history", cagr=0.12, vol=0.15):
 
 
 # A long accumulation phase with a healthy SIP: the shape that hit 100%.
-YOUNG = dict(current_age=26, retire_age=60, life_expectancy=85, current_portfolio_value=500_000,
-             monthly_sip=20_000, step_up=0.10, current_expense_monthly=40_000,
-             n_simulations=600, seed=42)
+YOUNG = {"current_age": 26, "retire_age": 60, "life_expectancy": 85,
+         "current_portfolio_value": 500_000, "monthly_sip": 20_000, "step_up": 0.10,
+         "current_expense_monthly": 40_000, "n_simulations": 600, "seed": 42}
 
 
 def test_posterior_sd_matches_the_shrinkage_prior():
