@@ -27,7 +27,7 @@ celery[redis]>=5.4
 # ── Numerics / analytics ──────────────────────────────────────────────────────
 numpy>=1.26
 pandas>=2.2
-scipy>=1.14
+scipy>=1.18.1
 scikit-learn>=1.5                 # Ledoit-Wolf shrinkage (risk engine)
 duckdb>=1.1                       # analytics scans over Postgres/Timescale
 pyarrow>=17.0                     # parquet price cache
