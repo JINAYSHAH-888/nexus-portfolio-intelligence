@@ -24,6 +24,7 @@ Quant share only 15 holdings, yet **41% of their money** is in the same stocks.
 - [Testing & quality](#testing--quality)
 - [Project structure](#project-structure)
 - [Data & honesty principles](#data--honesty-principles)
+- [Documentation](#documentation)
 - [Disclaimer](#disclaimer)
 
 ---
@@ -203,6 +204,8 @@ unit-tested.
 
 ## Testing & quality
 
+`make ci` runs everything below. `make help` lists all commands.
+
 ```bash
 # backend (in-memory SQLite, no Docker needed)
 cd backend && python -m pytest tests/ -q
@@ -251,6 +254,14 @@ node frontend/scripts/build-tokens.mjs
   clearly labelled estimate — nothing is fabricated.
 - Synthetic data is always labelled as synthetic on screen.
 - Model conservatism is an explicit, named, reported input — never a hidden bias.
+
+---
+
+## Documentation
+
+- [DEMO.md](DEMO.md) — ten-minute walkthrough
+- [docs/](docs/README.md) — architecture, API reference, engines, data sources, frontend, deployment, Upstox, ADRs
+- [CONTRIBUTING.md](CONTRIBUTING.md) · [SECURITY.md](SECURITY.md) · [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
