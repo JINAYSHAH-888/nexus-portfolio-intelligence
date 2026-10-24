@@ -17,7 +17,8 @@ After re-importing factsheets, run `python scripts/normalize_scheme_metadata.py`
 
 `data_loaders/market_data.py::get_scheme_returns_with_fallback` tries, in order:
 
-1. **AMFI NAV history** (mfapi.in, no key) — name-validated against cross-fund contamination
+0. **Verified NAV history on disk** (`data/market_history/nav_daily.csv.gz`, AMFI codes verified against each factsheet's NAV), while under 30 days old
+1. **AMFI NAV history** (mfapi.in, no key) — verified codes first, then the legacy map, name-validated against cross-fund contamination
 2. **Holdings reconstruction** from stock prices (Upstox when connected, else yfinance) — equity only
 3. **Debt analytical model** from each scheme's own duration and YTM
 4. **Synthetic regime-switching** — last resort, shrunk toward a real prior; counts as zero years of evidence in ARISE

@@ -64,6 +64,18 @@ NIPPON_AMFI_CODES: dict[str, int] = {
 }
 
 
+def verified_amfi_code(scheme_id: str) -> int | None:
+    import json
+    from pathlib import Path
+
+    p = Path(__file__).resolve().parents[1] / "data" / "market_history" / "amfi_codes.json"
+    try:
+        entry = json.loads(p.read_text()).get(scheme_id) or {}
+    except (OSError, ValueError):
+        return None
+    return entry.get("amfi_code") if entry.get("nav_verified") else None
+
+
 def _normalize_for_match(name: str) -> str:
     """Loose normalization for comparing our scheme name to mfapi.in's
     scheme_name string, which includes plan/option suffixes we don't have
@@ -149,7 +161,11 @@ class AMFILoader:
                               date=date.fromisoformat(r["date"]),
                               nav=r["nav"]) for r in cached]
 
-        amfi_code = NIPPON_AMFI_CODES.get(scheme_id)
+        # Verified codes first: each was accepted only because the NAV printed
+        # on the scheme's own factsheet appears in its AMFI history
+        # (scripts/fetch_market_history.py). The hand map below has known
+        # duplicate and missing codes and is only a fallback.
+        amfi_code = verified_amfi_code(scheme_id) or NIPPON_AMFI_CODES.get(scheme_id)
         if not amfi_code:
             logger.debug(f"No AMFI code for {scheme_id}")
             return []

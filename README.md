@@ -7,7 +7,7 @@
 ![Python](https://img.shields.io/badge/Python-3.12-13110f?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-backend-13110f?style=flat-square)
 ![Next.js](https://img.shields.io/badge/Next.js-15-13110f?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-446_passing-d41828?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-449_passing-d41828?style=flat-square)
 ![Models](https://img.shields.io/badge/models-validated_out_of_sample-d41828?style=flat-square)
 
 [What it does](#what-it-does) · [The models](#the-models) · [Quick start](#quick-start) · [Architecture](#architecture) · [Docs](#documentation)
@@ -200,7 +200,7 @@ make fetch-market && make train-models
 
 ## Quality
 
-- **446 backend tests**, including the models: GARCH recovers known parameters, EVT matches the normal tail, Shapley contributions sum exactly, PLOS can never fall as overlap rises, and bond issuers are never counted as stock overlap.
+- **449 backend tests**, including the models: GARCH recovers known parameters, EVT matches the normal tail, Shapley contributions sum exactly, PLOS can never fall as overlap rises, and bond issuers are never counted as stock overlap.
 - **CI on every push:** ruff and pytest; tsc, ESLint and build; checks that regenerated data and tokens match what's committed; and a guard that fails if any `.env` is committed.
 - **Generated, gated data:** landing figures reproduce the engine's own numbers, and colour tokens must pass 16 WCAG AA checks.
 

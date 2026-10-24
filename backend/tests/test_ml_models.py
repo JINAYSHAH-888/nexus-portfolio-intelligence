@@ -205,3 +205,33 @@ def test_valuation_adjustment_is_small_and_amortised():
     a10 = equity_prior_adjustment(art["valuation"], 10)
     a40 = equity_prior_adjustment(art["valuation"], 40)
     assert abs(a10) < 0.02 and abs(a40) <= abs(a10) + 1e-12
+
+
+# ── Verified NAV tier ─────────────────────────────────────────────────────
+def test_verified_nav_returns_are_real_and_sized_by_period(monkeypatch):
+    from backend.data_loaders import market_data as md
+
+    monkeypatch.setattr(md, "VERIFIED_NAV_MAX_AGE_DAYS", 10_000)  # ignore file age in CI
+    r3 = md.verified_nav_returns("nippon-flexi-cap-fund", "3y")
+    r5 = md.verified_nav_returns("nippon-large-cap-fund", "5y")
+    r3l = md.verified_nav_returns("nippon-large-cap-fund", "3y")
+    assert r3 is not None and not r3.is_synthetic and r3.source == "amfi_nav_verified"
+    assert len(r3l.returns) < len(r5.returns)
+    # one calendar year holds < 252 NAV days: below the minimum, so no series
+    assert md.verified_nav_returns("nippon-flexi-cap-fund", "1y") is None
+    assert r3.expense_ratio_applied == 0.0  # NAV is already net of fees
+
+
+def test_unverified_scheme_has_no_verified_nav():
+    from backend.data_loaders.amfi_loader import verified_amfi_code
+    from backend.data_loaders.market_data import verified_nav_returns
+
+    assert verified_amfi_code("nippon-low-duration-fund") is None
+    assert verified_nav_returns("nippon-low-duration-fund") is None
+
+
+def test_stale_verified_nav_falls_through(monkeypatch):
+    from backend.data_loaders import market_data as md
+
+    monkeypatch.setattr(md, "VERIFIED_NAV_MAX_AGE_DAYS", -1)
+    assert md.verified_nav_returns("nippon-flexi-cap-fund") is None

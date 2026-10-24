@@ -260,6 +260,8 @@ export interface SchemeRiskMetrics {
   mc_ruin_probability: number;
   data_points: number;
   is_synthetic: boolean;
+  /** "holdings_reconstruction" | "amfi_nav" | "debt_model" | "synthetic" … */
+  data_source?: string;
 }
 export interface RiskResponse {
   scheme_ids: string[];

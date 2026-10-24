@@ -12,6 +12,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Shared scoring rules (CRPS, PIT, QLIKE, FZ0, Diebold–Mariano), and ADR 0007.
 
 ### Fixed
+- Funds without reconstructable prices (e.g. Flexi Cap) fell back to synthetic data; the engines now use each fund's verified NAV history first, and live AMFI downloads use the verified codes.
+- Dashboard cards described the old PLOS model and wrongly said live market data was off; they now show PLOS v3, the GARCH + HAR-X reading and each fund's real data source.
 - PLOS v1/v2 counted bond issuers as stock overlap with equity funds.
 - PLOS top-5 hard-coded 0.0 overlap for portfolios of five or fewer schemes.
 

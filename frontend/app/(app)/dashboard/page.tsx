@@ -92,8 +92,32 @@ export default function DashboardPage() {
   const plosVerdict = plos.data?.interpretation.split("—")[0].trim() ?? "";
   const plosTone: Tone = /high/i.test(plosVerdict) ? "err" : /moderate/i.test(plosVerdict) ? "warn" : "ok";
 
+  // PLOS v3: how many independent funds the portfolio behaves like, and the
+  // largest block of funds that move as one.
+  const enf = plos.data?.effective_number_of_funds ?? null;
+  const nFunds = plos.data?.scheme_ids.length ?? 0;
+  const block = Math.max(0, ...(plos.data?.redundancy_clusters ?? []).map((c) => c.length));
+
+  // Risk v2 reading, plus an honest account of where each fund's prices came
+  // from: a mixed portfolio is neither "all real" nor "all synthetic".
   const backtest = risk.data?.portfolio_var_backtest_95;
-  const synthetic = risk.data?.data_source.includes("synthetic");
+  const cr = risk.data?.conditional_risk;
+  const sources = risk.data?.scheme_metrics ?? [];
+  const navN = sources.filter((m) => m.data_source === "amfi_nav_verified" || m.data_source === "amfi").length;
+  const debtN = sources.filter((m) => m.data_source === "debt_model").length;
+  const synthN = sources.filter((m) => m.is_synthetic && m.data_source !== "debt_model").length;
+  const otherN = sources.length - navN - debtN - synthN;
+  const caution = synthN > 0;
+  const sourceNote = sources.length
+    ? navN === sources.length
+      ? `All ${sources.length} funds on their own verified NAV history.`
+      : [
+          navN ? `${navN} of ${sources.length} on verified NAV history` : "",
+          otherN ? `${otherN} on prices rebuilt from holdings` : "",
+          debtN ? `${debtN} on its duration/YTM model` : "",
+          synthN ? `${synthN} on calibrated synthetic prices (no usable price history)` : "",
+        ].filter(Boolean).join(" · ") + "."
+    : "";
 
   // The estimate, never the raw share of surviving paths (see probabilityParts).
   const success = arise.data ? (arise.data.success_rate_estimate ?? arise.data.adaptive_success_rate) : undefined;
@@ -135,11 +159,17 @@ export default function DashboardPage() {
           icon={Gauge}
           label="Diversification"
           query={plos}
-          value={plos.data ? Math.round(plos.data.diversification_score) : null}
-          unit="/100"
-          caption="PLOS diversification score"
+          value={enf != null ? Number(enf.toFixed(1)) : plos.data ? Math.round(plos.data.diversification_score) : null}
+          unit={enf != null ? ` of ${nFunds} funds` : "/100"}
+          caption={enf != null ? "Funds you really hold · PLOS v3" : "PLOS diversification score"}
           chip={{ tone: plosTone, text: plosVerdict || "Scored" }}
-          note="Ten layers, from real return correlation to valuation. Higher is more diversified."
+          note={
+            enf != null
+              ? block > 1
+                ? `${block} of your funds move as one block — learned from 13 years of NAV history.`
+                : "No two of your funds move as one — learned from 13 years of NAV history."
+              : "Higher is more diversified."
+          }
         />
         <Reading
           d={0.16}
@@ -147,22 +177,30 @@ export default function DashboardPage() {
           icon={ShieldAlert}
           label="Risk"
           query={risk}
-          value={risk.data ? Number((risk.data.portfolio_volatility * 100).toFixed(1)) : null}
+          value={
+            cr?.current_vol_annual != null
+              ? Number((cr.current_vol_annual * 100).toFixed(1))
+              : risk.data
+                ? Number((risk.data.portfolio_volatility * 100).toFixed(1))
+                : null
+          }
           unit="%"
-          caption="Volatility, a year"
+          caption={cr?.current_vol_annual != null ? "Volatility now, a year · GARCH + HAR-X" : "Volatility, a year"}
           chip={
-            backtest
-              ? backtest.passed
-                ? { tone: "ok", text: "VaR backtest passed" }
-                : { tone: "err", text: "VaR backtest failed" }
-              : { tone: "default", text: "Backtest unavailable" }
+            cr?.regime
+              ? cr.regime === "elevated"
+                ? { tone: "warn", text: "Elevated" }
+                : cr.regime === "calm"
+                  ? { tone: "ok", text: "Calmer than usual" }
+                  : { tone: "ok", text: "Normal regime" }
+              : backtest
+                ? backtest.passed
+                  ? { tone: "ok", text: "VaR backtest passed" }
+                  : { tone: "err", text: "VaR backtest failed" }
+                : { tone: "default", text: "Backtest unavailable" }
           }
-          note={
-            synthetic
-              ? "Modelled on calibrated synthetic prices: live market data is switched off."
-              : `${risk.data?.n_observations ?? "—"} trading days of real price history.`
-          }
-          caution={synthetic}
+          note={sourceNote || `${risk.data?.n_observations ?? "—"} trading days of price history.`}
+          caution={caution}
         />
         <Reading
           d={0.22}
@@ -326,7 +364,7 @@ function Reading({
             <p className="mt-8 font-display text-display-2 font-semibold leading-none tabular-nums text-text">
               {prefix && <span className="mr-0.5 text-step-3 text-text-muted">{prefix}</span>}
               {value}
-              <span className="ml-1 text-step-2 text-text-muted">{unit}</span>
+              <span className="ml-1 text-step-2 tracking-normal text-text-muted">{unit}</span>
             </p>
             <p className="mt-3 text-step--1 text-text-secondary">{caption}</p>
             <div className="mt-5">

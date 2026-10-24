@@ -281,6 +281,35 @@ def _synthetic_returns(
 
 
 # ── Stored-history fetcher (TimescaleDB) ──────────────────────────────────────
+VERIFIED_NAV_MAX_AGE_DAYS = 30
+
+
+def verified_nav_returns(scheme_id: str, period: str = "3y") -> "ReturnsData | None":
+    """Daily log returns from the verified, downloaded NAV history, or None
+    when the scheme has none, it is too short, or the file is stale."""
+    try:
+        from backend.ml.data import nav_daily
+
+        nav = nav_daily()
+    except Exception:
+        return None
+    if scheme_id not in nav:
+        return None
+    s = nav[scheme_id].dropna()
+    if s.empty or (pd.Timestamp.now().normalize() - s.index[-1]).days > VERIFIED_NAV_MAX_AGE_DAYS:
+        return None
+    years = {"1y": 1, "3y": 3, "5y": 5, "10y": 10}.get(period, 3)
+    s = s[s.index >= s.index[-1] - pd.DateOffset(years=years)]
+    returns = np.log(s / s.shift(1)).dropna()
+    if len(returns) < MIN_HISTORY_DAYS:
+        return None
+    return ReturnsData(
+        ticker=scheme_id, returns=returns, prices=s.iloc[1:], is_synthetic=False,
+        fetched_at=datetime.now(), source="amfi_nav_verified",
+        expense_ratio_applied=0.0,  # NAV is already net of the expense ratio
+    )
+
+
 def _period_start(period: str, *, today: datetime | None = None) -> datetime | None:
     """
     "5y" -> the datetime five years ago. None for anything this doesn't
@@ -656,6 +685,16 @@ class MarketDataLoader:
             return _synthetic_returns(
                 scheme_id, asset_class=scheme_asset_class(scheme_meta)
             )
+
+        # ── 0. Verified NAV history on disk ────────────────────────────────
+        # The scheme's own Direct-Growth NAV from data/market_history, whose
+        # AMFI code was verified against the factsheet NAV. No network, no
+        # wrong-fund risk. Used while it is fresh (< 30 days old); after that
+        # the live AMFI step below, which now uses the same verified codes.
+        local = verified_nav_returns(scheme_id, period)
+        if local is not None:
+            logger.info(f"{scheme_id}: using verified NAV history ({len(local.returns)} days)")
+            return local
 
         # ── 1. AMFI NAV history (validated) ────────────────────────────────
         try:
